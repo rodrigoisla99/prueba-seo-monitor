@@ -2,8 +2,8 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # Ejecuta todos los días a las 12 UTC
-  workflow_dispatch:       # Permite ejecutarlo manualmente
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
   run-monitor:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -22,11 +22,11 @@ jobs:
         run: pip install requests
 
       - name: Run SEO monitor
-        run: python scripts/fetch_and_diff.py
+        run: python data/scripts/fetch_and_diff.py
 
       - name: Upload diffs as artifact
         if: always()
-        uses: actions/upload-artifact@v4   # ← CAMBIADO
+        uses: actions/upload-artifact@v4
         with:
           name: diffs
           path: diffs/
