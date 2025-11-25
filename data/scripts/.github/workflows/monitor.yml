@@ -3,7 +3,7 @@ name: SEO Monitor Daily Check
 on:
   schedule:
     - cron: "0 12 * * *"  # Corre todos los días a las 09:00 de Argentina
-  workflow_dispatch:      # Permite correrlo manualmente
+  workflow_dispatch:
 
 jobs:
   monitor:
@@ -23,8 +23,7 @@ jobs:
 
     - name: Run monitor
       id: run_monitor
-      run: |
-        python data/scripts/fetch_and_diff.py | tee output.log
+      run: python data/scripts/fetch_and_diff.py
 
     - name: Crear Issue si hubo cambios
       if: contains(steps.run_monitor.outputs, 'Cambio detectado')
