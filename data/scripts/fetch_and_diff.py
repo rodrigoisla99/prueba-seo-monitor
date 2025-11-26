@@ -48,27 +48,23 @@ def write_file(path, content):
 
 
 def compare_and_save(site, filename, new_content):
-    """
-    Devuelve True si hubo cambios.
-    También genera un archivo diff.
-    """
     site_cache_dir = os.path.join(CACHE_DIR, site["name"])
     os.makedirs(site_cache_dir, exist_ok=True)
 
     cache_file = os.path.join(site_cache_dir, filename)
     old_content = read_file(cache_file)
 
-    # siempre guardamos el nuevo contenido
+    # Guardar siempre la nueva versión
     write_file(cache_file, new_content)
 
-    # primera vez -> no hay comparación
+    # Primera vez → no se detectan cambios
     if old_content is None:
         return False
 
     if old_content == new_content:
         return False
 
-    # generar diff
+    # Generar diff
     diff_path = os.path.join(DIFFS_DIR, f"{site['name']}_{filename}.diff")
 
     diff = difflib.unified_diff(
