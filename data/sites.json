@@ -1,6 +1,13 @@
 [
-  {
-    "name": "Farmacity",
-    "domain": "https://www.farmacity.com"
-  }
+  { "name": "Farmacity",     "domain": "https://www.farmacity.com" },
+  { "name": "CrossCourier",  "domain": "https://crosscou.com" },
+  { "name": "BeSmart",       "domain": "https://besmart.company" },
+  { "name": "Switch",        "domain": "https://www.switchsoftware.io" },
+  { "name": "Loan",          "domain": "https://loansoftware.net" },
+  { "name": "Adelantos",     "domain": "https://www.adelantos.com.ar" },
+  { "name": "Cheeky",        "domain": "https://www.cheeky.com.ar" },
+  { "name": "ComoQuieres",   "domain": "https://www.comoquieres.com.ar" },
+  { "name": "Awada",         "domain": "https://www.awada.com.ar" },
+  { "name": "Xubio",         "domain": "https://xubio.com/ar" },
+  { "name": "Nexia",         "domain": "https://nexiacapitalcompany.com" }
 ]
