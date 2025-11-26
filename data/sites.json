@@ -1,4 +1,5 @@
 [
+  { "name": "Posittion",     "domain": "https://www.posittion.com" },
   { "name": "Farmacity",     "domain": "https://www.farmacity.com" },
   { "name": "CrossCourier",  "domain": "https://crosscou.com" },
   { "name": "BeSmart",       "domain": "https://besmart.company" },
