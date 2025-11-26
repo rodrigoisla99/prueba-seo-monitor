@@ -2,6 +2,7 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
+    # Corre todos los días a las 06:00 AM de Argentina (UTC-3)
     - cron: "0 9 * * *"
   workflow_dispatch:
 
@@ -30,3 +31,4 @@ jobs:
         with:
           name: diffs
           path: diffs/
+          
