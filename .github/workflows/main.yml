@@ -2,7 +2,6 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
-    # Corre todos los días a las 06:00 AM de Argentina (UTC-3)
     - cron: "0 9 * * *"
   workflow_dispatch:
 
@@ -14,6 +13,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Restore cache
+        uses: actions/cache@v3
+        with:
+          path: data/cache
+          key: sitemap-cache
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -21,6 +26,17 @@ jobs:
 
       - name: Install Python requirements
         run: pip install requests
+
+      - name: Run SEO monitor
+        run: python data/scripts/fetch_and_diff.py
+
+      - name: Upload diffs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diffs
+          path: diffs/
+
 
       - name: Run SEO monitor
         run: python data/scripts/fetch_and_diff.py
