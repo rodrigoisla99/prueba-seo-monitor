@@ -1,50 +1,50 @@
-name: SEO Monitor Daily Check
+name: SEO Monitor Daily Check   # Nombre del workflow
 
 on:
   schedule:
+    # Corre todos los días a las 06:00 AM de Argentina (09:00 UTC)
     - cron: "0 9 * * *"
-  workflow_dispatch:
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
   run-monitor:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest   # Máquina virtual donde se ejecutará el job
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        # Descarga el repositorio en la máquina de GitHub Actions
 
       - name: Restore cache
         uses: actions/cache@v3
         with:
+          # Carpeta donde tu script guarda las versiones previas de robots.txt y sitemap
           path: data/cache
+          # Nombre del cache. Permite que la carpeta persista entre ejecuciones diarias
           key: sitemap-cache
+        # Esto es CRÍTICO para que el script pueda comparar contra la versión anterior
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+        # Instala Python 3.10 en la máquina de GitHub Actions
 
       - name: Install Python requirements
         run: pip install requests
+        # Instala las dependencias que usa tu script (en este caso, solo requests)
 
       - name: Run SEO monitor
         run: python data/scripts/fetch_and_diff.py
+        # Ejecuta tu script principal, que:
+        # - Descarga robots.txt y sitemap.xml
+        # - Compara con versiones previas
+        # - Guarda nuevas versiones
+        # - Genera diffs si hay cambios
 
       - name: Upload diffs as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: diffs
-          path: diffs/
-
-
-      - name: Run SEO monitor
-        run: python data/scripts/fetch_and_diff.py
-
-      - name: Upload diffs as artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: diffs
-          path: diffs/
-          
+          name: diffs     # Nombre del paquete de artefacto que verás en GitHub
+          path: diffs/    # Carpet
