@@ -1,112 +1,93 @@
-#!/usr/bin/env python3
 import os
-import json
 import requests
 import difflib
-import sys
+import json
 
-# BASE_DIR apunta a "data"
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITES_CONFIG = os.path.join(BASE_DIR, "sites.json")
-
-# carpetas
-CACHE_DIR = os.path.join(BASE_DIR, "cache")
-REPO_ROOT = os.path.dirname(BASE_DIR)
-DIFFS_DIR = os.path.join(REPO_ROOT, "diffs")
+CACHE_DIR = "data/cache"
+DIFF_DIR = "diffs"
 
 os.makedirs(CACHE_DIR, exist_ok=True)
-os.makedirs(DIFFS_DIR, exist_ok=True)
+os.makedirs(DIFF_DIR, exist_ok=True)
 
-
-def load_sites():
-    if not os.path.exists(SITES_CONFIG):
-        print(f"ERROR: no se encontró {SITES_CONFIG}")
-        sys.exit(1)
-    with open(SITES_CONFIG, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def fetch(url):
+def download(url):
     try:
         r = requests.get(url, timeout=20)
-        return r.status_code, r.text
-    except Exception as e:
-        return None, f"ERROR: {e}"
-
-
-def read_file(path):
-    if not os.path.exists(path):
+        if r.status_code == 200:
+            return r.text
         return None
-    with open(path, "r", encoding="utf-8", errors="ignore") as f:
-        return f.read()
+    except Exception:
+        return None
 
+def check_and_diff(name, domain, filename):
+    print(f"\n--- Procesando {name} - {filename} ---")
 
-def write_file(path, content):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    url = f"{domain}/{filename}"
+    content = download(url)
+
+    if content is None:
+        print(f"⚠ No se pudo descargar {url}")
+        return
+
+    # archivos históricos
+    cached_path = f"{CACHE_DIR}/{name}_{filename}"
+    new_path = f"{CACHE_DIR}/{name}_{filename}.new"
+
+    # guardar archivo nuevo temporal
+    with open(new_path, "w", encoding="utf-8") as f:
         f.write(content)
 
+    # si no existe versión anterior → primera ejecución (no hay diff)
+    if not os.path.exists(cached_path):
+        os.replace(new_path, cached_path)
+        print(f"Primera vez: guardado {cached_path}")
+        return
 
-def compare_and_save(site, filename, new_content):
-    site_cache_dir = os.path.join(CACHE_DIR, site["name"])
-    os.makedirs(site_cache_dir, exist_ok=True)
+    # cargar ambas versiones
+    with open(cached_path, "r", encoding="utf-8") as old_file:
+        old_content = old_file.readlines()
 
-    cache_file = os.path.join(site_cache_dir, filename)
-    old_content = read_file(cache_file)
+    with open(new_path, "r", encoding="utf-8") as new_file:
+        new_content = new_file.readlines()
 
-    # Guardar siempre la nueva versión
-    write_file(cache_file, new_content)
-
-    # Primera vez → no se detectan cambios
-    if old_content is None:
-        return False
-
-    if old_content == new_content:
-        return False
-
-    # Generar diff
-    diff_path = os.path.join(DIFFS_DIR, f"{site['name']}_{filename}.diff")
-
-    diff = difflib.unified_diff(
-        old_content.splitlines(),
-        new_content.splitlines(),
+    # generar diff
+    diff = list(difflib.unified_diff(
+        old_content,
+        new_content,
         fromfile="old",
         tofile="new",
         lineterm=""
-    )
+    ))
 
-    write_file(diff_path, "\n".join(diff))
-    return True
+    # si no hay cambios
+    if len(diff) == 0:
+        print("No hay cambios detectados.")
+        os.remove(new_path)
+        return
+
+    print("⚠ CAMBIO DETECTADO — diff generado")
+
+    # guardar diff
+    diff_file = f"{DIFF_DIR}/{name}_{filename}_diff.txt"
+    with open(diff_file, "w", encoding="utf-8") as d:
+        d.write("\n".join(diff))
+
+    print(f"Diff guardado en: {diff_file}")
+
+    # reemplazar archivo anterior por el nuevo
+    os.replace(new_path, cached_path)
 
 
-def monitor_sites():
-    sites = load_sites()
-    print("=== SEO MONITOR START ===")
+def main():
+    with open("data/sites.json", "r", encoding="utf-8") as f:
+        sites = json.load(f)
 
     for site in sites:
-        print(f"\nChecking {site['name']} ({site['domain']})")
+        name = site["name"]
+        domain = site["domain"]
 
-        # robots.txt
-        url = site["domain"].rstrip("/") + "/robots.txt"
-        status, content = fetch(url)
-        if status:
-            changed = compare_and_save(site, "robots.txt", content)
-            print(f"robots.txt: {'CAMBIÓ' if changed else 'sin cambios'}")
-        else:
-            print("robots.txt: error al obtener")
-
-        # sitemap.xml
-        url = site["domain"].rstrip("/") + "/sitemap.xml"
-        status, content = fetch(url)
-        if status:
-            changed = compare_and_save(site, "sitemap.xml", content)
-            print(f"sitemap.xml: {'CAMBIÓ' if changed else 'sin cambios'}")
-        else:
-            print("sitemap.xml: error al obtener")
-
-    print("\n=== SEO MONITOR END ===")
+        check_and_diff(name, domain, "robots.txt")
+        check_and_diff(name, domain, "sitemap.xml")
 
 
 if __name__ == "__main__":
-    monitor_sites()
-    print(">>> DEBUG: script finalizado correctamente")
+    main()
