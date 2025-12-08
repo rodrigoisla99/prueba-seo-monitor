@@ -2,7 +2,7 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 * * *"   # Corre todos los días 09:00 AM
   workflow_dispatch:
 
 jobs:
@@ -13,11 +13,19 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Ensure folders exist
+        run: |
+          mkdir -p output
+          mkdir -p difs
+          mkdir -p logs
+
       - name: Restore cache
         uses: actions/cache@v3
         with:
           path: |
             output
+            difs
+            logs
           key: seo-monitor-cache-${{ github.run_id }}
           restore-keys: seo-monitor-cache-
 
@@ -37,8 +45,8 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name "github-actions"
             git config --global user.email "actions@github.com"
-            git add output
-            git commit -m "Auto-update SEO monitor files"
+            git add output difs logs
+            git commit -m "Auto-update SEO monitor outputs and diffs"
             git push
           else
             echo "No changes to commit."
