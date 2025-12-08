@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Ensure folders exist
         run: |
@@ -41,13 +43,15 @@ jobs:
         run: python data/scripts/fetch_and_diff.py
 
       - name: Commit output changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name "github-actions"
             git config --global user.email "actions@github.com"
             git add output difs logs
             git commit -m "Auto-update SEO monitor outputs and diffs"
-            git push
+            git push "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           else
             echo "No changes to commit."
           fi
