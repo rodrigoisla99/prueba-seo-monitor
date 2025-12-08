@@ -14,7 +14,6 @@ REPO_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))     # raíz del repo
 DATA_DIR = os.path.join(REPO_ROOT, "output")
 DIFFS_DIR = os.path.join(REPO_ROOT, "difs")
 LOGS_DIR = os.path.join(REPO_ROOT, "logs")
-# ahora apunta a data/sites.json
 SITES_FILE = os.path.join(REPO_ROOT, "data", "sites.json")
 
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -61,8 +60,8 @@ def generate_diff_html(before, after, output_path):
         after.splitlines(),
         fromdesc="Versión anterior",
         todesc="Versión nueva",
-        context=True,      # solo alrededor de los cambios
-        numlines=5         # 5 líneas de contexto
+        context=True,
+        numlines=5
     )
     with open(output_path, "w", encoding="utf8") as f:
         f.write(html_diff)
@@ -133,6 +132,22 @@ def save_versions_plain(domain, before, after):
         f.write(after)
 
 
+def normalize_old_data(value):
+    """
+    Normaliza datos viejos que pueden venir como lista/dict:
+    - Si es lista: une con saltos de línea.
+    - Si es dict: lo serializa como JSON.
+    - Si es otro tipo: lo convierte a str.
+    """
+    if isinstance(value, list):
+        return "\n".join(str(v) for v in value)
+    if isinstance(value, dict):
+        return json.dumps(value, indent=2, ensure_ascii=False)
+    if isinstance(value, str):
+        return value
+    return str(value)
+
+
 def process_site(name, domain, robots_url, sitemap_urls):
     print(f"\n🔍 {name} ({domain})")
     print(f" → Robots: {robots_url}")
@@ -157,7 +172,11 @@ def process_site(name, domain, robots_url, sitemap_urls):
         save_current(domain, robots, sitemaps_content)
         return
 
-    previous_combined = previous_data.get("robots", "") + "\n\n" + previous_data.get("sitemaps", "")
+    # Normalizar estructuras viejas (lista/dict) a string
+    prev_robots = normalize_old_data(previous_data.get("robots", ""))
+    prev_sitemaps = normalize_old_data(previous_data.get("sitemaps", ""))
+
+    previous_combined = prev_robots + "\n\n" + prev_sitemaps
 
     # Comparar
     if previous_combined == current_combined:
@@ -219,4 +238,3 @@ for site in sites:
     process_site(site["name"], domain, robots_url, sitemap_urls)
 
 print("\n=== ✅ FIN DEL MONITOR ===\n")
-
