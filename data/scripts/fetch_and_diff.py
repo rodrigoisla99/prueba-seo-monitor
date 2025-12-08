@@ -1,189 +1,153 @@
-import requests
 import os
 import json
+import requests
 import difflib
-from urllib.parse import urlparse
+from datetime import datetime
 
-OUTPUT_DIR = "output"
-DIFF_DIR = "difs"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-os.makedirs(DIFF_DIR, exist_ok=True)
+DATA_DIR = "output"
+DIFFS_DIR = "difs"
+LOGS_DIR = "logs"
+SITES_FILE = "data/scripts/sites.json"
 
-COMMON_SITEMAP_PATHS = [
-    "/sitemap.xml",
-    "/sitemap_index.xml",
-    "/sitemap/sitemap.xml",
-    "/sitemap1.xml",
-    "/sitemap-index.xml",
-    "/sitemap-main.xml"
-]
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(DIFFS_DIR, exist_ok=True)
+os.makedirs(LOGS_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; SEO-Monitor/1.0)"}
-
-
-def safe_fetch(url, timeout=12):
+def fetch_url(url):
     try:
-        r = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        r = requests.get(url, timeout=15)
         if r.status_code == 200:
             return r.text
+        return ""
+    except:
+        return ""
+
+def load_previous(domain):
+    file = os.path.join(DATA_DIR, f"{domain}.json")
+    if not os.path.exists(file):
         return None
-    except Exception:
-        return None
+    with open(file, "r", encoding="utf8") as f:
+        return json.load(f)
+
+def save_current(domain, robots, sitemaps):
+    file = os.path.join(DATA_DIR, f"{domain}.json")
+    with open(file, "w", encoding="utf8") as f:
+        json.dump({"robots": robots, "sitemaps": sitemaps}, f, indent=2)
+
+def generate_diff_html(before, after, output_path):
+    html_diff = difflib.HtmlDiff().make_file(
+        before.splitlines(), after.splitlines(),
+        fromdesc="Antes", todesc="Ahora"
+    )
+    with open(output_path, "w", encoding="utf8") as f:
+        f.write(html_diff)
+
+def generate_summary(before, after):
+    before_lines = before.splitlines()
+    after_lines = after.splitlines()
+
+    diff = difflib.unified_diff(before_lines, after_lines, lineterm="")
+
+    added = []
+    removed = []
+
+    for line in diff:
+        if line.startswith("+") and not line.startswith("+++"):
+            added.append(line[1:])
+        elif line.startswith("-") and not line.startswith("---"):
+            removed.append(line[1:])
+
+    summary = []
+
+    if added:
+        summary.append("🟢 Líneas agregadas:")
+        for a in added:
+            summary.append(f"   + {a}")
+
+    if removed:
+        summary.append("🔴 Líneas eliminadas:")
+        for r in removed:
+            summary.append(f"   - {r}")
+
+    if not added and not removed:
+        summary.append("No hubo cambios en el contenido.")
+
+    return "\n".join(summary)
 
 
-def clean_domain(url):
-    parsed = urlparse(url)
-    host = parsed.netloc
-    if host.startswith("www."):
-        host = host[4:]
-    return host
+def log_change(domain, summary):
+    log_path = os.path.join(LOGS_DIR, f"{domain}.txt")
+    with open(log_path, "a", encoding="utf8") as f:
+        f.write("\n" + "="*60 + "\n")
+        f.write(f"Cambio detectado - {datetime.utcnow()} UTC\n")
+        f.write(summary + "\n")
 
-
-def find_sitemap_in_robots(robots_text):
-    sitemaps = []
-    for line in robots_text.splitlines():
-        line = line.strip()
-        if line.lower().startswith("sitemap:"):
-            sitemaps.append(line.split(":", 1)[1].strip())
-    return sitemaps
-
-
-def discover_for_site(site):
-    name = site["name"]
-    original_domain = site["domain"]
-    domain = clean_domain(original_domain)
-
+def process_site(name, domain, robots_url, sitemap_urls):
     print(f"\n🔍 {name} ({domain})")
-
-    robots_url = f"https://{domain}/robots.txt"
     print(f" → Robots: {robots_url}")
 
-    robots_content = safe_fetch(robots_url)
+    robots = fetch_url(robots_url)
+    sitemaps_content = ""
 
-    discovered = {
-        "name": name,
-        "domain": domain,
-        "robots_url": robots_url,
-        "robots_content": robots_content or "",
-        "sitemaps": []
-    }
+    for sm in sitemap_urls:
+        full = sm if sm.startswith("http") else domain + sm
+        print(f" → Sitemap: {full}")
+        sitemaps_content += f"\n# {full}\n" + fetch_url(full)
 
-    if robots_content:
-        discovered["sitemaps"].extend(find_sitemap_in_robots(robots_content))
+    current_combined = robots + "\n\n" + sitemaps_content
+    previous_data = load_previous(domain)
 
-    if len(discovered["sitemaps"]) == 0:
-        for path in COMMON_SITEMAP_PATHS:
-            test_url = f"https://{domain}{path}"
-            content = safe_fetch(test_url)
-            if content:
-                discovered["sitemaps"].append(test_url)
-                break
+    if previous_data:
+        previous_combined = previous_data["robots"] + "\n\n" + previous_data["sitemaps"]
+    else:
+        previous_combined = ""
 
-    sitemap_contents = {}
-    for sm_url in discovered["sitemaps"]:
-        print(f" → Sitemap: {sm_url}")
-        c = safe_fetch(sm_url)
-        if c:
-            sitemap_contents[sm_url] = c
-
-    discovered["sitemap_contents"] = sitemap_contents
-    return discovered
-
-
-def load_previous(filepath):
-    if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return None
-
-
-def save_json(filepath, data):
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-
-def diff_html(title, old, new):
-    diff = difflib.HtmlDiff(wrapcolumn=80).make_table(
-        old.splitlines(),
-        new.splitlines(),
-        "Antes",
-        "Ahora",
-        context=True,
-        numlines=3
-    )
-
-    return f"""
-    <h2>{title}</h2>
-    {diff}
-    <hr>
-    """
-
-
-def generate_full_html(domain, prev, curr):
-    css = """
-    <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    h1 { margin-bottom: 20px; }
-    table.diff { font-size: 14px; border: 1px solid #ccc; border-collapse: collapse; }
-    .diff_header { background: #eee; }
-    .diff_add { background: #e6ffe6; }  /* verde */
-    .diff_sub { background: #ffe6e6; }  /* rojo */
-    .diff_chg { background: #ffffcc; }  /* amarillo */
-    </style>
-    """
-
-    html = f"<html><head>{css}</head><body>"
-    html += f"<h1>Cambios detectados en {domain}</h1>"
-
-    # Robots
-    html += diff_html("robots.txt", prev.get("robots_content", ""), curr.get("robots_content", ""))
-
-    # Cada sitemap en su sección
-    prev_s = prev.get("sitemap_contents", {})
-    curr_s = curr.get("sitemap_contents", {})
-
-    all_keys = sorted(set(prev_s.keys()) | set(curr_s.keys()))
-
-    for url in all_keys:
-        old_val = prev_s.get(url, "")
-        new_val = curr_s.get(url, "")
-
-        html += diff_html(f"Sitemap: {url}", old_val, new_val)
-
-    html += "</body></html>"
-
-    return html
-
-
-def main():
-    sites_file = "data/sites.json"
-
-    if not os.path.exists(sites_file):
-        print("❌ ERROR: No se encontró data/sites.json")
+    if previous_combined == current_combined:
+        print(f"⚪ Sin cambios en {domain}")
         return
 
-    with open(sites_file, "r", encoding="utf-8") as f:
-        sites = json.load(f)
+    print(f"🟢 Cambios detectados → guardando {domain}")
 
-    for site in sites:
-        current = discover_for_site(site)
+    # Dif HTML
+    diff_file = os.path.join(DIFFS_DIR, f"{domain}.html")
+    generate_diff_html(previous_combined, current_combined, diff_file)
 
-        output_file = os.path.join(OUTPUT_DIR, f"{current['domain']}.json")
-        previous = load_previous(output_file)
+    # Resumen humano
+    summary = generate_summary(previous_combined, current_combined)
+    print("\n📌 Resumen de cambios:")
+    print(summary)
 
-        if previous != current:
-            print(f"🟢 Cambios detectados → guardando {current['domain']}")
-            save_json(output_file, current)
+    # Guardar resumen en logs
+    log_change(domain, summary)
 
-            # generar HTML diff
-            diff_file = os.path.join(DIFF_DIR, f"{current['domain']}.html")
-            html = generate_full_html(current["domain"], previous or {}, current)
-            with open(diff_file, "w", encoding="utf-8") as f:
-                f.write(html)
-
-        else:
-            print(f"⚪ Sin cambios en {current['domain']}")
+    # Guardar estado actual
+    save_current(domain, robots, sitemaps_content)
 
 
-if __name__ == "__main__":
-    main()
+# ---------------------------------------------------------------------
+
+print("\n=== 🚀 INICIANDO SEO MONITOR ===")
+
+with open(SITES_FILE, "r", encoding="utf8") as f:
+    sites = json.load(f)
+
+for site in sites:
+    domain = site["domain"].replace("https://", "").replace("http://", "").replace("www.", "")
+    robots_url = site["domain"].rstrip("/") + "/robots.txt"
+
+    # Detectar si hay sitemap declarado en robots
+    robots_txt = fetch_url(robots_url)
+    sitemap_urls = [line.split("Sitemap: ")[1].strip()
+                    for line in robots_txt.splitlines()
+                    if line.lower().startswith("sitemap:")]
+
+    # Fallback si no hay sitemap en robots
+    if not sitemap_urls:
+        sitemap_urls = [
+            "/sitemap.xml",
+            "/sitemap_index.xml"
+        ]
+
+    process_site(site["name"], domain, robots_url, sitemap_urls)
+
+print("\n=== ✅ FIN DEL MONITOR ===\n")
