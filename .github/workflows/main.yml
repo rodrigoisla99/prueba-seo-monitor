@@ -2,7 +2,7 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 * * *"   # corre todos los días a las 09:00 (UTC-3 sería 06:00)
   workflow_dispatch:
 
 jobs:
@@ -10,27 +10,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ------------------------------
+      # CHECKOUT
+      # ------------------------------
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Restore cache (robots/sitemap previos)
+      # ------------------------------
+      # CACHE (robots/sitemap previos)
+      # ------------------------------
+      - name: Restore cache
         uses: actions/cache@v3
         with:
           path: data/cache
-          key: sitemap-cache-v1-${{ github.run_id }}
-          restore-keys: sitemap-cache-v1-
+          key: seo-monitor-cache-v2
+          restore-keys: |
+            seo-monitor-cache-v2
 
+      # ------------------------------
+      # PYTHON
+      # ------------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests
 
+      # ------------------------------
+      # RUN SCRIPT
+      # ------------------------------
       - name: Run SEO Monitor
         run: python data/scripts/fetch_and_diff.py
 
+      # ------------------------------
+      # SAVE DIFFS COMO ARTIFACT
+      # ------------------------------
       - name: Upload diffs
         if: always()
         uses: actions/upload-artifact@v4
