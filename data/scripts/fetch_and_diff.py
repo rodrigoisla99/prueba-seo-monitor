@@ -36,16 +36,22 @@ def fetch_url(url):
         return ""
 
 
-def load_previous(domain):
-    file = os.path.join(DATA_DIR, f"{domain}.json")
+def load_previous(domain_key):
+    """
+    Carga el JSON previo para un dominio (usando domain_key como nombre base).
+    """
+    file = os.path.join(DATA_DIR, f"{domain_key}.json")
     if not os.path.exists(file):
         return None
     with open(file, "r", encoding="utf8") as f:
         return json.load(f)
 
 
-def save_current(domain, robots, sitemaps):
-    file = os.path.join(DATA_DIR, f"{domain}.json")
+def save_current(domain_key, robots, sitemaps):
+    """
+    Guarda el estado actual (robots + sitemaps) para el dominio.
+    """
+    file = os.path.join(DATA_DIR, f"{domain_key}.json")
     with open(file, "w", encoding="utf8") as f:
         json.dump({"robots": robots, "sitemaps": sitemaps}, f, indent=2)
 
@@ -110,20 +116,20 @@ def generate_summary(before, after, max_lines=30):
     return "\n".join(summary)
 
 
-def log_change(domain, summary):
-    log_path = os.path.join(LOGS_DIR, f"{domain}.txt")
+def log_change(domain_key, summary):
+    log_path = os.path.join(LOGS_DIR, f"{domain_key}.txt")
     with open(log_path, "a", encoding="utf8") as f:
         f.write("\n" + "=" * 60 + "\n")
         f.write(f"Cambio detectado - {datetime.utcnow()} UTC\n")
         f.write(summary + "\n")
 
 
-def save_versions_plain(domain, before, after):
+def save_versions_plain(domain_key, before, after):
     """
     Guarda versión anterior y nueva en TXT para verlo fácil.
     """
-    before_path = os.path.join(DIFFS_DIR, f"{domain}_before.txt")
-    after_path = os.path.join(DIFFS_DIR, f"{domain}_after.txt")
+    before_path = os.path.join(DIFFS_DIR, f"{domain_key}_before.txt")
+    after_path = os.path.join(DIFFS_DIR, f"{domain_key}_after.txt")
 
     with open(before_path, "w", encoding="utf8") as f:
         f.write(before)
@@ -148,8 +154,36 @@ def normalize_old_data(value):
     return str(value)
 
 
-def process_site(name, domain, robots_url, sitemap_urls):
-    print(f"\n🔍 {name} ({domain})")
+def normalize_sitemap_url(raw_sm, base_url):
+    """
+    Normaliza cualquier sitemap a una URL absoluta:
+    - https://...  -> se usa tal cual
+    - //dominio... -> se convierte a https://dominio...
+    - /ruta.xml    -> base_url + /ruta.xml
+    - dominio.com/ruta.xml -> https://dominio.com/ruta.xml
+    """
+    sm = raw_sm.strip()
+    if not sm:
+        return None
+
+    # Absoluta con esquema
+    if sm.startswith("http://") or sm.startswith("https://"):
+        return sm
+
+    # Esquema relativo (//dominio.com/sitemap.xml)
+    if sm.startswith("//"):
+        return "https:" + sm
+
+    # Solo path
+    if sm.startswith("/"):
+        return base_url + sm
+
+    # Algo tipo "cheeky.com.ar/sitemap.xml"
+    return "https://" + sm.lstrip("/")
+
+
+def process_site(name, domain_key, robots_url, sitemap_urls):
+    print(f"\n🔍 {name} ({domain_key})")
     print(f" → Robots: {robots_url}")
 
     # Contenido actual
@@ -157,19 +191,19 @@ def process_site(name, domain, robots_url, sitemap_urls):
     sitemaps_content = ""
 
     for sm in sitemap_urls:
-        full = sm if sm.startswith("http") else domain + sm
+        full = sm  # ya viene normalizado
         print(f" → Sitemap: {full}")
         sitemaps_content += f"\n# {full}\n" + fetch_url(full)
 
     current_combined = robots + "\n\n" + sitemaps_content
 
     # Cargar versión anterior (si existe)
-    previous_data = load_previous(domain)
+    previous_data = load_previous(domain_key)
 
     # Primera vez: guardamos baseline y salimos
     if previous_data is None:
-        print(f"🟡 Primera ejecución para {domain}: guardando baseline.")
-        save_current(domain, robots, sitemaps_content)
+        print(f"🟡 Primera ejecución para {domain_key}: guardando baseline.")
+        save_current(domain_key, robots, sitemaps_content)
         return
 
     # Normalizar estructuras viejas (lista/dict) a string
@@ -180,16 +214,16 @@ def process_site(name, domain, robots_url, sitemap_urls):
 
     # Comparar
     if previous_combined == current_combined:
-        print(f"⚪ Sin cambios en {domain}")
+        print(f"⚪ Sin cambios en {domain_key}")
         return
 
-    print(f"🟢 Cambios detectados en {domain} → generando diffs")
+    print(f"🟢 Cambios detectados en {domain_key} → generando diffs")
 
     # Guardar versiones plana (before/after)
-    save_versions_plain(domain, previous_combined, current_combined)
+    save_versions_plain(domain_key, previous_combined, current_combined)
 
     # Dif HTML
-    diff_file = os.path.join(DIFFS_DIR, f"{domain}.html")
+    diff_file = os.path.join(DIFFS_DIR, f"{domain_key}.html")
     generate_diff_html(previous_combined, current_combined, diff_file)
 
     # Resumen humano
@@ -198,10 +232,10 @@ def process_site(name, domain, robots_url, sitemap_urls):
     print(summary)
 
     # Guardar resumen en logs
-    log_change(domain, summary)
+    log_change(domain_key, summary)
 
     # Guardar estado actual para la próxima ejecución
-    save_current(domain, robots, sitemaps_content)
+    save_current(domain_key, robots, sitemaps_content)
 
 
 # -------------------------------------------------
@@ -217,24 +251,45 @@ with open(SITES_FILE, "r", encoding="utf8") as f:
     sites = json.load(f)
 
 for site in sites:
-    domain = site["domain"].replace("https://", "").replace("http://", "").replace("www.", "")
-    robots_url = site["domain"].rstrip("/") + "/robots.txt"
+    # URL base completa con esquema, sin / final
+    base_url = site["domain"].rstrip("/")
+
+    # Clave para archivos: sin esquema, sin www, reemplazando / por _
+    domain_key = (
+        base_url
+        .replace("https://", "")
+        .replace("http://", "")
+        .replace("www.", "")
+        .replace("/", "_")
+    )
+
+    robots_url = base_url + "/robots.txt"
 
     # Detectar si hay sitemap declarado en robots
     robots_txt = fetch_url(robots_url)
-    sitemap_urls = [
-        line.split("Sitemap: ")[1].strip()
-        for line in robots_txt.splitlines()
-        if line.lower().startswith("sitemap:")
-    ]
+    raw_sitemaps = []
+    for line in robots_txt.splitlines():
+        lower = line.strip().lower()
+        if lower.startswith("sitemap:"):
+            # tomamos todo lo que está después de "sitemap:"
+            part = line.split(":", 1)[1].strip()
+            if part:
+                raw_sitemaps.append(part)
 
-    # Fallback si no hay sitemap en robots
-    if not sitemap_urls:
-        sitemap_urls = [
+    # Fallback si no hay sitemap en robots.txt
+    if not raw_sitemaps:
+        raw_sitemaps = [
             "/sitemap.xml",
             "/sitemap_index.xml",
         ]
 
-    process_site(site["name"], domain, robots_url, sitemap_urls)
+    # Normalizar todos los sitemaps a URLs absolutas
+    sitemap_urls = []
+    for sm in raw_sitemaps:
+        norm = normalize_sitemap_url(sm, base_url)
+        if norm:
+            sitemap_urls.append(norm)
+
+    process_site(site["name"], domain_key, robots_url, sitemap_urls)
 
 print("\n=== ✅ FIN DEL MONITOR ===\n")
