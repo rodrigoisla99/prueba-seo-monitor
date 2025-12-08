@@ -1,8 +1,4 @@
 {
-  "name": "Cheeky",
-  "domain": "cheeky.com.ar",
-  "robots_url": "https://cheeky.com.ar/robots.txt",
-  "robots_content": "",
-  "sitemaps": [],
-  "sitemap_contents": {}
+  "robots": "# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file\n#\n# To ban all spiders from the entire site uncomment the next two lines:\n# User-agent: *\n# Disallow: /\nUser-agent: *\nDisallow: /categorias/ss19\nDisallow: /categorias/vestido-ss19\nDisallow: /categorias/hotsale\nSitemap: /sitemap.xml\nSitemap: /sitemap_institucional.xml\nSitemap: /sitemap_categorias.xml\nSitemap: /sitemap_productos.xml\n",
+  "sitemaps": "\n# cheeky.com.ar/sitemap.xml\n\n# cheeky.com.ar/sitemap_institucional.xml\n\n# cheeky.com.ar/sitemap_categorias.xml\n\n# cheeky.com.ar/sitemap_productos.xml\n"
 }

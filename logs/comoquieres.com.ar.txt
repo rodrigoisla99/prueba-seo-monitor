@@ -1,0 +1,29 @@
+
+============================================================
+Cambio detectado - 2025-12-08 14:54:37.440320 UTC
+🟢 Líneas agregadas:
+   + # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+   + #
+   + # To ban all spiders from the entire site uncomment the next two lines:
+   + # User-agent: *
+   + # Disallow: /
+   + User-agent: *
+   + Disallow: /categorias/ss19
+   + Disallow: /categorias/vestido-ss19
+   + Disallow: /admin
+   + Sitemap: /sitemap.xml
+   + Sitemap: /sitemap_institucional.xml
+   + Sitemap: /sitemap_categorias.xml
+   + Sitemap: /sitemap_productos.xml
+   + # comoquieres.com.ar/sitemap.xml
+   + 
+   + # comoquieres.com.ar/sitemap_institucional.xml
+   + 
+   + # comoquieres.com.ar/sitemap_categorias.xml
+   + 
+   + # comoquieres.com.ar/sitemap_productos.xml
+🔴 Líneas eliminadas:
+   - /sitemap.xml
+   - /sitemap_institucional.xml
+   - /sitemap_categorias.xml
+   - /sitemap_productos.xml

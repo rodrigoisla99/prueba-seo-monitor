@@ -1,0 +1,39 @@
+
+============================================================
+Cambio detectado - 2025-12-08 14:54:32.418781 UTC
+🟢 Líneas agregadas:
+   + User-agent: *
+   + 
+   + User-agent: Googlebot
+   + Allow: /
+   + 
+   + User-agent: Bingbot
+   + Allow: /
+   + 
+   + User-agent: Google-Extended
+   + Allow: /
+   + 
+   + User-agent: ChatGPT-User
+   + Allow: /
+   + 
+   + User-agent: ClaudeBot
+   + Allow: /
+   + 
+   + User-agent: PerplexityBot
+   + Allow: /
+   + 
+   + Disallow: 
+   + 
+   + 
+   + 
+   + Sitemap: https://www.switchsoftware.io/sitemap.xml
+   + 
+   + 
+   + # https://www.switchsoftware.io/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   ... (+820 líneas más agregadas)
+🔴 Líneas eliminadas:
+   - 
+   - 
+   - https://www.switchsoftware.io/sitemap.xml

@@ -1,0 +1,37 @@
+
+============================================================
+Cambio detectado - 2025-12-08 14:54:31.830259 UTC
+🟢 Líneas agregadas:
+   + # START YOAST BLOCK
+   + # ---------------------------
+   + User-agent: *
+   + Disallow:
+   + 
+   + Sitemap: https://besmart.company/sitemap_index.xml
+   + # ---------------------------
+   + # END YOAST BLOCK
+   + # https://besmart.company/sitemap_index.xml
+   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   + 		<lastmod>2025-11-07T15:46:36+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   + 		<lastmod>2025-11-18T14:38:30+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   + 		<lastmod>2025-12-05T20:33:39+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   + 		<lastmod>2025-09-18T15:35:30+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   + 		<lastmod>2025-12-05T20:36:33+00:00</lastmod>
+   ... (+19 líneas más agregadas)
+🔴 Líneas eliminadas:
+   - https://besmart.company/sitemap_index.xml

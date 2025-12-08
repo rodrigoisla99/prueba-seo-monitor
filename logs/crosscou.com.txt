@@ -1,0 +1,33 @@
+
+============================================================
+Cambio detectado - 2025-12-08 14:54:26.941546 UTC
+🟢 Líneas agregadas:
+   + # robots.txt for southcrosslog.com
+   + # Ãltima actualizaciÃ³n: 2025-10-06
+   + # Permite el rastreo completo del sitio a los principales buscadores y a GPTBot
+   + 
+   + # Google desktop crawler
+   + User-agent: Googlebot
+   + Allow: /
+   + 
+   + # Google mobile crawler
+   + User-agent: Googlebot-Mobile
+   + Allow: /
+   + 
+   + # Bing crawler
+   + User-agent: Bingbot
+   + Allow: /
+   + 
+   + # OpenAI GPTBot (IA de entrenamiento y anÃ¡lisis)
+   + User-agent: GPTBot
+   + Allow: /
+   + 
+   + # Reglas generales para otros rastreadores
+   + User-agent: *
+   + Disallow: /app/
+   + 
+   + # UbicaciÃ³n del sitemap para indexaciÃ³n en ambos idiomas
+   + Sitemap: https://crosscou.com/sitemap.xml
+   + # https://crosscou.com/sitemap.xml
+🔴 Líneas eliminadas:
+   - https://crosscou.com/sitemap.xml

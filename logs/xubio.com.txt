@@ -1,0 +1,39 @@
+
+============================================================
+Cambio detectado - 2025-12-08 14:54:39.051375 UTC
+🟢 Líneas agregadas:
+   + User-agent: *
+   + Allow: /
+   + Disallow: /API/
+   + Disallow: /configuracion/
+   + Disallow: /scripts/
+   + Disallow: /terminos-de-uso/
+   + Disallow: /NXV/help/InstruccionesConfigFEvGit.pdf
+   + 
+   + Sitemap: https://xubio.com/sitemap.xml
+   + 
+   + 
+   + # https://xubio.com/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <urlset
+   +       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+   + >
+   + 
+   + <!-- Dominio Principal  -->
+   + <url>
+   +     <loc>https://xubio.com/</loc>
+   +     <lastmod>2020-08-18T20:35:20+00:00</lastmod>
+   + </url>
+   + 
+   + <!-- Páginas de Argentina  -->
+   + <url>
+   +   <loc>https://xubio.com/ar/</loc>
+   +   <lastmod>2020-08-18T20:07:53+00:00</lastmod>
+   +   <priority>1.00</priority>
+   + </url>
+   + <url>
+   ... (+242 líneas más agregadas)
+🔴 Líneas eliminadas:
+   - 
+   - 
+   - https://xubio.com/sitemap.xml

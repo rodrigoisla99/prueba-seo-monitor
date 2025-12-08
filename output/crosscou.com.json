@@ -1,10 +1,4 @@
 {
-  "name": "CrossCourier",
-  "domain": "crosscou.com",
-  "robots_url": "https://crosscou.com/robots.txt",
-  "robots_content": "# robots.txt for southcrosslog.com\n# Ãltima actualizaciÃ³n: 2025-10-06\n# Permite el rastreo completo del sitio a los principales buscadores y a GPTBot\n\n# Google desktop crawler\nUser-agent: Googlebot\nAllow: /\n\n# Google mobile crawler\nUser-agent: Googlebot-Mobile\nAllow: /\n\n# Bing crawler\nUser-agent: Bingbot\nAllow: /\n\n# OpenAI GPTBot (IA de entrenamiento y anÃ¡lisis)\nUser-agent: GPTBot\nAllow: /\n\n# Reglas generales para otros rastreadores\nUser-agent: *\nDisallow: /app/\n\n# UbicaciÃ³n del sitemap para indexaciÃ³n en ambos idiomas\nSitemap: https://crosscou.com/sitemap.xml",
-  "sitemaps": [
-    "https://crosscou.com/sitemap.xml"
-  ],
-  "sitemap_contents": {}
+  "robots": "# robots.txt for southcrosslog.com\n# \u00c3\u009altima actualizaci\u00c3\u00b3n: 2025-10-06\n# Permite el rastreo completo del sitio a los principales buscadores y a GPTBot\n\n# Google desktop crawler\nUser-agent: Googlebot\nAllow: /\n\n# Google mobile crawler\nUser-agent: Googlebot-Mobile\nAllow: /\n\n# Bing crawler\nUser-agent: Bingbot\nAllow: /\n\n# OpenAI GPTBot (IA de entrenamiento y an\u00c3\u00a1lisis)\nUser-agent: GPTBot\nAllow: /\n\n# Reglas generales para otros rastreadores\nUser-agent: *\nDisallow: /app/\n\n# Ubicaci\u00c3\u00b3n del sitemap para indexaci\u00c3\u00b3n en ambos idiomas\nSitemap: https://crosscou.com/sitemap.xml",
+  "sitemaps": "\n# https://crosscou.com/sitemap.xml\n"
 }
