@@ -27,3 +27,53 @@ Cambio detectado - 2025-12-08 14:54:37.440320 UTC
    - /sitemap_institucional.xml
    - /sitemap_categorias.xml
    - /sitemap_productos.xml
+
+============================================================
+Cambio detectado - 2025-12-08 15:21:09.494433 UTC
+🟢 Líneas agregadas:
+   + # https://www.comoquieres.com.ar/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_institucional.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_categorias.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_productos.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   + </sitemapindex>
+   + # https://www.comoquieres.com.ar/sitemap_institucional.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/contacto</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/contacto/new</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/locales/</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/locales/2378</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/metodo-de-envio</loc>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.comoquieres.com.ar/preguntas-frecuentes</loc>
+   +   </url>
+   ... (+11 líneas más agregadas)
+🔴 Líneas eliminadas:
+   - # comoquieres.com.ar/sitemap.xml
+   - # comoquieres.com.ar/sitemap_institucional.xml
+   - # comoquieres.com.ar/sitemap_categorias.xml
+   - # comoquieres.com.ar/sitemap_productos.xml
