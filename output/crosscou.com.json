@@ -1,0 +1,10 @@
+{
+  "name": "CrossCourier",
+  "domain": "crosscou.com",
+  "robots_url": "https://crosscou.com/robots.txt",
+  "robots_content": "# robots.txt for southcrosslog.com\n# Ãltima actualizaciÃ³n: 2025-10-06\n# Permite el rastreo completo del sitio a los principales buscadores y a GPTBot\n\n# Google desktop crawler\nUser-agent: Googlebot\nAllow: /\n\n# Google mobile crawler\nUser-agent: Googlebot-Mobile\nAllow: /\n\n# Bing crawler\nUser-agent: Bingbot\nAllow: /\n\n# OpenAI GPTBot (IA de entrenamiento y anÃ¡lisis)\nUser-agent: GPTBot\nAllow: /\n\n# Reglas generales para otros rastreadores\nUser-agent: *\nDisallow: /app/\n\n# UbicaciÃ³n del sitemap para indexaciÃ³n en ambos idiomas\nSitemap: https://crosscou.com/sitemap.xml",
+  "sitemaps": [
+    "https://crosscou.com/sitemap.xml"
+  ],
+  "sitemap_contents": {}
+}
