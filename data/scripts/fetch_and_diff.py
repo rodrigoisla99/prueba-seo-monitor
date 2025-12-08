@@ -14,7 +14,8 @@ REPO_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))     # raíz del repo
 DATA_DIR = os.path.join(REPO_ROOT, "output")
 DIFFS_DIR = os.path.join(REPO_ROOT, "difs")
 LOGS_DIR = os.path.join(REPO_ROOT, "logs")
-SITES_FILE = os.path.join(SCRIPT_DIR, "sites.json")          # siempre al lado del script
+# ahora apunta a data/sites.json
+SITES_FILE = os.path.join(REPO_ROOT, "data", "sites.json")
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(DIFFS_DIR, exist_ok=True)
