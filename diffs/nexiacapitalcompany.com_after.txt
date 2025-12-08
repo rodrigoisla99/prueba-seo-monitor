@@ -26,7 +26,6 @@ Allow: /wp-admin/admin-ajax.php
   <lastmod>2025-10-20T18:40:31Z</lastmod>
  </sitemap>
 </sitemapindex>
-
 # https://nexiacapitalcompany.com/news-sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!--generator='jetpack-15.3.1'-->
