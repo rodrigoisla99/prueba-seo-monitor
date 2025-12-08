@@ -36,3 +36,8 @@ Cambio detectado - 2025-12-08 14:54:39.426088 UTC
 🔴 Líneas eliminadas:
    - https://nexiacapitalcompany.com/sitemap.xml
    - https://nexiacapitalcompany.com/news-sitemap.xml
+
+============================================================
+Cambio detectado - 2025-12-08 14:56:42.345281 UTC
+🟢 Líneas agregadas:
+   + 
