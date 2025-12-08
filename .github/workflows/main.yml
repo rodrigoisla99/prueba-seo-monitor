@@ -2,7 +2,7 @@ name: SEO Monitor Daily Check
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # Corre todos los días 09:00 AM
+    - cron: "0 9 * * *"   # Corre todos los días 09:00 AM (UTC)
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Ensure folders exist
         run: |
           mkdir -p output
-          mkdir -p difs
+          mkdir -p diffs
           mkdir -p logs
 
       - name: Restore cache
@@ -26,7 +26,7 @@ jobs:
         with:
           path: |
             output
-            difs
+            diffs
             logs
           key: seo-monitor-cache-${{ github.run_id }}
           restore-keys: seo-monitor-cache-
@@ -49,17 +49,17 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name "github-actions"
             git config --global user.email "actions@github.com"
-            git add output difs logs
+            git add output diffs logs
             git commit -m "Auto-update SEO monitor outputs and diffs"
             git push "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           else
             echo "No changes to commit."
           fi
 
-      # OPCIONAL: ver los diffs como artifact en cada run
+      # Opcional: subir diffs como artifact para verlos fácil en la UI de Actions
       - name: Upload diffs artifact
         uses: actions/upload-artifact@v4
         with:
           name: seo-monitor-diffs
-          path: difs/
+          path: diffs/
           if-no-files-found: ignore
