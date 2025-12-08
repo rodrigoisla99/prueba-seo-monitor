@@ -55,3 +55,11 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+      # OPCIONAL: ver los diffs como artifact en cada run
+      - name: Upload diffs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-monitor-diffs
+          path: difs/
+          if-no-files-found: ignore
