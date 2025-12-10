@@ -37,3 +37,13 @@ Cambio detectado - 2025-12-08 14:54:32.418781 UTC
    - 
    - 
    - https://www.switchsoftware.io/sitemap.xml
+
+============================================================
+Cambio detectado - 2025-12-10 09:30:55.316973 UTC
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/python-django-developer</loc>
+   -     </url>
+   -     <url>
