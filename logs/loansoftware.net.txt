@@ -35,3 +35,12 @@ Cambio detectado - 2025-12-08 14:54:35.214102 UTC
    ... (+95 líneas más agregadas)
 🔴 Líneas eliminadas:
    - https://loansoftware.net/sitemap_index.xml
+
+============================================================
+Cambio detectado - 2025-12-11 09:32:04.632812 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-10T13:21:25+00:00</lastmod>
+   + 		<lastmod>2025-12-10T13:21:25+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>
+   - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>

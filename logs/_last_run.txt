@@ -1,33 +1,57 @@
-Resumen de cambios - 2025-12-10 09:31:03.609027 UTC
+Resumen de cambios - 2025-12-11 09:32:11.848890 UTC
 ============================================================
 
-[2025-12-10 09:30:50.316792 UTC] Farmacity (farmacity.com)
+[2025-12-11 09:31:58.461654 UTC] Farmacity (farmacity.com)
 🟢 Líneas agregadas:
-   + <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-09</lastmod></sitemap></sitemapindex>
+   + <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-10</lastmod></sitemap></sitemapindex>
 🔴 Líneas eliminadas:
-   - <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-06</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-06</lastmod></sitemap></sitemapindex>
+   - <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-09</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-09</lastmod></sitemap></sitemapindex>
 
 ----------------------------------------
 
-[2025-12-10 09:30:55.316995 UTC] Switch (switchsoftware.io)
+[2025-12-11 09:32:04.632834 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-10T13:21:25+00:00</lastmod>
+   + 		<lastmod>2025-12-10T13:21:25+00:00</lastmod>
 🔴 Líneas eliminadas:
-   -         <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net</loc>
-   -     </url>
-   -     <url>
-   -         <loc>https://www.switchsoftware.io/careers-position/python-django-developer</loc>
-   -     </url>
-   -     <url>
+   - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>
+   - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>
 
 ----------------------------------------
 
-[2025-12-10 09:31:03.608866 UTC] Nexia (nexiacapitalcompany.com)
+[2025-12-11 09:32:11.579284 UTC] Xubio (xubio.com)
 🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.4-a.1'-->
    + 
-   + <!--generator='jetpack-15.4-a.1'-->
-🔴 Líneas eliminadas:
-   - <!--generator='jetpack-15.3.1'-->
-   - <!--generator='jetpack-15.3.1'-->
+   + User-agent: Googlebot
+   + Allow: /
+   + 
+   + User-agent: Bingbot
+   + Allow: /
+   + 
+   + User-agent: Google-Extended
+   + Allow: /
+   + 
+   + User-agent: ChatGPT-User
+   + Allow: /
+   + 
+   + User-agent: ClaudeBot
+   + Allow: /
+   + 
+   + User-agent: PerplexityBot
+   + Allow: /
+   + 
+   + 
+   + 
+   + 
+   + 
+   + 
+   + 
+
+----------------------------------------
+
+[2025-12-11 09:32:11.848708 UTC] Nexia (nexiacapitalcompany.com)
+🟢 Líneas agregadas:
+   + 
 
 ----------------------------------------
 
