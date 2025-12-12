@@ -75,3 +75,12 @@ Cambio detectado - 2025-12-11 11:44:14.586301 UTC
 🔴 Líneas eliminadas:
    - <!--generator='jetpack-15.4-a.1'-->
    - <!--generator='jetpack-15.4-a.1'-->
+
+============================================================
+Cambio detectado - 2025-12-12 09:31:11.072271 UTC
+🟢 Líneas agregadas:
+   + <!--generator='jetpack-15.4-a.1'-->
+   + <!--generator='jetpack-15.4-a.1'-->
+🔴 Líneas eliminadas:
+   - <!--generator='jetpack-15.3.1'-->
+   - <!--generator='jetpack-15.3.1'-->

@@ -1,13 +1,13 @@
-Resumen de cambios - 2025-12-11 11:44:14.586490 UTC
+Resumen de cambios - 2025-12-12 09:31:11.072455 UTC
 ============================================================
 
-[2025-12-11 11:44:14.586328 UTC] Nexia (nexiacapitalcompany.com)
+[2025-12-12 09:31:11.072307 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.3.1'-->
-   + <!--generator='jetpack-15.3.1'-->
+   + <!--generator='jetpack-15.4-a.1'-->
+   + <!--generator='jetpack-15.4-a.1'-->
 🔴 Líneas eliminadas:
-   - <!--generator='jetpack-15.4-a.1'-->
-   - <!--generator='jetpack-15.4-a.1'-->
+   - <!--generator='jetpack-15.3.1'-->
+   - <!--generator='jetpack-15.3.1'-->
 
 ----------------------------------------
 
