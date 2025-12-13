@@ -1,13 +1,23 @@
-Resumen de cambios - 2025-12-12 09:31:11.072455 UTC
+Resumen de cambios - 2025-12-13 09:25:32.704761 UTC
 ============================================================
 
-[2025-12-12 09:31:11.072307 UTC] Nexia (nexiacapitalcompany.com)
+[2025-12-13 09:25:21.550020 UTC] Posittion (posittion.com)
 🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.4-a.1'-->
-   + <!--generator='jetpack-15.4-a.1'-->
+   + 		<lastmod>2025-12-12T20:19:05+00:00</lastmod>
+   + 		<lastmod>2025-12-12T20:19:05+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - <!--generator='jetpack-15.3.1'-->
-   - <!--generator='jetpack-15.3.1'-->
+   - 		<lastmod>2025-10-28T16:26:02+00:00</lastmod>
+   - 		<lastmod>2025-10-28T16:26:02+00:00</lastmod>
+
+----------------------------------------
+
+[2025-12-13 09:25:25.968506 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
+   + 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
+   - 		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
 
 ----------------------------------------
 

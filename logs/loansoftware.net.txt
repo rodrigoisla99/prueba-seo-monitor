@@ -44,3 +44,12 @@ Cambio detectado - 2025-12-11 09:32:04.632812 UTC
 🔴 Líneas eliminadas:
    - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>
    - 		<lastmod>2025-11-14T18:39:51+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2025-12-13 09:25:25.968482 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
+   + 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
+   - 		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
