@@ -111,7 +111,7 @@ Sitemap: https://loansoftware.net/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://loansoftware.net/integraciones-sitemap.xml</loc>
-		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
+		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://loansoftware.net/category-sitemap.xml</loc>
@@ -119,7 +119,7 @@ Sitemap: https://loansoftware.net/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://loansoftware.net/integraciones_category-sitemap.xml</loc>
-		<lastmod>2025-11-13T21:06:37+00:00</lastmod>
+		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://loansoftware.net/author-sitemap.xml</loc>
