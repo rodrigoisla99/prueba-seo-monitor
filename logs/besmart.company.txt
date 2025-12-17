@@ -35,3 +35,12 @@ Cambio detectado - 2025-12-08 14:54:31.830259 UTC
    ... (+19 líneas más agregadas)
 🔴 Líneas eliminadas:
    - https://besmart.company/sitemap_index.xml
+
+============================================================
+Cambio detectado - 2025-12-17 09:33:44.764791 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-16T20:54:07+00:00</lastmod>
+   + 		<lastmod>2025-12-16T15:47:31+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-12-05T20:33:39+00:00</lastmod>
+   - 		<lastmod>2025-10-27T14:00:12+00:00</lastmod>

@@ -1,15 +1,33 @@
-Resumen de cambios - 2025-12-16 09:32:32.590714 UTC
+Resumen de cambios - 2025-12-17 09:33:52.735797 UTC
 ============================================================
 
-[2025-12-16 09:32:20.566667 UTC] Posittion (posittion.com)
+[2025-12-17 09:33:44.764822 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
-   + 		<lastmod>2025-12-15T12:24:29+00:00</lastmod>
-   + 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
+   + 		<lastmod>2025-12-16T20:54:07+00:00</lastmod>
+   + 		<lastmod>2025-12-16T15:47:31+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-12T20:19:05+00:00</lastmod>
-   - 		<lastmod>2025-12-05T11:55:08+00:00</lastmod>
-   - 		<lastmod>2025-12-12T20:19:05+00:00</lastmod>
+   - 		<lastmod>2025-12-05T20:33:39+00:00</lastmod>
+   - 		<lastmod>2025-10-27T14:00:12+00:00</lastmod>
+
+----------------------------------------
+
+[2025-12-17 09:33:46.910671 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + 		<lastmod>2025-12-16T14:49:02+00:00</lastmod>
+   + 		<lastmod>2025-12-16T14:49:02+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-12-13T18:56:48+00:00</lastmod>
+   - 		<lastmod>2025-12-13T18:56:48+00:00</lastmod>
+
+----------------------------------------
+
+[2025-12-17 09:33:52.735645 UTC] Nexia (nexiacapitalcompany.com)
+🟢 Líneas agregadas:
+   + <!--generator='jetpack-15.3.1'-->
+   + <!--generator='jetpack-15.3.1'-->
+🔴 Líneas eliminadas:
+   - <!--generator='jetpack-15.4-a.1'-->
+   - <!--generator='jetpack-15.4-a.1'-->
 
 ----------------------------------------
 
