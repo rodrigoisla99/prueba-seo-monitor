@@ -1,21 +1,13 @@
-Resumen de cambios - 2025-12-18 09:33:18.792894 UTC
+Resumen de cambios - 2025-12-19 09:30:18.291365 UTC
 ============================================================
 
-[2025-12-18 09:33:07.365924 UTC] BeSmart (besmart.company)
+[2025-12-19 09:30:06.435160 UTC] Posittion (posittion.com)
 🟢 Líneas agregadas:
-   + 		<lastmod>2025-12-17T19:06:59+00:00</lastmod>
+   + 		<lastmod>2025-12-18T16:03:08+00:00</lastmod>
+   + 		<lastmod>2025-12-18T16:03:08+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-16T20:54:07+00:00</lastmod>
-
-----------------------------------------
-
-[2025-12-18 09:33:18.792725 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.4-a.3'-->
-   + <!--generator='jetpack-15.4-a.3'-->
-🔴 Líneas eliminadas:
-   - <!--generator='jetpack-15.3.1'-->
-   - <!--generator='jetpack-15.3.1'-->
+   - 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
+   - 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
 
 ----------------------------------------
 
