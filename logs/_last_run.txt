@@ -1,13 +1,11 @@
-Resumen de cambios - 2025-12-19 09:30:18.291365 UTC
+Resumen de cambios - 2025-12-20 09:25:33.696207 UTC
 ============================================================
 
-[2025-12-19 09:30:06.435160 UTC] Posittion (posittion.com)
+[2025-12-20 09:25:23.357724 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + 		<lastmod>2025-12-18T16:03:08+00:00</lastmod>
-   + 		<lastmod>2025-12-18T16:03:08+00:00</lastmod>
+   + 		<lastmod>2025-12-19T19:53:18+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
-   - 		<lastmod>2025-12-15T11:25:05+00:00</lastmod>
+   - 		<lastmod>2025-12-16T15:47:31+00:00</lastmod>
 
 ----------------------------------------
 
