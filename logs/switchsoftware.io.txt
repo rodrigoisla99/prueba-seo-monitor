@@ -47,3 +47,34 @@ Cambio detectado - 2025-12-10 09:30:55.316973 UTC
    -         <loc>https://www.switchsoftware.io/careers-position/python-django-developer</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2025-12-23 09:31:16.999901 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/services/studio-support/legacy-apps-management</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/services/studio-support/multilevel-technical-support</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/agentic-mcp-and-the-next-generation-of-applications</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/the-strategic-value-of-mcp-adoption</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
+   +     </url>
+   +     <url>
