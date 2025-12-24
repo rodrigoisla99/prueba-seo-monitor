@@ -1,59 +1,30 @@
-Resumen de cambios - 2025-12-23 09:31:24.498750 UTC
+Resumen de cambios - 2025-12-24 09:30:26.214318 UTC
 ============================================================
 
-[2025-12-23 09:31:16.584341 UTC] BeSmart (besmart.company)
+[2025-12-24 09:30:14.070873 UTC] Posittion (posittion.com)
 🟢 Líneas agregadas:
-   + 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
+   + 		<lastmod>2025-12-23T13:40:19+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-19T19:53:18+00:00</lastmod>
+   - 		<lastmod>2025-12-15T12:24:29+00:00</lastmod>
 
 ----------------------------------------
 
-[2025-12-23 09:31:16.999925 UTC] Switch (switchsoftware.io)
+[2025-12-24 09:30:18.636483 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   +         <loc>https://www.switchsoftware.io/services/studio-support/legacy-apps-management</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/services/studio-support/multilevel-technical-support</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/post/agentic-mcp-and-the-next-generation-of-applications</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/post/the-strategic-value-of-mcp-adoption</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
-   +     </url>
-   +     <url>
+   + 		<lastmod>2025-12-23T18:47:56+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2025-12-05T20:36:33+00:00</lastmod>
 
 ----------------------------------------
 
-[2025-12-23 09:31:18.816890 UTC] Loan (loansoftware.net)
+[2025-12-24 09:30:26.214176 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + 		<lastmod>2025-12-22T14:43:23+00:00</lastmod>
-   + 		<lastmod>2025-12-22T15:07:20+00:00</lastmod>
-   + 		<lastmod>2025-12-22T14:26:59+00:00</lastmod>
-   + 		<lastmod>2025-12-22T14:43:23+00:00</lastmod>
-   + 		<lastmod>2025-12-22T14:26:59+00:00</lastmod>
+   + <!--generator='jetpack-15.4-a.5'-->
+   + <!--generator='jetpack-15.4-a.5'-->
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-16T14:49:02+00:00</lastmod>
-   - 		<lastmod>2025-11-15T01:28:23+00:00</lastmod>
-   - 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
-   - 		<lastmod>2025-12-16T14:49:02+00:00</lastmod>
-   - 		<lastmod>2025-12-12T18:41:37+00:00</lastmod>
+   - 
+   - <!--generator='jetpack-15.4-a.3'-->
+   - <!--generator='jetpack-15.4-a.3'-->
 
 ----------------------------------------
 
