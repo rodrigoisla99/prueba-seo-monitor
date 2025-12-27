@@ -5,11 +5,12 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
+
 ### SITEMAPS ###
 
 # https://nexiacapitalcompany.com/sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!--generator='jetpack-15.4-a.3'-->
+<!--generator='jetpack-15.4-a.5'-->
 <!--Jetpack_Sitemap_Buffer_Master_XMLWriter-->
 <?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/sitemap-index.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -29,7 +30,7 @@ Allow: /wp-admin/admin-ajax.php
 
 # https://nexiacapitalcompany.com/news-sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!--generator='jetpack-15.4-a.3'-->
+<!--generator='jetpack-15.4-a.5'-->
 <!--Jetpack_Sitemap_Buffer_News_XMLWriter-->
 <?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/news-sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
