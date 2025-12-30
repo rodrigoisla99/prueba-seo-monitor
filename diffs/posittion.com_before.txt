@@ -19,7 +19,7 @@ Sitemap: https://www.posittion.com/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://www.posittion.com/page-sitemap.xml</loc>
-		<lastmod>2025-12-15T12:24:29+00:00</lastmod>
+		<lastmod>2025-12-23T13:40:19+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://www.posittion.com/category-sitemap.xml</loc>
