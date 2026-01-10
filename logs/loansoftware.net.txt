@@ -104,3 +104,16 @@ Cambio detectado - 2026-01-07 09:34:16.469906 UTC
 🔴 Líneas eliminadas:
    - 		<lastmod>2026-01-05T17:55:28+00:00</lastmod>
    - 		<lastmod>2026-01-05T17:55:28+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-01-10 09:26:46.534478 UTC
+🟢 Líneas agregadas:
+   + ﻿# --------------------------------------------------------------------
+   + # CONFIGURACIÓN GENERAL
+   + # Bloqueo de URLs dinámicas y búsquedas
+   + # PERMISOS ESPECÍFICOS
+🔴 Líneas eliminadas:
+   - ï»¿# --------------------------------------------------------------------
+   - # CONFIGURACIÃN GENERAL
+   - # Bloqueo de URLs dinÃ¡micas y bÃºsquedas
+   - # PERMISOS ESPECÃFICOS
