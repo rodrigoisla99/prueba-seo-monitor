@@ -1,28 +1,13 @@
-Resumen de cambios - 2026-01-10 09:26:52.418724 UTC
+Resumen de cambios - 2026-01-11 09:27:10.257425 UTC
 ============================================================
 
-[2026-01-10 09:26:46.534509 UTC] Loan (loansoftware.net)
+[2026-01-11 09:27:10.257243 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + ﻿# --------------------------------------------------------------------
-   + # CONFIGURACIÓN GENERAL
-   + # Bloqueo de URLs dinámicas y búsquedas
-   + # PERMISOS ESPECÍFICOS
-🔴 Líneas eliminadas:
-   - ï»¿# --------------------------------------------------------------------
-   - # CONFIGURACIÃN GENERAL
-   - # Bloqueo de URLs dinÃ¡micas y bÃºsquedas
-   - # PERMISOS ESPECÃFICOS
-
-----------------------------------------
-
-[2026-01-10 09:26:52.418575 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.4'-->
    + 
-   + <!--generator='jetpack-15.4'-->
+   + <!--generator='jetpack-15.4-beta'-->
 🔴 Líneas eliminadas:
-   - <!--generator='jetpack-15.4-a.5'-->
-   - <!--generator='jetpack-15.4-a.5'-->
+   - <!--generator='jetpack-15.4'-->
+   - 
 
 ----------------------------------------
 
