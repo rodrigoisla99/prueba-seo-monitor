@@ -170,3 +170,11 @@ Cambio detectado - 2026-01-11 09:27:10.257206 UTC
 🔴 Líneas eliminadas:
    - <!--generator='jetpack-15.4'-->
    - 
+
+============================================================
+Cambio detectado - 2026-01-12 09:38:45.563607 UTC
+🟢 Líneas agregadas:
+   + <!--generator='jetpack-15.4'-->
+🔴 Líneas eliminadas:
+   - 
+   - <!--generator='jetpack-15.4-beta'-->
