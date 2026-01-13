@@ -5,12 +5,11 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-
 ### SITEMAPS ###
 
 # https://nexiacapitalcompany.com/sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!--generator='jetpack-15.4-beta'-->
+<!--generator='jetpack-15.4'-->
 <!--Jetpack_Sitemap_Buffer_Master_XMLWriter-->
 <?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/sitemap-index.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -78,3 +78,10 @@ Cambio detectado - 2025-12-23 09:31:16.999901 UTC
    +         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
    +     </url>
    +     <url>
+
+============================================================
+Cambio detectado - 2026-01-13 09:34:24.924417 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/cloud-migration-benefits</loc>
+   +     </url>
+   +     <url>

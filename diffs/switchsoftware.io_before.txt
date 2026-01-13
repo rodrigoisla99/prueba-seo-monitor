@@ -334,6 +334,12 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/services/studio-support/360-support</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/services/studio-support/legacy-apps-management</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/services/studio-support/multilevel-technical-support</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/10-benefits-of-proactive-software-support-and-maintenance</loc>
     </url>
     <url>
@@ -344,6 +350,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/a-sneak-peek-at-servicenows-xanadu-release</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/post/agentic-mcp-and-the-next-generation-of-applications</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/agents-with-aws-bedrock-agentcore-in-financial-services</loc>
@@ -691,6 +700,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/the-role-of-quality-assurance-in-insurance-software-control-orders-and-fault-prevention</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/the-strategic-value-of-mcp-adoption</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/the-top-5-advantages-of-using-cloud-ai-for-businesses</loc>
     </url>
     <url>
@@ -829,10 +841,25 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/careers-position/analista-funcional</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/careers-position/devops-engineer</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/react-native-developer</loc>

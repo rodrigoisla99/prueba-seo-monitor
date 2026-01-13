@@ -1,12 +1,22 @@
-Resumen de cambios - 2026-01-12 09:38:45.563776 UTC
+Resumen de cambios - 2026-01-13 09:34:36.423489 UTC
 ============================================================
 
-[2026-01-12 09:38:45.563635 UTC] Nexia (nexiacapitalcompany.com)
+[2026-01-13 09:34:24.924444 UTC] Switch (switchsoftware.io)
 🟢 Líneas agregadas:
-   + <!--generator='jetpack-15.4'-->
+   +         <loc>https://www.switchsoftware.io/post/cloud-migration-benefits</loc>
+   +     </url>
+   +     <url>
+
+----------------------------------------
+
+[2026-01-13 09:34:36.423351 UTC] Nexia (nexiacapitalcompany.com)
+🟢 Líneas agregadas:
+   + <!--generator='jetpack-15.5-a.1'-->
+   + 
+   + <!--generator='jetpack-15.5-a.1'-->
 🔴 Líneas eliminadas:
-   - 
-   - <!--generator='jetpack-15.4-beta'-->
+   - <!--generator='jetpack-15.4'-->
+   - <!--generator='jetpack-15.4'-->
 
 ----------------------------------------
 

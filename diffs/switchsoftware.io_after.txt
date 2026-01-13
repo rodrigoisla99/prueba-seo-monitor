@@ -403,6 +403,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/building-cloud-solutions-that-scale</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/cloud-migration-benefits</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/cloud-services-fueling-business-growth-and-innovation</loc>
     </url>
     <url>
