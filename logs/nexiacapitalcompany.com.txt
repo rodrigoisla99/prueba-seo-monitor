@@ -188,3 +188,12 @@ Cambio detectado - 2026-01-13 09:34:36.423327 UTC
 🔴 Líneas eliminadas:
    - <!--generator='jetpack-15.4'-->
    - <!--generator='jetpack-15.4'-->
+
+============================================================
+Cambio detectado - 2026-01-15 09:34:10.671271 UTC
+🟢 Líneas agregadas:
+   + <!--generator='jetpack-15.4'-->
+   + <!--generator='jetpack-15.4'-->
+🔴 Líneas eliminadas:
+   - <!--generator='jetpack-15.5-a.1'-->
+   - <!--generator='jetpack-15.5-a.1'-->

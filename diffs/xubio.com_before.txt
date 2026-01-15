@@ -1,13 +1,38 @@
 ### ROBOTS.TXT ###
 User-agent: *
 Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Disallow: /API/
+
 Disallow: /configuracion/
+
 Disallow: /scripts/
+
 Disallow: /terminos-de-uso/
+
 Disallow: /NXV/help/InstruccionesConfigFEvGit.pdf
 
+
 Sitemap: https://xubio.com/sitemap.xml
+
 
 ### SITEMAPS ###
 
