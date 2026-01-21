@@ -1,6 +1,6 @@
 ### ROBOTS.TXT ###
-ï»¿# --------------------------------------------------------------------
-# CONFIGURACIÃN GENERAL
+﻿# --------------------------------------------------------------------
+# CONFIGURACIÓN GENERAL
 # --------------------------------------------------------------------
 User-agent: *
 Disallow:
@@ -17,7 +17,7 @@ Disallow: /*trackback*
 Disallow: /*/trackback
 
 
-# Bloqueo de URLs dinÃ¡micas y bÃºsquedas
+# Bloqueo de URLs dinámicas y búsquedas
 Disallow: /*?
 Disallow: /?s=
 Disallow: /search
@@ -52,7 +52,7 @@ Disallow: /tmp/
 
 
 # --------------------------------------------------------------------
-# PERMISOS ESPECÃFICOS
+# PERMISOS ESPECÍFICOS
 # --------------------------------------------------------------------
 # Permitir a Googlebot el rastreo de recursos JS y CSS
 User-agent: Googlebot
