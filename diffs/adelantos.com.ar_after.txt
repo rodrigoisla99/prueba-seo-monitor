@@ -1,8 +1,13 @@
 ### ROBOTS.TXT ###
+#Bloqueo Baidu:
+User-agent: Baiduspider
+Disallow:   /
+
+#BotsGeneral
+User-agent: *
+Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 
 ### SITEMAPS ###
 
 # https://www.adelantos.com.ar/sitemap.xml
-
-# https://www.adelantos.com.ar/sitemap_index.xml
