@@ -85,3 +85,22 @@ Cambio detectado - 2026-01-13 09:34:24.924417 UTC
    +         <loc>https://www.switchsoftware.io/post/cloud-migration-benefits</loc>
    +     </url>
    +     <url>
+
+============================================================
+Cambio detectado - 2026-01-23 09:36:34.240290 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
+   +         <loc>https://www.switchsoftware.io/careers-position/java-developer---ssr-sr-hibrido-montevideo</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/powerplatform-engineer</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/analista-funcional</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/devops-engineer</loc>
+   -         <loc>https://www.switchsoftware.io/careers-position/react-native-developer</loc>
+   -     </url>
+   -     <url>
