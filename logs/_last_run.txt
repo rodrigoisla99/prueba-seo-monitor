@@ -1,128 +1,39 @@
-Resumen de cambios - 2026-01-23 09:36:43.117821 UTC
+Resumen de cambios - 2026-01-24 09:27:10.089478 UTC
 ============================================================
 
-[2026-01-23 09:36:28.945988 UTC] Posittion (posittion.com)
+[2026-01-24 09:26:57.922948 UTC] Farmacity (farmacity.com)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-22T21:50:14+00:00</lastmod>
+   + <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2026-01-23</lastmod></sitemap></sitemapindex>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-12-23T13:40:19+00:00</lastmod>
+   - <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-10</lastmod></sitemap></sitemapindex>
 
 ----------------------------------------
 
-[2026-01-23 09:36:33.807313 UTC] BeSmart (besmart.company)
+[2026-01-24 09:27:00.813245 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-22T21:24:34+00:00</lastmod>
-   + 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
+   + 		<lastmod>2026-01-23T19:56:03+00:00</lastmod>
+   + 		<lastmod>2026-01-23T16:44:19+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2025-11-18T14:38:30+00:00</lastmod>
-   - 		<lastmod>2025-09-18T15:35:30+00:00</lastmod>
+   - 		<lastmod>2026-01-22T21:24:34+00:00</lastmod>
+   - 		<lastmod>2026-01-15T20:41:36+00:00</lastmod>
 
 ----------------------------------------
 
-[2026-01-23 09:36:34.240312 UTC] Switch (switchsoftware.io)
+[2026-01-24 09:27:02.775531 UTC] Loan (loansoftware.net)
 🟢 Líneas agregadas:
-   +         <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
-   +         <loc>https://www.switchsoftware.io/careers-position/java-developer---ssr-sr-hibrido-montevideo</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.switchsoftware.io/careers-position/powerplatform-engineer</loc>
-   +     </url>
-   +     <url>
+   + 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
+   + 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
 🔴 Líneas eliminadas:
-   -         <loc>https://www.switchsoftware.io/careers-position/analista-funcional</loc>
-   -     </url>
-   -     <url>
-   -         <loc>https://www.switchsoftware.io/careers-position/devops-engineer</loc>
-   -         <loc>https://www.switchsoftware.io/careers-position/react-native-developer</loc>
-   -     </url>
-   -     <url>
+   - 		<lastmod>2026-01-20T16:08:41+00:00</lastmod>
+   - 		<lastmod>2026-01-20T16:08:41+00:00</lastmod>
 
 ----------------------------------------
 
-[2026-01-23 09:36:36.113721 UTC] Adelantos (adelantos.com.ar)
+[2026-01-24 09:27:10.089317 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +    <sitemap>
-   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   + </sitemapindex>
-
-----------------------------------------
-
-[2026-01-23 09:36:43.117676 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + # START YOAST BLOCK
-   + # ---------------------------
-   + Disallow:
-   + Sitemap: https://nexiacapitalcompany.com/sitemap_index.xml
-   + # ---------------------------
-   + # END YOAST BLOCK
-   + # https://nexiacapitalcompany.com/sitemap_index.xml
-   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/post-sitemap.xml</loc>
-   + 		<lastmod>2025-12-23T01:41:59+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/page-sitemap.xml</loc>
-   + 		<lastmod>2026-01-16T14:51:25+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/servicio-sitemap.xml</loc>
-   + 		<lastmod>2026-01-15T19:42:51+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/solucion-sitemap.xml</loc>
-   + 		<lastmod>2026-01-06T23:00:11+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/category-sitemap.xml</loc>
-   + 		<lastmod>2025-12-23T01:41:59+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://nexiacapitalcompany.com/author-sitemap.xml</loc>
-   + 		<lastmod>2026-01-16T15:58:17+00:00</lastmod>
-   + 	</sitemap>
-   + <!-- XML Sitemap generated by Yoast SEO -->
+   + 		<lastmod>2026-01-19T18:34:29+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - Sitemap: https://nexiacapitalcompany.com/sitemap.xml
-   - Sitemap: https://nexiacapitalcompany.com/news-sitemap.xml
-   - Disallow: /wp-admin/
-   - Allow: /wp-admin/admin-ajax.php
-   - # https://nexiacapitalcompany.com/sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <!--generator='jetpack-15.5-a.1'-->
-   - <!--Jetpack_Sitemap_Buffer_Master_XMLWriter-->
-   - <?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/sitemap-index.xsl"?>
-   -  <sitemap>
-   -   <loc>https://nexiacapitalcompany.com/sitemap-1.xml</loc>
-   -   <lastmod>2025-10-23T14:56:18Z</lastmod>
-   -  </sitemap>
-   -  <sitemap>
-   -   <loc>https://nexiacapitalcompany.com/image-sitemap-1.xml</loc>
-   -   <lastmod>2025-10-30T14:57:03Z</lastmod>
-   -  </sitemap>
-   -  <sitemap>
-   -   <loc>https://nexiacapitalcompany.com/video-sitemap-1.xml</loc>
-   -   <lastmod>2025-10-20T18:40:31Z</lastmod>
-   -  </sitemap>
-   - # https://nexiacapitalcompany.com/news-sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <!--generator='jetpack-15.5-a.1'-->
-   - <!--Jetpack_Sitemap_Buffer_News_XMLWriter-->
-   - <?xml-stylesheet type="text/xsl" href="//nexiacapitalcompany.com/news-sitemap.xsl"?>
-   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-   -  <url>
-   -   <loc>https://nexiacapitalcompany.com/</loc>
-   -  </url>
-   - </urlset>
+   - 		<lastmod>2026-01-15T19:42:51+00:00</lastmod>
 
 ----------------------------------------
 

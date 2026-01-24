@@ -433,3 +433,10 @@ Cambio detectado - 2026-01-23 09:36:43.117643 UTC
    -   <loc>https://nexiacapitalcompany.com/</loc>
    -  </url>
    - </urlset>
+
+============================================================
+Cambio detectado - 2026-01-24 09:27:10.089293 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-01-19T18:34:29+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-01-15T19:42:51+00:00</lastmod>
