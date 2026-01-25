@@ -1,39 +1,4 @@
-Resumen de cambios - 2026-01-24 09:27:10.089478 UTC
+Resumen de cambios - 2026-01-25 09:28:06.009911 UTC
 ============================================================
 
-[2026-01-24 09:26:57.922948 UTC] Farmacity (farmacity.com)
-🟢 Líneas agregadas:
-   + <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2026-01-23</lastmod></sitemap></sitemapindex>
-🔴 Líneas eliminadas:
-   - <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2025-12-10</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-9.xml</loc><lastmod>2025-12-10</lastmod></sitemap></sitemapindex>
-
-----------------------------------------
-
-[2026-01-24 09:27:00.813245 UTC] BeSmart (besmart.company)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-23T19:56:03+00:00</lastmod>
-   + 		<lastmod>2026-01-23T16:44:19+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-22T21:24:34+00:00</lastmod>
-   - 		<lastmod>2026-01-15T20:41:36+00:00</lastmod>
-
-----------------------------------------
-
-[2026-01-24 09:27:02.775531 UTC] Loan (loansoftware.net)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
-   + 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-20T16:08:41+00:00</lastmod>
-   - 		<lastmod>2026-01-20T16:08:41+00:00</lastmod>
-
-----------------------------------------
-
-[2026-01-24 09:27:10.089317 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-19T18:34:29+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-15T19:42:51+00:00</lastmod>
-
-----------------------------------------
-
+No se detectaron cambios en ningún sitio.
