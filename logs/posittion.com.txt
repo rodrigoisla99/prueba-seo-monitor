@@ -280,3 +280,10 @@ Cambio detectado - 2026-01-23 09:36:28.945957 UTC
    + 		<lastmod>2026-01-22T21:50:14+00:00</lastmod>
 🔴 Líneas eliminadas:
    - 		<lastmod>2025-12-23T13:40:19+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-01-27 09:39:36.497541 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-01-26T22:45:59+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-01-22T21:50:14+00:00</lastmod>

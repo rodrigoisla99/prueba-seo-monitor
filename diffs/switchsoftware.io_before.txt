@@ -841,16 +841,13 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/case-studies/zenus-bank-beyond-testing-empowering-zenus-bank-with-a-comprehensive-quality-process</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/analista-funcional</loc>
-    </url>
-    <url>
         <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/devops-engineer</loc>
+        <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
@@ -859,13 +856,16 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/careers-position/java-developer---ssr-sr-hibrido-montevideo</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
+        <loc>https://www.switchsoftware.io/careers-position/powerplatform-engineer</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/react-native-developer</loc>
+        <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/talent-pool</loc>

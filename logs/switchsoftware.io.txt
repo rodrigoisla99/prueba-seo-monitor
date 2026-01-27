@@ -104,3 +104,14 @@ Cambio detectado - 2026-01-23 09:36:34.240290 UTC
    -         <loc>https://www.switchsoftware.io/careers-position/react-native-developer</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-01-27 09:39:40.481211 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/ai-conferences-2026</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
+   -     </url>
+   -     <url>
