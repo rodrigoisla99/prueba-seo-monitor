@@ -217,3 +217,19 @@ Cambio detectado - 2026-01-30 09:46:48.410522 UTC
    -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
    -    </sitemap>
    - </sitemapindex>
+
+============================================================
+Cambio detectado - 2026-01-31 09:34:48.563328 UTC
+🟢 Líneas agregadas:
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +    <sitemap>
+   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   + </sitemapindex>
