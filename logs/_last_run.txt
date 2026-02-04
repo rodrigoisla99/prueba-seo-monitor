@@ -1,94 +1,56 @@
-Resumen de cambios - 2026-02-03 09:52:20.404103 UTC
+Resumen de cambios - 2026-02-04 09:53:26.988615 UTC
 ============================================================
 
-[2026-02-03 09:52:11.892720 UTC] BeSmart (besmart.company)
+[2026-02-04 09:53:18.860533 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + # https://besmart.company/sitemap.xml
-   + 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
-   + 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
-   + # https://besmart.company/sitemap_index.xml
-   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/post-sitemap.xml</loc>
-   + 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/page-sitemap.xml</loc>
-   + 		<lastmod>2026-01-27T16:23:12+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-   + 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/industries-sitemap.xml</loc>
-   + 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/software-sitemap.xml</loc>
-   + 		<lastmod>2026-01-29T20:11:43+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/training-sitemap.xml</loc>
-   + 		<lastmod>2022-10-28T12:10:05+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-   + 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/clients-sitemap.xml</loc>
-   + 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/category-sitemap.xml</loc>
-🔴 Líneas eliminadas:
-   - # START YOAST BLOCK
-   - # ---------------------------
-   - User-agent: *
-   - Disallow:
-   - Sitemap: https://besmart.company/sitemap_index.xml
-   - # ---------------------------
-   - # END YOAST BLOCK
-   - # https://besmart.company/sitemap_index.xml
-   - 		<lastmod>2026-01-30T20:27:56+00:00</lastmod>
-   - 		<lastmod>2026-01-30T20:27:56+00:00</lastmod>
-
-----------------------------------------
-
-[2026-02-03 09:52:14.345914 UTC] Adelantos (adelantos.com.ar)
-🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
-   + 
-   + #BotsGeneral
+   + # START YOAST BLOCK
+   + # ---------------------------
    + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +    <sitemap>
-   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   + </sitemapindex>
+   + Disallow:
+   + Sitemap: https://besmart.company/sitemap_index.xml
+   + # ---------------------------
+   + # END YOAST BLOCK
 🔴 Líneas eliminadas:
-   - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
-
-----------------------------------------
-
-[2026-02-03 09:52:20.403990 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-01-29T13:26:02+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-19T18:34:29+00:00</lastmod>
+   - # https://besmart.company/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   - 		<lastmod>2026-01-27T16:23:12+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   - 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   - 		<lastmod>2026-01-29T20:11:43+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
+   - 		<lastmod>2022-10-28T12:10:05+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
+   - 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/category-sitemap.xml</loc>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
+   - 	</sitemap>
+   - </sitemapindex>
 
 ----------------------------------------
 

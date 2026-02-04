@@ -287,3 +287,55 @@ Cambio detectado - 2026-02-03 09:52:11.892684 UTC
    - # https://besmart.company/sitemap_index.xml
    - 		<lastmod>2026-01-30T20:27:56+00:00</lastmod>
    - 		<lastmod>2026-01-30T20:27:56+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-02-04 09:53:18.860488 UTC
+🟢 Líneas agregadas:
+   + # START YOAST BLOCK
+   + # ---------------------------
+   + User-agent: *
+   + Disallow:
+   + Sitemap: https://besmart.company/sitemap_index.xml
+   + # ---------------------------
+   + # END YOAST BLOCK
+🔴 Líneas eliminadas:
+   - # https://besmart.company/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   - 		<lastmod>2026-01-27T16:23:12+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   - 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   - 		<lastmod>2026-01-29T20:11:43+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
+   - 		<lastmod>2022-10-28T12:10:05+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
+   - 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/category-sitemap.xml</loc>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
+   - 	</sitemap>
+   - </sitemapindex>
