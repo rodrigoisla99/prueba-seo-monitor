@@ -361,6 +361,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/ai-automation-testing-optimizes-and-saves-time-in-software-testing</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/ai-conferences-2026</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/ai-cybersecurity-strategic-evolution</loc>
     </url>
     <url>
@@ -848,9 +851,6 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>

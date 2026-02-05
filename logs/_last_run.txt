@@ -1,56 +1,52 @@
-Resumen de cambios - 2026-02-04 09:53:26.988615 UTC
+Resumen de cambios - 2026-02-05 09:53:43.369773 UTC
 ============================================================
 
-[2026-02-04 09:53:18.860533 UTC] BeSmart (besmart.company)
+[2026-02-05 09:53:34.210253 UTC] Switch (switchsoftware.io)
 🟢 Líneas agregadas:
-   + # START YOAST BLOCK
-   + # ---------------------------
-   + User-agent: *
-   + Disallow:
-   + Sitemap: https://besmart.company/sitemap_index.xml
-   + # ---------------------------
-   + # END YOAST BLOCK
+   +         <loc>https://www.switchsoftware.io/case-studies/mobile-phone-retailer</loc>
+   +     </url>
+   +     <url>
 🔴 Líneas eliminadas:
-   - # https://besmart.company/sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
-   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
-   - 		<lastmod>2026-01-27T16:23:12+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
-   - 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
-   - 		<lastmod>2026-01-29T20:11:43+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
-   - 		<lastmod>2022-10-28T12:10:05+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-   - 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
-   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/category-sitemap.xml</loc>
-   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
-   - 	</sitemap>
-   - </sitemapindex>
+   -         <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/java-developer---ssr-sr-hibrido-montevideo</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/powerplatform-engineer</loc>
+   -     </url>
+   -     <url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/technical-lead</loc>
+   -     </url>
+
+----------------------------------------
+
+[2026-02-05 09:53:35.648181 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-02-04T15:55:38+00:00</lastmod>
+   + 		<lastmod>2026-02-04T15:55:38+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
+   - 		<lastmod>2026-01-23T19:55:48+00:00</lastmod>
+
+----------------------------------------
+
+[2026-02-05 09:53:36.278309 UTC] Adelantos (adelantos.com.ar)
+🟢 Líneas agregadas:
+   + 
+   + # https://www.adelantos.com.ar/sitemap_index.xml
+🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
+   - 
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 ----------------------------------------
 

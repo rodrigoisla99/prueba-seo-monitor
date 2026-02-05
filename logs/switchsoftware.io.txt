@@ -115,3 +115,26 @@ Cambio detectado - 2026-01-27 09:39:40.481211 UTC
    -         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-vue-js-python</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-02-05 09:53:34.210225 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/case-studies/mobile-phone-retailer</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/data-science</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-full-stack-net-react</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/java-developer---ssr-sr-hibrido-montevideo</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/powerplatform-engineer</loc>
+   -     </url>
+   -     <url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/technical-lead</loc>
+   -     </url>
