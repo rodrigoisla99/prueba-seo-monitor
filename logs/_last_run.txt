@@ -1,76 +1,18 @@
-Resumen de cambios - 2026-02-06 09:52:29.402178 UTC
+Resumen de cambios - 2026-02-07 09:37:12.217360 UTC
 ============================================================
 
-[2026-02-06 09:52:21.127770 UTC] Loan (loansoftware.net)
+[2026-02-07 09:37:05.267050 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
-   + # https://loansoftware.net/sitemap.xml
    + 
+   + # https://www.adelantos.com.ar/sitemap_index.xml
 🔴 Líneas eliminadas:
-   - ﻿# --------------------------------------------------------------------
-   - # CONFIGURACIÓN GENERAL
-   - # --------------------------------------------------------------------
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
+   - 
+   - #BotsGeneral
    - User-agent: *
-   - Disallow:
-   - Crawl-delay: 60  # 60 segundos entre cada request
-   - 
-   - # Bloqueo de rutas sensibles y archivos confidenciales
-   - Disallow: /cgi-bin/
-   - Disallow: /admin/
-   - Disallow: /*.sql$
-   - Disallow: /xmlrpc.php
-   - Disallow: /trackback
-   - Disallow: /*trackback*
-   - Disallow: /*/trackback
-   - 
-   - 
-   - # Bloqueo de URLs dinámicas y búsquedas
-   - Disallow: /*?
-   - Disallow: /?s=
-   - Disallow: /search
-   - 
-   - 
-   - # --------------------------------------------------------------------
-   - # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
-   - # --------------------------------------------------------------------
-   - Disallow: /wp-admin/
-   - Disallow: /wp-includes/
-   - Disallow: /wp-content/plugins/
-   - Disallow: /wp-content/cache/
-   - Disallow: /wp-content/themes/
-   - 
-   - 
-   - Disallow: /administrator/
-   - Disallow: /bin/
-   - Disallow: /cache/
-   - Disallow: /cli/
-   - Disallow: /components/
-   - Disallow: /includes/
-   - Disallow: /installation/
-
-----------------------------------------
-
-[2026-02-06 09:52:21.665933 UTC] Adelantos (adelantos.com.ar)
-🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
-   + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
-🔴 Líneas eliminadas:
-   - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
-
-----------------------------------------
-
-[2026-02-06 09:52:29.402014 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-02-03T14:27:19+00:00</lastmod>
-   + 		<lastmod>2026-02-03T19:53:44+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-16T14:51:25+00:00</lastmod>
-   - 		<lastmod>2026-01-29T13:26:02+00:00</lastmod>
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 ----------------------------------------
 
