@@ -1,18 +1,51 @@
-Resumen de cambios - 2026-02-07 09:37:12.217360 UTC
+Resumen de cambios - 2026-02-08 09:36:55.599700 UTC
 ============================================================
 
-[2026-02-07 09:37:05.267050 UTC] Adelantos (adelantos.com.ar)
+[2026-02-08 09:36:47.354844 UTC] Loan (loansoftware.net)
 🟢 Líneas agregadas:
+   + ﻿# --------------------------------------------------------------------
+   + # CONFIGURACIÓN GENERAL
+   + # --------------------------------------------------------------------
+   + User-agent: *
+   + Disallow:
+   + Crawl-delay: 60  # 60 segundos entre cada request
    + 
-   + # https://www.adelantos.com.ar/sitemap_index.xml
+   + # Bloqueo de rutas sensibles y archivos confidenciales
+   + Disallow: /cgi-bin/
+   + Disallow: /admin/
+   + Disallow: /*.sql$
+   + Disallow: /xmlrpc.php
+   + Disallow: /trackback
+   + Disallow: /*trackback*
+   + Disallow: /*/trackback
+   + 
+   + 
+   + # Bloqueo de URLs dinámicas y búsquedas
+   + Disallow: /*?
+   + Disallow: /?s=
+   + Disallow: /search
+   + 
+   + 
+   + # --------------------------------------------------------------------
+   + # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
+   + # --------------------------------------------------------------------
+   + Disallow: /wp-admin/
+   + Disallow: /wp-includes/
+   + Disallow: /wp-content/plugins/
+   + Disallow: /wp-content/cache/
+   + Disallow: /wp-content/themes/
+   + 
+   + 
+   + Disallow: /administrator/
+   + Disallow: /bin/
+   + Disallow: /cache/
+   + Disallow: /cli/
+   + Disallow: /components/
+   + Disallow: /includes/
+   + Disallow: /installation/
 🔴 Líneas eliminadas:
-   - #Bloqueo Baidu:
-   - User-agent: Baiduspider
-   - Disallow:   /
+   - # https://loansoftware.net/sitemap.xml
    - 
-   - #BotsGeneral
-   - User-agent: *
-   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 ----------------------------------------
 
