@@ -1,20 +1,9 @@
-Resumen de cambios - 2026-02-09 10:08:39.444815 UTC
+Resumen de cambios - 2026-02-10 10:04:16.605636 UTC
 ============================================================
 
-[2026-02-09 10:08:34.553471 UTC] Adelantos (adelantos.com.ar)
+[2026-02-10 10:04:03.355626 UTC] Farmacity (farmacity.com)
 🔴 Líneas eliminadas:
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -    <sitemap>
-   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   - </sitemapindex>
+   - <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2026-01-23</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2026-01-23</lastmod></sitemap></sitemapindex>
 
 ----------------------------------------
 
