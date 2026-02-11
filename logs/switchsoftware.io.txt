@@ -138,3 +138,16 @@ Cambio detectado - 2026-02-05 09:53:34.210225 UTC
    -     <url>
    -         <loc>https://www.switchsoftware.io/careers-position/technical-lead</loc>
    -     </url>
+
+============================================================
+Cambio detectado - 2026-02-11 09:58:33.759539 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/case-studies/bcie-ai-driven-data-extraction-for-optimized-payment-processing</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/b2b-sales-executive-hunter-genai-e2e-projects</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/devops-ssr-sr</loc>
+   +     </url>
+   +     <url>
