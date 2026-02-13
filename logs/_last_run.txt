@@ -1,24 +1,13 @@
-Resumen de cambios - 2026-02-12 09:57:33.147092 UTC
+Resumen de cambios - 2026-02-13 09:53:58.134967 UTC
 ============================================================
 
-[2026-02-12 09:57:22.497624 UTC] Farmacity (farmacity.com)
+[2026-02-13 09:53:58.134819 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + <?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.farmacity.com/sitemap/brand-0.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/category-0.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-apps-routes-1.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-1.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/custom-user-routes-2.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-0.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-1.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-2.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-3.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-4.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-5.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-6.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-7.xml</loc><lastmod>2026-02-12</lastmod></sitemap><sitemap><loc>https://www.farmacity.com/sitemap/product-8.xml</loc><lastmod>2026-02-12</lastmod></sitemap></sitemapindex>
-
-----------------------------------------
-
-[2026-02-12 09:57:28.485770 UTC] Adelantos (adelantos.com.ar)
-🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
-   + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + 		<lastmod>2026-01-16T14:51:25+00:00</lastmod>
+   + 		<lastmod>2026-01-29T13:26:02+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
+   - 		<lastmod>2026-02-03T14:27:19+00:00</lastmod>
+   - 		<lastmod>2026-02-03T19:53:44+00:00</lastmod>
 
 ----------------------------------------
 
