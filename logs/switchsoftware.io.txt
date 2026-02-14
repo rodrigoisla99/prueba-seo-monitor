@@ -151,3 +151,23 @@ Cambio detectado - 2026-02-11 09:58:33.759539 UTC
    +         <loc>https://www.switchsoftware.io/careers-position/devops-ssr-sr</loc>
    +     </url>
    +     <url>
+
+============================================================
+Cambio detectado - 2026-02-14 09:37:37.745981 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/fintech-conferences-and-events-2026</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/logistics-and-supply-chain-events-2026</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/elixir-developer</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>
+   -     </url>
+   -     <url>

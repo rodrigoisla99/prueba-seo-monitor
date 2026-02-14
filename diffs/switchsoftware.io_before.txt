@@ -814,6 +814,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/case-studies/bbva</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/case-studies/bcie-ai-driven-data-extraction-for-optimized-payment-processing</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/case-studies/bcie-digital-platform</loc>
     </url>
     <url>
@@ -845,6 +848,12 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/case-studies/zenus-bank-beyond-testing-empowering-zenus-bank-with-a-comprehensive-quality-process</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/b2b-sales-executive-hunter-genai-e2e-projects</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/devops-ssr-sr</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
