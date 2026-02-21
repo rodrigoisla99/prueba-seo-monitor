@@ -1,30 +1,30 @@
-Resumen de cambios - 2026-02-20 09:50:05.528707 UTC
+Resumen de cambios - 2026-02-21 09:36:13.846102 UTC
 ============================================================
 
-[2026-02-20 09:49:57.886260 UTC] Adelantos (adelantos.com.ar)
+[2026-02-21 09:36:08.717713 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
    + 
-   + # https://www.adelantos.com.ar/sitemap_index.xml
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +    <sitemap>
+   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   + </sitemapindex>
 🔴 Líneas eliminadas:
-   - #Bloqueo Baidu:
-   - User-agent: Baiduspider
-   - Disallow:   /
    - 
-   - #BotsGeneral
-   - User-agent: *
-   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -    <sitemap>
-   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   - </sitemapindex>
+   - # https://www.adelantos.com.ar/sitemap_index.xml
 
 ----------------------------------------
 
