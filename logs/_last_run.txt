@@ -1,11 +1,26 @@
-Resumen de cambios - 2026-02-25 10:00:36.160358 UTC
+Resumen de cambios - 2026-02-26 09:57:10.244695 UTC
 ============================================================
 
-[2026-02-25 10:00:26.987203 UTC] BeSmart (besmart.company)
+[2026-02-26 09:57:01.743975 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-02-24T20:20:24+00:00</lastmod>
+   + 		<lastmod>2026-02-25T21:01:36+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2026-01-22T21:26:35+00:00</lastmod>
+   - 		<lastmod>2026-02-24T20:20:24+00:00</lastmod>
+
+----------------------------------------
+
+[2026-02-26 09:57:04.792370 UTC] Adelantos (adelantos.com.ar)
+🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
+   + 
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+🔴 Líneas eliminadas:
+   - 
+   - # https://www.adelantos.com.ar/sitemap_index.xml
 
 ----------------------------------------
 

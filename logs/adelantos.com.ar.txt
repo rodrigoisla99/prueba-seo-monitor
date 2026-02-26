@@ -559,3 +559,17 @@ Cambio detectado - 2026-02-24 09:58:14.050468 UTC
    +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
    +    </sitemap>
    + </sitemapindex>
+
+============================================================
+Cambio detectado - 2026-02-26 09:57:04.792351 UTC
+🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
+   + 
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+🔴 Líneas eliminadas:
+   - 
+   - # https://www.adelantos.com.ar/sitemap_index.xml
