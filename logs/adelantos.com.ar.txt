@@ -573,3 +573,29 @@ Cambio detectado - 2026-02-26 09:57:04.792351 UTC
 🔴 Líneas eliminadas:
    - 
    - # https://www.adelantos.com.ar/sitemap_index.xml
+
+============================================================
+Cambio detectado - 2026-02-27 09:51:07.846485 UTC
+🟢 Líneas agregadas:
+   + 
+   + # https://www.adelantos.com.ar/sitemap_index.xml
+🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
+   - 
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -    <sitemap>
+   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   - </sitemapindex>

@@ -1,26 +1,42 @@
-Resumen de cambios - 2026-02-26 09:57:10.244695 UTC
+Resumen de cambios - 2026-02-27 09:51:12.664954 UTC
 ============================================================
 
-[2026-02-26 09:57:01.743975 UTC] BeSmart (besmart.company)
+[2026-02-27 09:51:04.413501 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-02-25T21:01:36+00:00</lastmod>
+   + 		<lastmod>2026-02-26T20:50:45+00:00</lastmod>
+   + 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
+   + 		<lastmod>2026-02-26T20:50:45+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2026-02-24T20:20:24+00:00</lastmod>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
+   - 		<lastmod>2026-02-25T21:01:36+00:00</lastmod>
+   - 		<lastmod>2026-02-03T01:11:58+00:00</lastmod>
 
 ----------------------------------------
 
-[2026-02-26 09:57:04.792370 UTC] Adelantos (adelantos.com.ar)
+[2026-02-27 09:51:07.846515 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
    + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + # https://www.adelantos.com.ar/sitemap_index.xml
 🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
    - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -    <sitemap>
+   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   - </sitemapindex>
 
 ----------------------------------------
 
