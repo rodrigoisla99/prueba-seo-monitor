@@ -805,3 +805,19 @@ Cambio detectado - 2026-03-10 09:53:03.542719 UTC
 🔴 Líneas eliminadas:
    - 
    - # https://www.adelantos.com.ar/sitemap_index.xml
+
+============================================================
+Cambio detectado - 2026-03-11 09:51:48.493985 UTC
+🟢 Líneas agregadas:
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +    <sitemap>
+   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   + </sitemapindex>
