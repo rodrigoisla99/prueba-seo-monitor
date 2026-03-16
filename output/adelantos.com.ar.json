@@ -1,4 +1,4 @@
 {
-  "robots": "#Bloqueo Baidu:\nUser-agent: Baiduspider\nDisallow:   /\n\n#BotsGeneral\nUser-agent: *\nSitemap: https://www.adelantos.com.ar/sitemap.xml\n",
-  "sitemaps": "\n# https://www.adelantos.com.ar/sitemap.xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\r\n   <sitemap>\r\n      <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>\r\n   </sitemap>\r\n   <sitemap>\r\n      <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>\r\n   </sitemap>\r\n   <sitemap>\r\n      <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>\r\n   </sitemap>\r\n</sitemapindex>\r\n"
+  "robots": "",
+  "sitemaps": "\n# https://www.adelantos.com.ar/sitemap.xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\r\n   <sitemap>\r\n      <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>\r\n   </sitemap>\r\n   <sitemap>\r\n      <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>\r\n   </sitemap>\r\n   <sitemap>\r\n      <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>\r\n   </sitemap>\r\n</sitemapindex>\r\n\n# https://www.adelantos.com.ar/sitemap_index.xml\n"
 }
