@@ -75,3 +75,12 @@ Cambio detectado - 2026-01-15 09:34:10.251811 UTC
    +   <lastmod>2023-04-25T21:00:41+00:00</lastmod>
    +   <priority>0.80</priority>
    + </url>
+
+============================================================
+Cambio detectado - 2026-03-17 09:59:57.401073 UTC
+🟢 Líneas agregadas:
+   + <url>
+   +   <loc>https://xubio.com/ar/portal-web-de-partners/</loc>
+   +   <lastmod>2023-04-25T21:00:41+00:00</lastmod>
+   +   <priority>0.80</priority>
+   + </url>

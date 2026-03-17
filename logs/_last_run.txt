@@ -1,18 +1,28 @@
-Resumen de cambios - 2026-03-16 10:10:05.743821 UTC
+Resumen de cambios - 2026-03-17 09:59:57.597841 UTC
 ============================================================
 
-[2026-03-16 10:09:58.842047 UTC] Adelantos (adelantos.com.ar)
+[2026-03-17 09:59:53.452200 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
    + 
-   + # https://www.adelantos.com.ar/sitemap_index.xml
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
 🔴 Líneas eliminadas:
-   - #Bloqueo Baidu:
-   - User-agent: Baiduspider
-   - Disallow:   /
    - 
-   - #BotsGeneral
-   - User-agent: *
-   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   - # https://www.adelantos.com.ar/sitemap_index.xml
+
+----------------------------------------
+
+[2026-03-17 09:59:57.401096 UTC] Xubio (xubio.com)
+🟢 Líneas agregadas:
+   + <url>
+   +   <loc>https://xubio.com/ar/portal-web-de-partners/</loc>
+   +   <lastmod>2023-04-25T21:00:41+00:00</lastmod>
+   +   <priority>0.80</priority>
+   + </url>
 
 ----------------------------------------
 
