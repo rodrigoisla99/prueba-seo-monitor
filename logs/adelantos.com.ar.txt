@@ -995,3 +995,29 @@ Cambio detectado - 2026-03-23 10:07:34.404298 UTC
    -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
    -    </sitemap>
    - </sitemapindex>
+
+============================================================
+Cambio detectado - 2026-03-24 10:00:17.716794 UTC
+🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
+   + 
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +    <sitemap>
+   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   + </sitemapindex>
+🔴 Líneas eliminadas:
+   - 
+   - # https://www.adelantos.com.ar/sitemap_index.xml
