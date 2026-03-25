@@ -1,42 +1,30 @@
-Resumen de cambios - 2026-03-24 10:00:25.139145 UTC
+Resumen de cambios - 2026-03-25 09:59:40.630892 UTC
 ============================================================
 
-[2026-03-24 10:00:17.716828 UTC] Adelantos (adelantos.com.ar)
+[2026-03-25 09:59:34.085500 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
    + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +    <sitemap>
-   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   + </sitemapindex>
+   + # https://www.adelantos.com.ar/sitemap_index.xml
 🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
    - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
-
-----------------------------------------
-
-[2026-03-24 10:00:25.139000 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-03-20T19:57:58+00:00</lastmod>
-   + 		<lastmod>2026-03-17T13:23:44+00:00</lastmod>
-   + 		<lastmod>2026-03-20T20:02:14+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-02-03T14:27:19+00:00</lastmod>
-   - 		<lastmod>2026-03-16T19:49:32+00:00</lastmod>
-   - 		<lastmod>2026-01-06T23:00:11+00:00</lastmod>
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -    <sitemap>
+   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   - </sitemapindex>
 
 ----------------------------------------
 
