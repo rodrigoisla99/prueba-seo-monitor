@@ -1,30 +1,4 @@
-Resumen de cambios - 2026-03-28 09:44:42.830167 UTC
+Resumen de cambios - 2026-03-29 09:44:57.871631 UTC
 ============================================================
 
-[2026-03-28 09:44:35.015262 UTC] Adelantos (adelantos.com.ar)
-🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
-   + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +    <sitemap>
-   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   + </sitemapindex>
-🔴 Líneas eliminadas:
-   - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
-
-----------------------------------------
-
+No se detectaron cambios en ningún sitio.
