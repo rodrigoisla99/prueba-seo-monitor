@@ -1,4 +1,18 @@
-Resumen de cambios - 2026-03-29 09:44:57.871631 UTC
+Resumen de cambios - 2026-03-30 10:21:50.677068 UTC
 ============================================================
 
-No se detectaron cambios en ningún sitio.
+[2026-03-30 10:21:42.951394 UTC] Adelantos (adelantos.com.ar)
+🟢 Líneas agregadas:
+   + 
+   + # https://www.adelantos.com.ar/sitemap_index.xml
+🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
+   - 
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+
+----------------------------------------
+
