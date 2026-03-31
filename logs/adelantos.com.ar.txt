@@ -1119,3 +1119,17 @@ Cambio detectado - 2026-03-30 10:21:42.951358 UTC
    - #BotsGeneral
    - User-agent: *
    - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+
+============================================================
+Cambio detectado - 2026-03-31 10:09:16.092954 UTC
+🟢 Líneas agregadas:
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
+   + 
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+🔴 Líneas eliminadas:
+   - 
+   - # https://www.adelantos.com.ar/sitemap_index.xml
