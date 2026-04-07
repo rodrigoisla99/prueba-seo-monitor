@@ -1,38 +1,36 @@
-Resumen de cambios - 2026-04-06 10:14:43.747863 UTC
+Resumen de cambios - 2026-04-07 10:11:47.095739 UTC
 ============================================================
 
-[2026-04-06 10:14:36.815767 UTC] Adelantos (adelantos.com.ar)
+[2026-04-07 10:11:39.434526 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
-   + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +    <sitemap>
-   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   +    <sitemap>
-   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   +    </sitemap>
-   + </sitemapindex>
+   + 		<lastmod>2026-04-06T14:39:21+00:00</lastmod>
+   + 		<lastmod>2026-04-06T14:39:21+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
+   - 		<lastmod>2026-03-31T15:47:00+00:00</lastmod>
+   - 		<lastmod>2026-03-31T15:47:00+00:00</lastmod>
 
 ----------------------------------------
 
-[2026-04-06 10:14:43.747716 UTC] Nexia (nexiacapitalcompany.com)
+[2026-04-07 10:11:41.370678 UTC] Loan (loansoftware.net)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-03-30T18:37:30+00:00</lastmod>
+   + 		<lastmod>2026-04-07T01:48:26+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2026-03-20T20:02:14+00:00</lastmod>
+   - 		<lastmod>2026-04-03T16:35:56+00:00</lastmod>
+
+----------------------------------------
+
+[2026-04-07 10:11:42.691542 UTC] Adelantos (adelantos.com.ar)
+🟢 Líneas agregadas:
+   + 
+   + # https://www.adelantos.com.ar/sitemap_index.xml
+🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
+   - 
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 ----------------------------------------
 
