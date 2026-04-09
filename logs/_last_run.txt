@@ -1,34 +1,4 @@
-Resumen de cambios - 2026-04-08 10:12:32.586462 UTC
+Resumen de cambios - 2026-04-09 10:17:02.374353 UTC
 ============================================================
 
-[2026-04-08 10:12:25.172339 UTC] BeSmart (besmart.company)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
-   + 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/post_tag-sitemap.xml</loc>
-   + 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-04-06T14:39:21+00:00</lastmod>
-   - 		<lastmod>2026-04-06T14:39:21+00:00</lastmod>
-
-----------------------------------------
-
-[2026-04-08 10:12:28.506335 UTC] Adelantos (adelantos.com.ar)
-🔴 Líneas eliminadas:
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -    <sitemap>
-   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   - </sitemapindex>
-
-----------------------------------------
-
+No se detectaron cambios en ningún sitio.
