@@ -1,26 +1,18 @@
-Resumen de cambios - 2026-04-10 10:11:44.555845 UTC
+Resumen de cambios - 2026-04-11 09:49:49.536064 UTC
 ============================================================
 
-[2026-04-10 10:11:36.345267 UTC] Adelantos (adelantos.com.ar)
+[2026-04-11 09:49:42.020478 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
-   + #Bloqueo Baidu:
-   + User-agent: Baiduspider
-   + Disallow:   /
    + 
-   + #BotsGeneral
-   + User-agent: *
-   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + # https://www.adelantos.com.ar/sitemap_index.xml
 🔴 Líneas eliminadas:
+   - #Bloqueo Baidu:
+   - User-agent: Baiduspider
+   - Disallow:   /
    - 
-   - # https://www.adelantos.com.ar/sitemap_index.xml
-
-----------------------------------------
-
-[2026-04-10 10:11:44.555684 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-04-07T14:02:18+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-03-20T19:57:58+00:00</lastmod>
+   - #BotsGeneral
+   - User-agent: *
+   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
 
 ----------------------------------------
 

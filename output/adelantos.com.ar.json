@@ -1,4 +1,4 @@
 {
-  "robots": "#Bloqueo Baidu:\nUser-agent: Baiduspider\nDisallow:   /\n\n#BotsGeneral\nUser-agent: *\nSitemap: https://www.adelantos.com.ar/sitemap.xml\n",
-  "sitemaps": "\n# https://www.adelantos.com.ar/sitemap.xml\n"
+  "robots": "",
+  "sitemaps": "\n# https://www.adelantos.com.ar/sitemap.xml\n\n# https://www.adelantos.com.ar/sitemap_index.xml\n"
 }
