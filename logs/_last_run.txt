@@ -1,61 +1,48 @@
-Resumen de cambios - 2026-04-15 10:20:51.232387 UTC
+Resumen de cambios - 2026-04-16 10:20:16.907034 UTC
 ============================================================
 
-[2026-04-15 10:20:43.245325 UTC] Loan (loansoftware.net)
+[2026-04-16 10:20:10.491733 UTC] Loan (loansoftware.net)
 🟢 Líneas agregadas:
-   + ﻿# --------------------------------------------------------------------
-   + # CONFIGURACIÓN GENERAL
-   + # --------------------------------------------------------------------
-   + User-agent: *
-   + Disallow:
-   + Crawl-delay: 60  # 60 segundos entre cada request
-   + 
-   + # Bloqueo de rutas sensibles y archivos confidenciales
-   + Disallow: /cgi-bin/
-   + Disallow: /admin/
-   + Disallow: /*.sql$
-   + Disallow: /xmlrpc.php
-   + Disallow: /trackback
-   + Disallow: /*trackback*
-   + Disallow: /*/trackback
-   + 
-   + 
-   + # Bloqueo de URLs dinámicas y búsquedas
-   + Disallow: /*?
-   + Disallow: /?s=
-   + Disallow: /search
-   + 
-   + 
-   + # --------------------------------------------------------------------
-   + # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
-   + # --------------------------------------------------------------------
-   + Disallow: /wp-admin/
-   + Disallow: /wp-includes/
-   + Disallow: /wp-content/plugins/
-   + Disallow: /wp-content/cache/
-   + Disallow: /wp-content/themes/
-   + 
-   + 
-   + Disallow: /administrator/
-   + Disallow: /bin/
-   + Disallow: /cache/
-   + Disallow: /cli/
-   + Disallow: /components/
-   + Disallow: /includes/
-   + Disallow: /installation/
+   + 		<lastmod>2026-04-15T15:26:58+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - # https://loansoftware.net/sitemap.xml
-   - 
+   - 		<lastmod>2026-04-07T01:48:26+00:00</lastmod>
 
 ----------------------------------------
 
-[2026-04-15 10:20:51.232244 UTC] Nexia (nexiacapitalcompany.com)
+[2026-04-16 10:20:11.391430 UTC] Adelantos (adelantos.com.ar)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-04-14T19:30:28+00:00</lastmod>
-   + 		<lastmod>2026-04-14T12:41:30+00:00</lastmod>
+   + #Bloqueo Baidu:
+   + User-agent: Baiduspider
+   + Disallow:   /
+   + 
+   + #BotsGeneral
+   + User-agent: *
+   + Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +    <sitemap>
+   +       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   +    <sitemap>
+   +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   +    </sitemap>
+   + </sitemapindex>
 🔴 Líneas eliminadas:
-   - 		<lastmod>2026-04-07T14:02:18+00:00</lastmod>
-   - 		<lastmod>2026-01-16T15:58:17+00:00</lastmod>
+   - 
+   - # https://www.adelantos.com.ar/sitemap_index.xml
+
+----------------------------------------
+
+[2026-04-16 10:20:16.906890 UTC] Nexia (nexiacapitalcompany.com)
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-04-07T14:02:18+00:00</lastmod>
+   + 		<lastmod>2026-01-16T15:58:17+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-04-14T19:30:28+00:00</lastmod>
+   - 		<lastmod>2026-04-14T12:41:30+00:00</lastmod>
 
 ----------------------------------------
 

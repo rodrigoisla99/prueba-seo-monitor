@@ -378,3 +378,10 @@ Cambio detectado - 2026-04-15 10:20:43.245279 UTC
 🔴 Líneas eliminadas:
    - # https://loansoftware.net/sitemap.xml
    - 
+
+============================================================
+Cambio detectado - 2026-04-16 10:20:10.491704 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-04-15T15:26:58+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-04-07T01:48:26+00:00</lastmod>
