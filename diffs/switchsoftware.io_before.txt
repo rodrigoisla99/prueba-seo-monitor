@@ -460,6 +460,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/financial-services-seamless-it-support-for-a-superior-client-experience</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/fintech-conferences-and-events-2026</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/from-hype-to-implementation-ai-leadership-lessons-from-momentum-ai-2025</loc>
     </url>
     <url>
@@ -557,6 +560,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/key-elements-of-company-culture-for-remote-work</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/post/logistics-and-supply-chain-events-2026</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/manifest-2025-unpacking-the-future-of-supply-chain-logistics</loc>
@@ -856,16 +862,19 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/careers-position/devops-ssr-sr</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
+        <loc>https://www.switchsoftware.io/careers-position/elixir-developer</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>
+        <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/talent-pool</loc>

@@ -171,3 +171,39 @@ Cambio detectado - 2026-02-14 09:37:37.745981 UTC
    -         <loc>https://www.switchsoftware.io/careers-position/java-developer</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-04-21 10:22:03.123892 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/case-studies/increasing-operational-agility-in-odoo-with-a-genai-natural-language-interface</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/case-studies/miautos-web-transformation-a-user-centric-approach-to-sustained-growth-and-enhanced-user-experience</loc>
+   +         <loc>https://www.switchsoftware.io/careers-position/azure-cloud-infrastructure-engineer</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-backend-net-semi-senior</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/devops-engineer-ssr-sr-latam</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/qa-automation---part-time-latam</loc>
+   +         <loc>https://www.switchsoftware.io/careers-position/senior-software-engineer---ai-native-engineer</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/case-studies/miauto-web-transformation</loc>
+   -         <loc>https://www.switchsoftware.io/careers-position/devops-ssr-sr</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/elixir-developer</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/especialista-en-licitaciones-ingeniero-pre-sales---freelance</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/net-developer---montevideo</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
