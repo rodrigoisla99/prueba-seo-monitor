@@ -600,3 +600,10 @@ Cambio detectado - 2026-04-18 09:53:13.513932 UTC
 🔴 Líneas eliminadas:
    - 		<lastmod>2026-04-07T14:02:18+00:00</lastmod>
    - 		<lastmod>2026-01-16T15:58:17+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-04-24 10:26:30.269190 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-04-20T15:48:05+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-04-14T19:30:28+00:00</lastmod>
