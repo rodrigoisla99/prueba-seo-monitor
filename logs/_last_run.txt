@@ -1,81 +1,11 @@
-Resumen de cambios - 2026-04-25 09:56:55.801963 UTC
+Resumen de cambios - 2026-04-26 09:58:19.817556 UTC
 ============================================================
 
-[2026-04-25 09:56:47.986700 UTC] BeSmart (besmart.company)
+[2026-04-26 09:58:19.817403 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + # START YOAST BLOCK
-   + # ---------------------------
-   + User-agent: *
-   + Disallow:
-   + Sitemap: https://besmart.company/sitemap_index.xml
-   + # ---------------------------
-   + # END YOAST BLOCK
+   + 		<lastmod>2026-04-20T15:48:05+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - # https://besmart.company/sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
-   - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
-   - 		<lastmod>2026-03-02T16:40:52+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
-   - 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
-   - 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
-   - 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-   - 		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
-   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/category-sitemap.xml</loc>
-   - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-
-----------------------------------------
-
-[2026-04-25 09:56:51.563780 UTC] Adelantos (adelantos.com.ar)
-🔴 Líneas eliminadas:
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -    <sitemap>
-   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   -    <sitemap>
-   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
-   -    </sitemap>
-   - </sitemapindex>
-
-----------------------------------------
-
-[2026-04-25 09:56:55.801814 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-04-14T19:30:28+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-04-20T15:48:05+00:00</lastmod>
+   - 		<lastmod>2026-04-14T19:30:28+00:00</lastmod>
 
 ----------------------------------------
 
