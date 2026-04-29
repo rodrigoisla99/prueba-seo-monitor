@@ -207,3 +207,19 @@ Cambio detectado - 2026-04-21 10:22:03.123892 UTC
    -     </url>
    -     <url>
    -         <loc>https://www.switchsoftware.io/careers-position/qa-manual---montevideo</loc>
+
+============================================================
+Cambio detectado - 2026-04-29 10:59:52.029731 UTC
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/azure-cloud-infrastructure-engineer</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-backend-net-semi-senior</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/devops-engineer-ssr-sr-latam</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/senior-software-engineer---ai-native-engineer</loc>
+   -     </url>
+   -     <url>
