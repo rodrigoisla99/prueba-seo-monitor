@@ -1,35 +1,11 @@
-Resumen de cambios - 2026-04-29 10:59:59.693943 UTC
+Resumen de cambios - 2026-04-30 10:59:01.678715 UTC
 ============================================================
 
-[2026-04-29 10:59:52.029761 UTC] Switch (switchsoftware.io)
-🔴 Líneas eliminadas:
-   -         <loc>https://www.switchsoftware.io/careers-position/azure-cloud-infrastructure-engineer</loc>
-   -     </url>
-   -     <url>
-   -         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-backend-net-semi-senior</loc>
-   -     </url>
-   -     <url>
-   -         <loc>https://www.switchsoftware.io/careers-position/devops-engineer-ssr-sr-latam</loc>
-   -     </url>
-   -     <url>
-   -         <loc>https://www.switchsoftware.io/careers-position/senior-software-engineer---ai-native-engineer</loc>
-   -     </url>
-   -     <url>
-
-----------------------------------------
-
-[2026-04-29 10:59:55.358585 UTC] Adelantos (adelantos.com.ar)
+[2026-04-30 10:59:01.678548 UTC] Nexia (nexiacapitalcompany.com)
 🟢 Líneas agregadas:
-   + 
-   + # https://www.adelantos.com.ar/sitemap_index.xml
+   + 		<lastmod>2026-04-20T15:48:05+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - #Bloqueo Baidu:
-   - User-agent: Baiduspider
-   - Disallow:   /
-   - 
-   - #BotsGeneral
-   - User-agent: *
-   - Sitemap: https://www.adelantos.com.ar/sitemap.xml
+   - 		<lastmod>2026-04-24T20:02:12+00:00</lastmod>
 
 ----------------------------------------
 
