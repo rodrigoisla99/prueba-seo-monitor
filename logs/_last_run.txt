@@ -1,11 +1,4 @@
-Resumen de cambios - 2026-05-01 10:26:37.675662 UTC
+Resumen de cambios - 2026-05-02 10:02:28.352561 UTC
 ============================================================
 
-[2026-05-01 10:26:37.675499 UTC] Nexia (nexiacapitalcompany.com)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-04-24T20:02:12+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-04-20T15:48:05+00:00</lastmod>
-
-----------------------------------------
-
+No se detectaron cambios en ningún sitio.
