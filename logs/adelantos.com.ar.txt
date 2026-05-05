@@ -1563,3 +1563,19 @@ Cambio detectado - 2026-05-04 11:08:34.086305 UTC
    +       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
    +    </sitemap>
    + </sitemapindex>
+
+============================================================
+Cambio detectado - 2026-05-05 10:50:01.602860 UTC
+🔴 Líneas eliminadas:
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -    <sitemap>
+   -       <loc>https://www.adelantos.com.ar/sitemap-general.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://prestamo.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   -    <sitemap>
+   -       <loc>https://blog.adelantos.com.ar/sitemap.xml</loc>
+   -    </sitemap>
+   - </sitemapindex>
