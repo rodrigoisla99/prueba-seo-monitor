@@ -1,51 +1,51 @@
-Resumen de cambios - 2026-05-08 10:43:40.120612 UTC
+Resumen de cambios - 2026-05-09 10:11:55.805347 UTC
 ============================================================
 
-[2026-05-08 10:43:37.416531 UTC] Awada (awada.com.ar)
+[2026-05-09 10:11:55.113089 UTC] Awada (awada.com.ar)
 🟢 Líneas agregadas:
-   + 
-   + # https://www.awada.com.ar/sitemap_index.xml
+   + # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+   + #
+   + # To ban all spiders from the entire site uncomment the next two lines:
+   + # User-agent: *
+   + # Disallow: /
+   + User-agent: *
+   + Disallow: /categorias/ss19
+   + Disallow: /categorias/vestido-ss19
+   + Disallow: /admin
+   + Sitemap: /sitemap.xml
+   + Sitemap: /sitemap_institucional.xml
+   + Sitemap: /sitemap_categorias.xml
+   + Sitemap: /sitemap_productos.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <sitemap>
+   +     <loc>https://www.awada.com.ar/sitemap_institucional.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.awada.com.ar/sitemap_categorias.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.awada.com.ar/sitemap_productos.xml</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </sitemap>
+   + </sitemapindex>
+   + # https://www.awada.com.ar/sitemap_institucional.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <url>
+   +     <loc>https://awada.com.ar/</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </url>
+   +   <url>
+   +     <loc>https://www.awada.com.ar/contacto</loc>
+   +     <lastmod>2025-06-03</lastmod>
+   +   </url>
+   +   <url>
 🔴 Líneas eliminadas:
-   - # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
-   - #
-   - # To ban all spiders from the entire site uncomment the next two lines:
-   - # User-agent: *
-   - # Disallow: /
-   - User-agent: *
-   - Disallow: /categorias/ss19
-   - Disallow: /categorias/vestido-ss19
-   - Disallow: /admin
-   - Sitemap: /sitemap.xml
-   - Sitemap: /sitemap_institucional.xml
-   - Sitemap: /sitemap_categorias.xml
-   - Sitemap: /sitemap_productos.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -   <sitemap>
-   -     <loc>https://www.awada.com.ar/sitemap_institucional.xml</loc>
-   -     <lastmod>2025-06-03</lastmod>
-   -   </sitemap>
-   -   <sitemap>
-   -     <loc>https://www.awada.com.ar/sitemap_categorias.xml</loc>
-   -     <lastmod>2025-06-03</lastmod>
-   -   </sitemap>
-   -   <sitemap>
-   -     <loc>https://www.awada.com.ar/sitemap_productos.xml</loc>
-   -     <lastmod>2025-06-03</lastmod>
-   -   </sitemap>
-   - </sitemapindex>
-   - # https://www.awada.com.ar/sitemap_institucional.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -   <url>
-   -     <loc>https://awada.com.ar/</loc>
-   -     <lastmod>2025-06-03</lastmod>
-   -   </url>
-   -   <url>
-   -     <loc>https://www.awada.com.ar/contacto</loc>
-   -     <lastmod>2025-06-03</lastmod>
-   -   </url>
-   -   <url>
+   - 
+   - # https://www.awada.com.ar/sitemap_index.xml
 
 ----------------------------------------
 
