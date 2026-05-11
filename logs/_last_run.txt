@@ -1,4 +1,9 @@
-Resumen de cambios - 2026-05-10 10:19:43.254219 UTC
+Resumen de cambios - 2026-05-11 12:16:06.456387 UTC
 ============================================================
 
-No se detectaron cambios en ningún sitio.
+[2026-05-11 12:16:01.890102 UTC] Cheeky (cheeky.com.ar)
+🔴 Líneas eliminadas:
+   - Disallow: /categorias/hotsale
+
+----------------------------------------
+

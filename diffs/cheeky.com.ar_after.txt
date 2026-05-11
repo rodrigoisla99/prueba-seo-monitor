@@ -7,7 +7,6 @@
 User-agent: *
 Disallow: /categorias/ss19
 Disallow: /categorias/vestido-ss19
-Disallow: /categorias/hotsale
 Sitemap: /sitemap.xml
 Sitemap: /sitemap_institucional.xml
 Sitemap: /sitemap_categorias.xml

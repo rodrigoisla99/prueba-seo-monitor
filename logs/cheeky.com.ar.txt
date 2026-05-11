@@ -73,3 +73,8 @@ Cambio detectado - 2025-12-08 15:21:07.289158 UTC
    - # cheeky.com.ar/sitemap_institucional.xml
    - # cheeky.com.ar/sitemap_categorias.xml
    - # cheeky.com.ar/sitemap_productos.xml
+
+============================================================
+Cambio detectado - 2026-05-11 12:16:01.890072 UTC
+🔴 Líneas eliminadas:
+   - Disallow: /categorias/hotsale
