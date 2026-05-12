@@ -1,9 +1,13 @@
-Resumen de cambios - 2026-05-11 12:16:06.456387 UTC
+Resumen de cambios - 2026-05-12 11:24:01.451219 UTC
 ============================================================
 
-[2026-05-11 12:16:01.890102 UTC] Cheeky (cheeky.com.ar)
+[2026-05-12 11:23:52.464517 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-05-11T13:29:38+00:00</lastmod>
+   + 		<lastmod>2026-05-11T13:29:38+00:00</lastmod>
 🔴 Líneas eliminadas:
-   - Disallow: /categorias/hotsale
+   - 		<lastmod>2026-04-23T14:38:02+00:00</lastmod>
+   - 		<lastmod>2026-04-23T14:38:02+00:00</lastmod>
 
 ----------------------------------------
 
