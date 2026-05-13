@@ -1,13 +1,4 @@
-Resumen de cambios - 2026-05-12 11:24:01.451219 UTC
+Resumen de cambios - 2026-05-13 11:33:15.176181 UTC
 ============================================================
 
-[2026-05-12 11:23:52.464517 UTC] Loan (loansoftware.net)
-🟢 Líneas agregadas:
-   + 		<lastmod>2026-05-11T13:29:38+00:00</lastmod>
-   + 		<lastmod>2026-05-11T13:29:38+00:00</lastmod>
-🔴 Líneas eliminadas:
-   - 		<lastmod>2026-04-23T14:38:02+00:00</lastmod>
-   - 		<lastmod>2026-04-23T14:38:02+00:00</lastmod>
-
-----------------------------------------
-
+No se detectaron cambios en ningún sitio.
