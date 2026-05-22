@@ -646,3 +646,14 @@ Cambio detectado - 2026-04-25 09:56:47.986662 UTC
    - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
    - 	</sitemap>
    - 	<sitemap>
+
+============================================================
+Cambio detectado - 2026-05-22 11:48:35.971385 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-05-21T18:42:11+00:00</lastmod>
+   + 		<lastmod>2026-05-21T18:42:11+00:00</lastmod>
+   + 		<lastmod>2026-05-21T18:42:11+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
+   - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
+   - 		<lastmod>2026-04-07T19:48:01+00:00</lastmod>
