@@ -84,3 +84,49 @@ Cambio detectado - 2026-03-17 09:59:57.401073 UTC
    +   <lastmod>2023-04-25T21:00:41+00:00</lastmod>
    +   <priority>0.80</priority>
    + </url>
+
+============================================================
+Cambio detectado - 2026-06-17 12:54:15.581587 UTC
+🟢 Líneas agregadas:
+   + # https://xubio.com/sitemap_index.xml
+🔴 Líneas eliminadas:
+   - User-agent: *
+   - Allow: /
+   - 
+   - User-agent: Googlebot
+   - Allow: /
+   - 
+   - User-agent: Bingbot
+   - Allow: /
+   - 
+   - User-agent: Google-Extended
+   - Allow: /
+   - 
+   - User-agent: ChatGPT-User
+   - Allow: /
+   - 
+   - User-agent: ClaudeBot
+   - Allow: /
+   - 
+   - User-agent: PerplexityBot
+   - Allow: /
+   - 
+   - Disallow: /API/
+   - 
+   - Disallow: /configuracion/
+   - 
+   - Disallow: /scripts/
+   - 
+   - Disallow: /terminos-de-uso/
+   - 
+   - Disallow: /NXV/help/InstruccionesConfigFEvGit.pdf
+   - 
+   - 
+   - Sitemap: https://xubio.com/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <urlset
+   -       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+   - >
+   - <!-- Dominio Principal  -->
+   - <url>
+   -     <loc>https://xubio.com/</loc>

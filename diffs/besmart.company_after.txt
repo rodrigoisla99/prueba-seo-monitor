@@ -39,7 +39,7 @@ Sitemap: https://besmart.company/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-		<lastmod>2025-12-22T20:06:32+00:00</lastmod>
+		<lastmod>2026-06-16T19:57:29+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://besmart.company/clients-sitemap.xml</loc>
