@@ -694,3 +694,10 @@ Cambio detectado - 2026-06-18 12:29:09.208239 UTC
    + User-agent: *
    + Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
    + 
+
+============================================================
+Cambio detectado - 2026-06-20 11:21:26.967375 UTC
+🔴 Líneas eliminadas:
+   - User-agent: *
+   - Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+   - 
