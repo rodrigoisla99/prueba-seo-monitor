@@ -1,4 +1,4 @@
 {
-  "robots": "",
-  "sitemaps": "\n# https://www.posittion.com/sitemap.xml\n\n# https://www.posittion.com/sitemap_index.xml\n"
+  "robots": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.posittion.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+  "sitemaps": "\n# https://www.posittion.com/sitemap_index.xml\n"
 }
