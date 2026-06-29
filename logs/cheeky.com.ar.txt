@@ -272,3 +272,51 @@ Cambio detectado - 2026-06-28 11:11:48.663733 UTC
    - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo.
    - # Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos),
    - # URLs absolutas con www. Disallow ampliado: /admin, /checkout, /users, /search.
+
+============================================================
+Cambio detectado - 2026-06-29 13:10:57.302680 UTC
+🟢 Líneas agregadas:
+   + # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo.
+   + # Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos),
+   + # URLs absolutas con www. Disallow ampliado: /admin, /checkout, /users, /search.
+🔴 Líneas eliminadas:
+   - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
+   - # el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
+   - #   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
+   - #     informacion; institucional era un huÃ©rfano stale).
+   - #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
+   - #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
+   - #   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
+   - #   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
+   - Sitemap: /sitemap.xml
+   - Sitemap: /sitemap_institucional.xml
+   - Sitemap: /sitemap_categorias.xml
+   - Sitemap: /sitemap_productos.xml
+   - # https://www.cheeky.com.ar/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_institucional.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_categorias.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   - </sitemapindex>
+   - 
+   - 
+   - # https://www.cheeky.com.ar/sitemap_institucional.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -     <url>
+   -         <loc>https://www.cheeky.com.ar/</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.cheeky.com.ar/cambios-y-devoluciones</loc>
+   -     </url>
+   -     <url>

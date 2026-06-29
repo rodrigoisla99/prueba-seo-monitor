@@ -1,148 +1,147 @@
-Resumen de cambios - 2026-06-28 11:11:53.168857 UTC
+Resumen de cambios - 2026-06-29 13:11:01.405147 UTC
 ============================================================
 
-[2026-06-28 11:11:42.374324 UTC] BeSmart (besmart.company)
+[2026-06-29 13:10:53.360113 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + # https://besmart.company/sitemap.xml
-   + 
-🔴 Líneas eliminadas:
-   - # START YOAST BLOCK
-   - # ---------------------------
-   - User-agent: *
-   - Disallow:
-   - Sitemap: https://besmart.company/sitemap_index.xml
-   - # ---------------------------
-   - # END YOAST BLOCK
-   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
-   - 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
-   - 		<lastmod>2026-03-02T16:40:52+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
-   - 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
-   - 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
-   - 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-   - 		<lastmod>2026-06-16T19:57:29+00:00</lastmod>
-   - 	</sitemap>
-   - 	<sitemap>
-   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
-   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
-
-----------------------------------------
-
-[2026-06-28 11:11:44.524457 UTC] Loan (loansoftware.net)
-🟢 Líneas agregadas:
-   + # https://loansoftware.net/sitemap.xml
-   + 
-🔴 Líneas eliminadas:
-   - ﻿# --------------------------------------------------------------------
-   - # CONFIGURACIÓN GENERAL
-   - # --------------------------------------------------------------------
-   - User-agent: *
-   - Disallow:
-   - Crawl-delay: 60  # 60 segundos entre cada request
-   - 
-   - # Bloqueo de rutas sensibles y archivos confidenciales
-   - Disallow: /cgi-bin/
-   - Disallow: /admin/
-   - Disallow: /*.sql$
-   - Disallow: /xmlrpc.php
-   - Disallow: /trackback
-   - Disallow: /*trackback*
-   - Disallow: /*/trackback
-   - 
-   - 
-   - # Bloqueo de URLs dinámicas y búsquedas
-   - Disallow: /*?
-   - Disallow: /?s=
-   - Disallow: /search
-   - 
-   - 
-   - # --------------------------------------------------------------------
-   - # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
-   - # --------------------------------------------------------------------
-   - Disallow: /wp-admin/
-   - Disallow: /wp-includes/
-   - Disallow: /wp-content/plugins/
-   - Disallow: /wp-content/cache/
-   - Disallow: /wp-content/themes/
-   - 
-   - 
-   - Disallow: /administrator/
-   - Disallow: /bin/
-   - Disallow: /cache/
-   - Disallow: /cli/
-   - Disallow: /components/
-   - Disallow: /includes/
-   - Disallow: /installation/
-
-----------------------------------------
-
-[2026-06-28 11:11:48.663765 UTC] Cheeky (cheeky.com.ar)
-🟢 Líneas agregadas:
-   + # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
-   + # el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
-   + #   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
-   + #     informacion; institucional era un huÃ©rfano stale).
-   + #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
-   + #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
-   + #   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
-   + #   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
-   + Sitemap: /sitemap.xml
-   + Sitemap: /sitemap_institucional.xml
-   + Sitemap: /sitemap_categorias.xml
-   + Sitemap: /sitemap_productos.xml
-   + # https://www.cheeky.com.ar/sitemap.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
+   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
    + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +   <sitemap>
-   +     <loc>https://www.cheeky.com.ar/sitemap_institucional.xml</loc>
-   +     <lastmod>2025-07-25</lastmod>
-   +   </sitemap>
-   +   <sitemap>
-   +     <loc>https://www.cheeky.com.ar/sitemap_categorias.xml</loc>
-   +     <lastmod>2025-07-25</lastmod>
-   +   </sitemap>
-   +   <sitemap>
-   +     <loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc>
-   +     <lastmod>2025-07-25</lastmod>
-   +   </sitemap>
-   + </sitemapindex>
-   + 
-   + 
-   + # https://www.cheeky.com.ar/sitemap_institucional.xml
-   + <?xml version="1.0" encoding="UTF-8"?>
-   + <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   +     <url>
-   +         <loc>https://www.cheeky.com.ar/</loc>
-   +     </url>
-   +     <url>
-   +         <loc>https://www.cheeky.com.ar/cambios-y-devoluciones</loc>
-   +     </url>
-   +     <url>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   + 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   + 		<lastmod>2026-03-02T16:40:52+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   + 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   + 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   + 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/training-sitemap.xml</loc>
+   + 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/courses-sitemap.xml</loc>
+   + 		<lastmod>2026-06-16T19:57:29+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+   + 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/category-sitemap.xml</loc>
+   + 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/post_tag-sitemap.xml</loc>
 🔴 Líneas eliminadas:
-   - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo.
-   - # Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos),
-   - # URLs absolutas con www. Disallow ampliado: /admin, /checkout, /users, /search.
+   - 
+
+----------------------------------------
+
+[2026-06-29 13:10:54.952134 UTC] Loan (loansoftware.net)
+🟢 Líneas agregadas:
+   + ﻿# --------------------------------------------------------------------
+   + # CONFIGURACIÓN GENERAL
+   + # --------------------------------------------------------------------
+   + User-agent: *
+   + Disallow:
+   + Crawl-delay: 60  # 60 segundos entre cada request
+   + 
+   + # Bloqueo de rutas sensibles y archivos confidenciales
+   + Disallow: /cgi-bin/
+   + Disallow: /admin/
+   + Disallow: /*.sql$
+   + Disallow: /xmlrpc.php
+   + Disallow: /trackback
+   + Disallow: /*trackback*
+   + Disallow: /*/trackback
+   + 
+   + 
+   + # Bloqueo de URLs dinámicas y búsquedas
+   + Disallow: /*?
+   + Disallow: /?s=
+   + Disallow: /search
+   + 
+   + 
+   + # --------------------------------------------------------------------
+   + # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
+   + # --------------------------------------------------------------------
+   + Disallow: /wp-admin/
+   + Disallow: /wp-includes/
+   + Disallow: /wp-content/plugins/
+   + Disallow: /wp-content/cache/
+   + Disallow: /wp-content/themes/
+   + 
+   + 
+   + Disallow: /administrator/
+   + Disallow: /bin/
+   + Disallow: /cache/
+   + Disallow: /cli/
+   + Disallow: /components/
+   + Disallow: /includes/
+   + Disallow: /installation/
+🔴 Líneas eliminadas:
+   - # https://loansoftware.net/sitemap.xml
+   - 
+
+----------------------------------------
+
+[2026-06-29 13:10:57.302716 UTC] Cheeky (cheeky.com.ar)
+🟢 Líneas agregadas:
+   + # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo.
+   + # Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos),
+   + # URLs absolutas con www. Disallow ampliado: /admin, /checkout, /users, /search.
+🔴 Líneas eliminadas:
+   - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
+   - # el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
+   - #   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
+   - #     informacion; institucional era un huÃ©rfano stale).
+   - #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
+   - #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
+   - #   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
+   - #   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
+   - Sitemap: /sitemap.xml
+   - Sitemap: /sitemap_institucional.xml
+   - Sitemap: /sitemap_categorias.xml
+   - Sitemap: /sitemap_productos.xml
+   - # https://www.cheeky.com.ar/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_institucional.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_categorias.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   -   <sitemap>
+   -     <loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc>
+   -     <lastmod>2025-07-25</lastmod>
+   -   </sitemap>
+   - </sitemapindex>
+   - 
+   - 
+   - # https://www.cheeky.com.ar/sitemap_institucional.xml
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   -     <url>
+   -         <loc>https://www.cheeky.com.ar/</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.cheeky.com.ar/cambios-y-devoluciones</loc>
+   -     </url>
+   -     <url>
 
 ----------------------------------------
 
