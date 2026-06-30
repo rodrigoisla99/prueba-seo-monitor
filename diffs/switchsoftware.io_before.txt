@@ -859,25 +859,13 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/case-studies/zenus-bank-beyond-testing-empowering-zenus-bank-with-a-comprehensive-quality-process</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/azure-cloud-infrastructure-engineer</loc>
-    </url>
-    <url>
         <loc>https://www.switchsoftware.io/careers-position/b2b-sales-executive-hunter-genai-e2e-projects</loc>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-backend-net-semi-senior</loc>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/devops-engineer-ssr-sr-latam</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/qa-automation---part-time-latam</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/senior-software-engineer---ai-native-engineer</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/talent-pool</loc>

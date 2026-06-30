@@ -708,3 +708,13 @@ Cambio detectado - 2026-06-26 11:47:23.819534 UTC
    + 		<lastmod>2026-06-23T14:48:51+00:00</lastmod>
 🔴 Líneas eliminadas:
    - 		<lastmod>2026-06-09T14:55:43+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-06-30 11:47:07.047890 UTC
+🟢 Líneas agregadas:
+   + User-agent: *
+   + Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+   + 
+   + 		<lastmod>2026-06-09T14:55:43+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-06-23T14:48:51+00:00</lastmod>

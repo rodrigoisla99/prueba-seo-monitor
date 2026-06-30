@@ -1,147 +1,96 @@
-Resumen de cambios - 2026-06-29 13:11:01.405147 UTC
+Resumen de cambios - 2026-06-30 11:47:07.048071 UTC
 ============================================================
 
-[2026-06-29 13:10:53.360113 UTC] BeSmart (besmart.company)
+[2026-06-30 11:46:58.841875 UTC] BeSmart (besmart.company)
 🟢 Líneas agregadas:
-   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/post-sitemap.xml</loc>
-   + 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/page-sitemap.xml</loc>
-   + 		<lastmod>2026-03-02T16:40:52+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-   + 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/industries-sitemap.xml</loc>
-   + 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/software-sitemap.xml</loc>
-   + 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/training-sitemap.xml</loc>
-   + 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/courses-sitemap.xml</loc>
-   + 		<lastmod>2026-06-16T19:57:29+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/clients-sitemap.xml</loc>
-   + 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/category-sitemap.xml</loc>
-   + 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
-   + 	</sitemap>
-   + 	<sitemap>
-   + 		<loc>https://besmart.company/post_tag-sitemap.xml</loc>
-🔴 Líneas eliminadas:
-   - 
-
-----------------------------------------
-
-[2026-06-29 13:10:54.952134 UTC] Loan (loansoftware.net)
-🟢 Líneas agregadas:
-   + ﻿# --------------------------------------------------------------------
-   + # CONFIGURACIÓN GENERAL
-   + # --------------------------------------------------------------------
+   + # START YOAST BLOCK
+   + # ---------------------------
    + User-agent: *
    + Disallow:
-   + Crawl-delay: 60  # 60 segundos entre cada request
-   + 
-   + # Bloqueo de rutas sensibles y archivos confidenciales
-   + Disallow: /cgi-bin/
-   + Disallow: /admin/
-   + Disallow: /*.sql$
-   + Disallow: /xmlrpc.php
-   + Disallow: /trackback
-   + Disallow: /*trackback*
-   + Disallow: /*/trackback
-   + 
-   + 
-   + # Bloqueo de URLs dinámicas y búsquedas
-   + Disallow: /*?
-   + Disallow: /?s=
-   + Disallow: /search
-   + 
-   + 
-   + # --------------------------------------------------------------------
-   + # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
-   + # --------------------------------------------------------------------
-   + Disallow: /wp-admin/
-   + Disallow: /wp-includes/
-   + Disallow: /wp-content/plugins/
-   + Disallow: /wp-content/cache/
-   + Disallow: /wp-content/themes/
-   + 
-   + 
-   + Disallow: /administrator/
-   + Disallow: /bin/
-   + Disallow: /cache/
-   + Disallow: /cli/
-   + Disallow: /components/
-   + Disallow: /includes/
-   + Disallow: /installation/
+   + Sitemap: https://besmart.company/sitemap_index.xml
+   + # ---------------------------
+   + # END YOAST BLOCK
 🔴 Líneas eliminadas:
-   - # https://loansoftware.net/sitemap.xml
-   - 
+   - # https://besmart.company/sitemap.xml
+   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   - 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   - 		<lastmod>2026-03-02T16:40:52+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   - 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   - 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/training-sitemap.xml</loc>
+   - 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/courses-sitemap.xml</loc>
+   - 		<lastmod>2026-06-16T19:57:29+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+   - 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
+   - 		<loc>https://besmart.company/category-sitemap.xml</loc>
+   - 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+   - 	</sitemap>
+   - 	<sitemap>
 
 ----------------------------------------
 
-[2026-06-29 13:10:57.302716 UTC] Cheeky (cheeky.com.ar)
+[2026-06-30 11:46:59.105671 UTC] Switch (switchsoftware.io)
 🟢 Líneas agregadas:
-   + # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo.
-   + # Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos),
-   + # URLs absolutas con www. Disallow ampliado: /admin, /checkout, /users, /search.
+   +         <loc>https://www.switchsoftware.io/post/how-the-ai-driven-development-lifecycle-reimagines-delivery</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/what-the-aws-ai-competency-actually-means-and-why-it-should-matter-to-you</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/why-ai-native-development-is-reshaping-engineering-teams</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/ai-data-architecture-lead</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/net-senior--latam</loc>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/technology-integration-developer-python-azure</loc>
+   +     </url>
 🔴 Líneas eliminadas:
-   - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
-   - # el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
-   - #   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
-   - #     informacion; institucional era un huÃ©rfano stale).
-   - #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
-   - #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
-   - #   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
-   - #   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
-   - Sitemap: /sitemap.xml
-   - Sitemap: /sitemap_institucional.xml
-   - Sitemap: /sitemap_categorias.xml
-   - Sitemap: /sitemap_productos.xml
-   - # https://www.cheeky.com.ar/sitemap.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -   <sitemap>
-   -     <loc>https://www.cheeky.com.ar/sitemap_institucional.xml</loc>
-   -     <lastmod>2025-07-25</lastmod>
-   -   </sitemap>
-   -   <sitemap>
-   -     <loc>https://www.cheeky.com.ar/sitemap_categorias.xml</loc>
-   -     <lastmod>2025-07-25</lastmod>
-   -   </sitemap>
-   -   <sitemap>
-   -     <loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc>
-   -     <lastmod>2025-07-25</lastmod>
-   -   </sitemap>
-   - </sitemapindex>
-   - 
-   - 
-   - # https://www.cheeky.com.ar/sitemap_institucional.xml
-   - <?xml version="1.0" encoding="UTF-8"?>
-   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   -     <url>
-   -         <loc>https://www.cheeky.com.ar/</loc>
+   -         <loc>https://www.switchsoftware.io/careers-position/b2b-sales-executive-hunter-genai-e2e-projects</loc>
    -     </url>
    -     <url>
-   -         <loc>https://www.cheeky.com.ar/cambios-y-devoluciones</loc>
+   -         <loc>https://www.switchsoftware.io/careers-position/qa-automation---part-time-latam</loc>
    -     </url>
    -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
+
+----------------------------------------
+
+[2026-06-30 11:47:07.047912 UTC] Nexia (nexiacapitalcompany.com)
+🟢 Líneas agregadas:
+   + User-agent: *
+   + Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+   + 
+   + 		<lastmod>2026-06-09T14:55:43+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-06-23T14:48:51+00:00</lastmod>
 
 ----------------------------------------
 

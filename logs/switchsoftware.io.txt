@@ -223,3 +223,31 @@ Cambio detectado - 2026-04-29 10:59:52.029731 UTC
    -         <loc>https://www.switchsoftware.io/careers-position/senior-software-engineer---ai-native-engineer</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-06-30 11:46:59.105647 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/how-the-ai-driven-development-lifecycle-reimagines-delivery</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/what-the-aws-ai-competency-actually-means-and-why-it-should-matter-to-you</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/why-ai-native-development-is-reshaping-engineering-teams</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/ai-data-architecture-lead</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/net-senior--latam</loc>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/technology-integration-developer-python-azure</loc>
+   +     </url>
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/careers-position/b2b-sales-executive-hunter-genai-e2e-projects</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/qa-automation---part-time-latam</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
