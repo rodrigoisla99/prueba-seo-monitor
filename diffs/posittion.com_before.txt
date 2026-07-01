@@ -15,7 +15,7 @@ Sitemap: https://www.posittion.com/sitemap_index.xml
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc>https://www.posittion.com/post-sitemap.xml</loc>
-		<lastmod>2026-06-24T20:41:17+00:00</lastmod>
+		<lastmod>2026-06-25T22:51:37+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://www.posittion.com/page-sitemap.xml</loc>
@@ -23,7 +23,7 @@ Sitemap: https://www.posittion.com/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://www.posittion.com/category-sitemap.xml</loc>
-		<lastmod>2026-06-24T20:41:17+00:00</lastmod>
+		<lastmod>2026-06-25T22:51:37+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://www.posittion.com/author-sitemap.xml</loc>

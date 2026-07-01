@@ -177,3 +177,88 @@ Cambio detectado - 2026-06-18 12:29:06.826726 UTC
 🔴 Líneas eliminadas:
    - 
    - # https://xubio.com/sitemap_index.xml
+
+============================================================
+Cambio detectado - 2026-07-01 12:11:44.561311 UTC
+🟢 Líneas agregadas:
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/</loc> -->
+   + <!--   <lastmod>2020-08-18T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>1.00</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/como-funciona</loc> -->
+   + <!--   <lastmod>2020-08-18T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/factura-electronica</loc> -->
+   + <!--   <lastmod>2020-08-18T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/contadores</loc> -->
+   + <!--   <lastmod>2020-08-18T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/contacto</loc> -->
+   + <!--   <lastmod>2020-08-18T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/precios-empresas</loc> -->
+   + <!--   <lastmod>2020-08-18T21:33:58+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/precios-contadores</loc> -->
+   + <!--   <lastmod>2020-08-18T21:33:58+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+   + <!-- <url> -->
+   + <!--   <loc>https://xubio.com/mx/aliados-contadores-programa/</loc> -->
+   + <!--   <lastmod>2023-04-12T21:00:41+00:00</lastmod> -->
+   + <!--   <priority>0.80</priority> -->
+   + <!-- </url> -->
+🔴 Líneas eliminadas:
+   - <url>
+   -   <loc>https://xubio.com/mx/</loc>
+   -   <lastmod>2020-08-18T21:00:41+00:00</lastmod>
+   -   <priority>1.00</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/como-funciona</loc>
+   -   <lastmod>2020-08-18T21:00:41+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/factura-electronica</loc>
+   -   <lastmod>2020-08-18T21:00:41+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/contadores</loc>
+   -   <lastmod>2020-08-18T21:00:41+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/contacto</loc>
+   -   <lastmod>2020-08-18T21:00:41+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/precios-empresas</loc>
+   -   <lastmod>2020-08-18T21:33:58+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/precios-contadores</loc>
+   -   <lastmod>2020-08-18T21:33:58+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>
+   - <url>
+   -   <loc>https://xubio.com/mx/aliados-contadores-programa/</loc>
+   -   <lastmod>2023-04-12T21:00:41+00:00</lastmod>
+   -   <priority>0.80</priority>
+   - </url>

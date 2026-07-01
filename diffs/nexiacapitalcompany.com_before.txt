@@ -1,4 +1,7 @@
 ### ROBOTS.TXT ###
+User-agent: *
+Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+
 # START YOAST BLOCK
 # ---------------------------
 User-agent: *
@@ -19,7 +22,7 @@ Sitemap: https://nexiacapitalcompany.com/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://nexiacapitalcompany.com/page-sitemap.xml</loc>
-		<lastmod>2026-06-23T14:48:51+00:00</lastmod>
+		<lastmod>2026-06-09T14:55:43+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://nexiacapitalcompany.com/servicio-sitemap.xml</loc>
