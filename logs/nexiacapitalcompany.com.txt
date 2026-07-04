@@ -742,3 +742,10 @@ Cambio detectado - 2026-07-03 11:36:23.233945 UTC
    + User-agent: *
    + Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
    + 
+
+============================================================
+Cambio detectado - 2026-07-04 10:56:31.969602 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-07-03T19:37:45+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-06-29T15:56:04+00:00</lastmod>
