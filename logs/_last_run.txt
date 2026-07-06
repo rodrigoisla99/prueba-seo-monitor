@@ -1,4 +1,34 @@
-Resumen de cambios - 2026-07-05 11:07:31.788172 UTC
+Resumen de cambios - 2026-07-06 12:53:27.692934 UTC
 ============================================================
 
-No se detectaron cambios en ningún sitio.
+[2026-07-06 12:53:23.843205 UTC] ComoQuieres (comoquieres.com.ar)
+🟢 Líneas agregadas:
+   + #   - Reintroducido sitemap.xml como ÃNDICE (SitemapIndexWorker genera
+   + #     public/sitemap.xml apuntando a los 3 partials; ya no es el huÃ©rfano legacy
+   + #     de config/sitemap.rb, que quedÃ³ comentado).
+   + #   - Sitemaps activos = Ã­ndice (sitemap.xml) + los 3 partials que generan los
+   + #     workers (informacion/categorias/productos).
+   + Sitemap: https://www.comoquieres.com.ar/sitemap.xml
+   + # https://www.comoquieres.com.ar/sitemap.xml
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_productos.xml</loc>
+   +     <lastmod>2026-07-06T12:15:13Z</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_categorias.xml</loc>
+   +     <lastmod>2026-07-06T12:15:13Z</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.comoquieres.com.ar/sitemap_informacion.xml</loc>
+   +     <lastmod>2026-07-06T12:15:13Z</lastmod>
+   +   </sitemap>
+   + </sitemapindex>
+   + 
+🔴 Líneas eliminadas:
+   - #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
+   - #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
+
+----------------------------------------
+
