@@ -251,3 +251,22 @@ Cambio detectado - 2026-06-30 11:46:59.105647 UTC
    -     </url>
    -     <url>
    -         <loc>https://www.switchsoftware.io/careers-position/sdet-qa-automation-f3a05</loc>
+
+============================================================
+Cambio detectado - 2026-07-14 10:51:12.945024 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/discovery-workshops-the-must-have-in-your-ai-journey</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/case-studies/alchavo-brings-generative-ai-to-its-customer-experience</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/frontend-developer-angular-capacitor--latam</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/qa-manual-engineer-ssr---part-time</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/senior-backend-developer---latam</loc>
+   +     </url>
+   +     <url>
