@@ -270,3 +270,10 @@ Cambio detectado - 2026-07-14 10:51:12.945024 UTC
    +         <loc>https://www.switchsoftware.io/careers-position/senior-backend-developer---latam</loc>
    +     </url>
    +     <url>
+
+============================================================
+Cambio detectado - 2026-07-15 10:55:30.064726 UTC
+🔴 Líneas eliminadas:
+   -         <loc>https://www.switchsoftware.io/case-studies/alchavo-brings-generative-ai-to-its-customer-experience</loc>
+   -     </url>
+   -     <url>
