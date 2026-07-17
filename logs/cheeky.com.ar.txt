@@ -429,3 +429,88 @@ Cambio detectado - 2026-07-16 11:04:37.789489 UTC
    -   </sitemap>
    - </sitemapindex>
    - 
+
+============================================================
+Cambio detectado - 2026-07-17 10:51:56.551360 UTC
+🟢 Líneas agregadas:
+   + <?xml version="1.0" encoding="UTF-8"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   +   <sitemap>
+   +     <loc>https://www.cheeky.com.ar/sitemap_institucional.xml</loc>
+   +     <lastmod>2025-07-25</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.cheeky.com.ar/sitemap_categorias.xml</loc>
+   +     <lastmod>2025-07-25</lastmod>
+   +   </sitemap>
+   +   <sitemap>
+   +     <loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc>
+   +     <lastmod>2025-07-25</lastmod>
+   +   </sitemap>
+   + </sitemapindex>
+   + 
+   + 
+   + # https://www.cheeky.com.ar/sitemap_institucional.xml
+   + <meta name="csrf-token" content="e5dyfkKnuIxFM0u6rFDus4gsDPezrdBrWlzrv7WlO4OWYk7GtC3lprb8rANJPUsj1N3uMUNB/z9kIIIoXmwJyw==" />
+   + <a href="https://www.cheeky.com.ar/categorias/bebas"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/3/4_9_1784224737.jpg" alt="4 9 1784224737" />
+   + <li>
+   + <a alt="BOTAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/botas-bb-ninos">BOTAS</a>
+   + </li>
+   + <a href="https://www.cheeky.com.ar/categorias/bebes"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/4/3_11_1784224770.jpg" alt="3 11 1784224770" />
+   + <a alt="BOTAS Y BORCEGOS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/botas-tod1">BOTAS Y BORCEGOS</a>
+   + </li>
+   + <li>
+   + <a href="https://www.cheeky.com.ar/categorias/remeras-toddlernina"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/341/5_9_1784224903.jpg" alt="5 9 1784224903" />
+   + <a alt="ENTERITOS " class="mobile-sidebar-nav__listsub-item-2" href="/categorias/enteritos-toddlernino">ENTERITOS </a>
+   + </li>
+   + <li>
+   + <a href="https://www.cheeky.com.ar/categorias/remeras-toddlernino"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/342/6_3_1_1784224947.jpg" alt="6 3 1 1784224947" />
+   + <a href="https://www.cheeky.com.ar"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/1/1_20_1784224816.jpg" alt="1 20 1784224816" />
+   + <a href="https://www.cheeky.com.ar"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/2/2_18_1784224855.jpg" alt="2 18 1784224855" />
+   + <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RsmXcIeYWKMqKAyopXWA9WAgEYmYevrCQ92ScV9p/+OrPKvIcRIFidnn6xFAGCVlPNHzT2iW1ZZ9ofvmtKDNqw==" /><div class='row'>
+   + <div class='main-header__dark-items main-header__head'>
+   + <nav class='main-header__nav text-center'>
+   + <ul class='main-navigation list-unstyled'>
+   + <!-- categoria padre -->
+   + <!-- categoria padre -->
+🔴 Líneas eliminadas:
+   - <meta name="csrf-token" content="TEPT1ENBsQvouvRH8g86mOpNS1ESVV+TrxXD/Um1G9T31bACDklJbDrUxv5V1O6X3N0uL4E8Sh4xnNygVCU9HA==" />
+   - <a href="https://www.cheeky.com.ar/categorias/bebas"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/3/2_4_1_1774548276.jpg" alt="2 4 1 1774548276" />
+   - <a href="https://www.cheeky.com.ar/categorias/bebes"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/4/copia_de_2313x1816_bebe-1_0005_camp_chee_1773059527.jpg" alt="Copia de 2313x1816 bebe 1 0005 camp chee 1773059527" />
+   - </li>
+   - <li>
+   - <a alt="BOTAS Y BORCEGOS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/botas-tod1">BOTAS Y BORCEGOS</a>
+   - <a href="https://www.cheeky.com.ar/categorias/remeras-toddlernina"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/341/1_4_1_1774548322.jpg" alt="1 4 1 1774548322" />
+   - <a href="https://www.cheeky.com.ar/categorias/remeras-toddlernino"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/342/6_4_1774555176.jpg" alt="6 4 1774555176" />
+   - <a href="https://www.cheeky.com.ar"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/1/4_1_1774548366.jpg" alt="4 1 1774548366" />
+   - <a href="https://www.cheeky.com.ar"><img class="img-responsive " src="https://cheeky.powcdn.com/uploads/category/dropdown_image_one/2/5_2_1774548465.jpg" alt="5 2 1774548465" />
+   - <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tuMSJjc2OAidAYEbsL105xrjNOpVxx+2rFYSMKcAodYNdXHwej7Ab09vs6IXZqDoLHNRlMauCjsy3w1tupCHHg==" /><div class='row'>
+   - </ul>
+   - <li class='main-navigation__submenu-item col-md-12'>
+   - <a alt="BEBÉS NIÑAS" href="/categorias/bebas">BEBÉS NIÑAS</a>
+   - </li>
+   - <ul class='list-unstyled main-navigation__grandchild-container hidden'>
+   - <li class='main-navigation__grandchild-item col-md-3'>
+   - <a alt="ROPA" href="/categorias/ropa-bb-ninas">ROPA</a>
+   - <ul class='list-unstyled main-navigation__greatgrandchild-container'>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="BODIES" href="/categorias/bodys-bebas">BODIES</a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="REMERAS Y BATITAS " href="/categorias/remeras-bebas">REMERAS Y BATITAS </a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="ENTERITOS" href="/categorias/enteritos-bebas">ENTERITOS</a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="VESTIDOS" href="/categorias/vestidos-bebas">VESTIDOS</a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="BUZOS Y SWEATERS" href="/categorias/buzos-bebas">BUZOS Y SWEATERS</a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="PANTALONES Y LEGGINGS" href="/categorias/pantalones-bebas">PANTALONES Y LEGGINGS</a>
+   - </li>
+   - <li class='main-navigation__greatgrandchild-item col-md-12'>
+   - <a alt="CAMPERAS Y CHALECOS" href="/categorias/camperas-bebas">CAMPERAS Y CHALECOS</a>
+   - </li>
