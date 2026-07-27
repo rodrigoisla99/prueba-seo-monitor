@@ -44,7 +44,7 @@ Cheeky
 <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/template/application-3f95b25cac1fa03bf6e8770bda69b56c67c8a535327f38ec5f0d795e8e0fb2d6.css" />
 <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/cheeky/application-579bd367af12a87e3deb491b83b02d0916c93a56946e2e8e9880372409cfba4d.css" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="U/ivHyw9gFVCO6S38F9H04uXOKtKUkyUqSUHDqTbsNq5CXlVGbhiOgeklBHTCJNjVErpGh131yZX3dL6TtNjAw==" />
+<meta name="csrf-token" content="Sde4pHQJ2hxSxxGpzhZ8DSgy2L3H7whDmZkix6Lr+iMzJL6+vn8OkMCa3PFi4b1umFKNomYnNdcWZcPQPhfe4g==" />
 <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.1/bootstrap3-editable/css/bootstrap-editable.css' rel='stylesheet'>
 <link rel="apple-touch-icon" type="image/x-icon" href="https://www.cheeky.com.ar/assets/cheeky/favicon/apple-touch-icon-4dd41dc9ec2d1f231ec829de87136626263cecfd9130fbe6b03d7c5793aead35.png" sizes="76x76" />
@@ -707,10 +707,10 @@ Cheeky
 <a alt="CAMISAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/camisas">CAMISAS</a>
 </li>
 <li>
-<a alt=" BERMUDAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/bermudas-ninos"> BERMUDAS</a>
+<a alt="PANTALONES" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/pantalones-ninos">PANTALONES</a>
 </li>
 <li>
-<a alt="PANTALONES" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/pantalones-ninos">PANTALONES</a>
+<a alt=" BERMUDAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/bermudas-ninos"> BERMUDAS</a>
 </li>
 <li>
 <a alt="BUZOS Y SWEATERS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/buzos-ninos">BUZOS Y SWEATERS</a>
@@ -831,7 +831,7 @@ Enterate de las promociones
 </div>
 <div class='row'>
 <div class='col-md-12 col-xs-12'>
-<form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fxtom5iyl4JE6PUkAYPkGoyB48ghsAtqWitNvLf1ln2V6r7RrTd17QF3xYIi1DCqU1wyeXaVkNik05hIXf1FpA==" /><div class='row'>
+<form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iDI3kiz6LG4wfZh43k+HR7gC+69qqc4AypDrPVTyuX3ywTGI5oz44qIgVSByuEYkCGKusMth85RFbAoqyA6dvA==" /><div class='row'>
 <div class='col-md-12 col-xs-12'>
 <div class="form-group email required newsletter_user_email"><input class="string email required i-text-nl auth-modal__input form-control" placeholder="Tu mail" type="email" name="newsletter_user[email]" id="newsletter_user_email" /></div>
 </div>
@@ -2732,7 +2732,7 @@ a través del siguiente botón:
 Nosotros
 </h4>
 <div class='footer-column-item'>
-<a class="no-underline" href="/locales/1498">Nuestros locales
+<a class="no-underline" href="/locales/1270">Nuestros locales
 </a></div>
 <div class='footer-column-item'>
 <a class='no-underline' href='/locales-adheridos-ohgift'>
@@ -2774,7 +2774,7 @@ Cambios y devoluciones
 Promociones vigentes
 </a>
 </div>
-<a class="no-underline" href="/usuario/mis-pedidos"><div class='footer-column-item'>
+<a data-toggle="modal" data-target="#order-cancelation" class="js-the-boton no-underline" href="#"><div class='footer-column-item'>
 Botón de arrepentimiento
 </div>
 </a><div class='footer-column-item'>
@@ -2840,7 +2840,7 @@ Casting
 ¿Querés buenas ofertas y  mucha inspiración? Registrate en nuestro newsletter
 </div>
 <div class='col-12 p0' id='footer-newsletter'>
-<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hcgO3VwN2O7pQBpF1fTUaKOaHci4WtX+08KcBETDk2gjJhekYTdpwzjbBtxU83Bt+MAw6Hmqpd4AV8ckZQNzQw==" /><!-- /Checkboxs -->
+<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XKYTJQw2JKhOrTzvB4LZwGXQnF5Jf5pdXlK2KSo/EOuXvQglB1Hn4JdA0lL0zTZpf4VewiZm7yfwhXxpD9KPUQ==" /><!-- /Checkboxs -->
 <div class='col-12 newsletter-input-container display-flex p0'>
 <div class="form-group boolean optional newsletter_user_bebes_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-bebes-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[bebes_subscribed]" /><label class="boolean optional" for="footer-bebes-newsletter-mobile">Bebés</label></div></div>
 <div class="form-group boolean optional newsletter_user_ninas_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-ninas-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[ninas_subscribed]" /><label class="boolean optional" for="footer-ninas-newsletter-mobile">Niñas</label></div></div>
@@ -2869,7 +2869,7 @@ Casting
 ¿Querés buenas ofertas y  mucha inspiración? Registrate en nuestro newsletter
 </p>
 </div>
-<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HcaAsP4d0F65jwlBL+5N6juf+1e/odL3ULR8y7KjCbm7KJnJwydhc2gUFdiu6envYMXWd35RoteDISfrk2Ppkg==" /><!-- /Checkboxs -->
+<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CGdCfya+8UAXCPDt29hqJN5DzNILLRN/RiRnwLxna9TDfFl/LdkyCM7lHlAol4WNxBYOTmQ0ZgXo862AmYr0bg==" /><!-- /Checkboxs -->
 <div class='col-12 newsletter-input-container display-flex p0'>
 <div class="form-group boolean optional newsletter_user_bebes_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-bebes-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[bebes_subscribed]" /><label class="boolean optional" for="footer-bebes-newsletter-mobile">Bebés</label></div></div>
 <div class="form-group boolean optional newsletter_user_ninas_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-ninas-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[ninas_subscribed]" /><label class="boolean optional" for="footer-ninas-newsletter-mobile">Niñas</label></div></div>
@@ -2896,7 +2896,7 @@ Nosotros
 </a>
 <div class='panel-collapse collapse' id='collapseOne'>
 <div class='panel-body'>
-<a class="no-underline mobile-footer-panel-link" href="/locales/1498">Nuestros locales
+<a class="no-underline mobile-footer-panel-link" href="/locales/1270">Nuestros locales
 </a><a class='no-underline mobile-footer-panel-link' href='/locales-adheridos-ohgift'>
 Locales adheridos Ohgift
 </a>
@@ -2928,7 +2928,7 @@ Cambios y devoluciones
 <a class='no-underline mobile-footer-panel-link' href='/promociones-vigentes'>
 Promociones vigentes
 </a>
-<a class="no-underline mobile-footer-panel-link" href="/usuario/mis-pedidos">Botón de arrepentimiento
+<a data-toggle="modal" data-target="#order-cancelation" class="js-the-boton no-underline mobile-footer-panel-link" href="/">Botón de arrepentimiento
 </a><a class="no-underline mobile-footer-panel-link" href="/contacto/15/new">Libro de quejas y sugerencias
 </a><a class='no-underline mobile-footer-panel-link' href='https://www.argentina.gob.ar/economia/industria-y-comercio/defensadelconsumidor' target='_blank'>
 Defensa del consumidor
@@ -3295,7 +3295,7 @@ Cheeky
 <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/template/application-3f95b25cac1fa03bf6e8770bda69b56c67c8a535327f38ec5f0d795e8e0fb2d6.css" />
 <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/cheeky/application-579bd367af12a87e3deb491b83b02d0916c93a56946e2e8e9880372409cfba4d.css" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="OshQkDMfyLNds89hguNaThwY/pc9Pno0pen9xo9T7TMMircoDSVKeFp04kk3Oti1zk0M2QFeIpbiNXlRUNoxKw==" />
+<meta name="csrf-token" content="LVxTgM+ZMKZsQ1tNew3pDhF72Yem4h+d6gf182TWzdqFmvfZ010v412fXewZplGTNvA02gBTUaLGW7JuQY6qlw==" />
 <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.1/bootstrap3-editable/css/bootstrap-editable.css' rel='stylesheet'>
 <link rel="apple-touch-icon" type="image/x-icon" href="https://www.cheeky.com.ar/assets/cheeky/favicon/apple-touch-icon-4dd41dc9ec2d1f231ec829de87136626263cecfd9130fbe6b03d7c5793aead35.png" sizes="76x76" />
@@ -4082,7 +4082,7 @@ Enterate de las promociones
 </div>
 <div class='row'>
 <div class='col-md-12 col-xs-12'>
-<form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/DGiZSFxSCZW3i7c2Pa4YgevRinNCKKIHip+jF9+CwzKc0XdH0vK7VEZA/RtLzqZ1fq0Z/Fo+ipZ9vobgPfXFA==" /><div class='row'>
+<form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GQPFdYq/6zNMOGQwmgxB6BR28iwuHNYvICjeB7UfvMWxxWEslnv0dn3kYpH4p/l1M/0fcYitmBAMdJmakEfbiA==" /><div class='row'>
 <div class='col-md-12 col-xs-12'>
 <div class="form-group email required newsletter_user_email"><input class="string email required i-text-nl auth-modal__input form-control" placeholder="Tu mail" type="email" name="newsletter_user[email]" id="newsletter_user_email" /></div>
 </div>
@@ -5983,7 +5983,7 @@ a través del siguiente botón:
 Nosotros
 </h4>
 <div class='footer-column-item'>
-<a class="no-underline" href="/locales/1498">Nuestros locales
+<a class="no-underline" href="/locales/1270">Nuestros locales
 </a></div>
 <div class='footer-column-item'>
 <a class='no-underline' href='/locales-adheridos-ohgift'>
@@ -6025,7 +6025,7 @@ Cambios y devoluciones
 Promociones vigentes
 </a>
 </div>
-<a class="no-underline" href="/usuario/mis-pedidos"><div class='footer-column-item'>
+<a data-toggle="modal" data-target="#order-cancelation" class="js-the-boton no-underline" href="#"><div class='footer-column-item'>
 Botón de arrepentimiento
 </div>
 </a><div class='footer-column-item'>
@@ -6091,7 +6091,7 @@ Casting
 ¿Querés buenas ofertas y  mucha inspiración? Registrate en nuestro newsletter
 </div>
 <div class='col-12 p0' id='footer-newsletter'>
-<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hcgO3VwN2O7pQBpF1fTUaKOaHci4WtX+08KcBETDk2gjJhekYTdpwzjbBtxU83Bt+MAw6Hmqpd4AV8ckZQNzQw==" /><!-- /Checkboxs -->
+<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jhCfF0dcxWvnzf5an2ZyXg1jq9euFuJehh9XjG8WgPVFC4QXTDsGIz4gEOdsKZ33FzZpS8EPlyQoyJ3MSvsfTw==" /><!-- /Checkboxs -->
 <div class='col-12 newsletter-input-container display-flex p0'>
 <div class="form-group boolean optional newsletter_user_bebes_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-bebes-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[bebes_subscribed]" /><label class="boolean optional" for="footer-bebes-newsletter-mobile">Bebés</label></div></div>
 <div class="form-group boolean optional newsletter_user_ninas_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-ninas-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[ninas_subscribed]" /><label class="boolean optional" for="footer-ninas-newsletter-mobile">Niñas</label></div></div>
@@ -6120,7 +6120,7 @@ Casting
 ¿Querés buenas ofertas y  mucha inspiración? Registrate en nuestro newsletter
 </p>
 </div>
-<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HcaAsP4d0F65jwlBL+5N6juf+1e/odL3ULR8y7KjCbm7KJnJwydhc2gUFdiu6envYMXWd35RoteDISfrk2Ppkg==" /><!-- /Checkboxs -->
+<form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bDkByvlaBrKBE7iCdRsc6AmvFEhgZ6h2egoWNNKHVdqnIhrK8j3F+lj+Vj+GVPNBE/rW1A9+3QzU3dx092rKYA==" /><!-- /Checkboxs -->
 <div class='col-12 newsletter-input-container display-flex p0'>
 <div class="form-group boolean optional newsletter_user_bebes_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-bebes-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[bebes_subscribed]" /><label class="boolean optional" for="footer-bebes-newsletter-mobile">Bebés</label></div></div>
 <div class="form-group boolean optional newsletter_user_ninas_subscribed footer-newsletter-input"><div class="checkbox"><input id="footer-ninas-newsletter-mobile" class="boolean optional" type="checkbox" value="true" checked="checked" name="newsletter_user[ninas_subscribed]" /><label class="boolean optional" for="footer-ninas-newsletter-mobile">Niñas</label></div></div>
@@ -6147,7 +6147,7 @@ Nosotros
 </a>
 <div class='panel-collapse collapse' id='collapseOne'>
 <div class='panel-body'>
-<a class="no-underline mobile-footer-panel-link" href="/locales/1498">Nuestros locales
+<a class="no-underline mobile-footer-panel-link" href="/locales/1270">Nuestros locales
 </a><a class='no-underline mobile-footer-panel-link' href='/locales-adheridos-ohgift'>
 Locales adheridos Ohgift
 </a>
@@ -6179,7 +6179,7 @@ Cambios y devoluciones
 <a class='no-underline mobile-footer-panel-link' href='/promociones-vigentes'>
 Promociones vigentes
 </a>
-<a class="no-underline mobile-footer-panel-link" href="/usuario/mis-pedidos">Botón de arrepentimiento
+<a data-toggle="modal" data-target="#order-cancelation" class="js-the-boton no-underline mobile-footer-panel-link" href="/">Botón de arrepentimiento
 </a><a class="no-underline mobile-footer-panel-link" href="/contacto/15/new">Libro de quejas y sugerencias
 </a><a class='no-underline mobile-footer-panel-link' href='https://www.argentina.gob.ar/economia/industria-y-comercio/defensadelconsumidor' target='_blank'>
 Defensa del consumidor
