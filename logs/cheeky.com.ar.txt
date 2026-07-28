@@ -888,3 +888,44 @@ Cambio detectado - 2026-07-27 12:29:34.172494 UTC
    - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HcaAsP4d0F65jwlBL+5N6juf+1e/odL3ULR8y7KjCbm7KJnJwydhc2gUFdiu6envYMXWd35RoteDISfrk2Ppkg==" /><!-- /Checkboxs -->
    - <a class="no-underline mobile-footer-panel-link" href="/locales/1498">Nuestros locales
    - <a class="no-underline mobile-footer-panel-link" href="/usuario/mis-pedidos">Botón de arrepentimiento
+
+============================================================
+Cambio detectado - 2026-07-28 11:22:45.761870 UTC
+🟢 Líneas agregadas:
+   + <meta name="csrf-token" content="WTLTQmLyPKu7JNkR8WFMBuUyDrhM+u27iHPXm3qNWmtIhgxfLM7C7OZIPE1gqp3rxwNi5D4opdF9Qm3yCl3XKg==" />
+   + <a alt="ENTERITOS " class="mobile-sidebar-nav__listsub-item-2" href="/categorias/enteritos-toddlernino">ENTERITOS </a>
+   + </li>
+   + <li>
+   + <a alt=" BERMUDAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/bermudas-ninos"> BERMUDAS</a>
+   + </li>
+   + <li>
+   + <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3QQcjex7+UJ+n3Fn8pxRP6rfHA2nS70ag25BzEcH9ADMsMOQokcHBSPzlDtjV4DSiO5wUdWZ9XB2X/ulN9d5QQ==" /><div class='row'>
+   + <a class="no-underline" href="/locales/1234">Nuestros locales
+   + <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8LxrzTbdSYv3KMh5eIySBji+v9gVCaCZS0S/vS/tFDLNu/Oi74/I9mXz/or4dx1yMu6EDMgAvIsWYhK+EUe51A==" /><!-- /Checkboxs -->
+   + <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sqxVRM9IYXq+A28Cdm9/dmrqmiEV7F75rUCsCMv6dLiPq80rFhrgByzYWfH2lPACYLqh9cjlQuvwZgEL9VDZXg==" /><!-- /Checkboxs -->
+   + <a class="no-underline mobile-footer-panel-link" href="/locales/1234">Nuestros locales
+   + <meta name="csrf-token" content="CP1dW1YLCHY6fAN8EboiYmKe/ddYOKmSThpymESky5M/7AwsFhA98c9OJJVkwhdF0yFz8PWFFZ361UITTt8RcQ==" />
+   + <a alt="ENTERITOS " class="mobile-sidebar-nav__listsub-item-2" href="/categorias/enteritos-toddlernino">ENTERITOS </a>
+   + </li>
+   + <li>
+   + <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cWdrzUvjXqN1JhJ58hhr7G6DcE/M9OXxl62tL+lpb1JGdjq6C/hrJIAUNZCHYF7L3zz+aGFJWf4jYp2k4xK1sA==" /><div class='row'>
+   + <a class="no-underline" href="/locales/1234">Nuestros locales
+   + <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ATI+CO4Him8vTKxYDwmc+8tr5QXh7/oPfUAjsKDN+dIJgqG+VS8s7JOuAykDHu78a9xC7/xSSN3n2K9KwwZjuw==" /><!-- /Checkboxs -->
+   + <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+C1MWGoP2jwlb3LxJKq5rAMFROKEjaXg/8njSQmsYkTwndPu0Sd8v5mN3YAovcuro7LjCJkwFzJlUW+zamf4LQ==" /><!-- /Checkboxs -->
+   + <a class="no-underline mobile-footer-panel-link" href="/locales/1234">Nuestros locales
+🔴 Líneas eliminadas:
+   - <meta name="csrf-token" content="Sde4pHQJ2hxSxxGpzhZ8DSgy2L3H7whDmZkix6Lr+iMzJL6+vn8OkMCa3PFi4b1umFKNomYnNdcWZcPQPhfe4g==" />
+   - </li>
+   - <li>
+   - <a alt=" BERMUDAS" class="mobile-sidebar-nav__listsub-item-2" href="/categorias/bermudas-ninos"> BERMUDAS</a>
+   - <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iDI3kiz6LG4wfZh43k+HR7gC+69qqc4AypDrPVTyuX3ywTGI5oz44qIgVSByuEYkCGKusMth85RFbAoqyA6dvA==" /><div class='row'>
+   - <a class="no-underline" href="/locales/1270">Nuestros locales
+   - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XKYTJQw2JKhOrTzvB4LZwGXQnF5Jf5pdXlK2KSo/EOuXvQglB1Hn4JdA0lL0zTZpf4VewiZm7yfwhXxpD9KPUQ==" /><!-- /Checkboxs -->
+   - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CGdCfya+8UAXCPDt29hqJN5DzNILLRN/RiRnwLxna9TDfFl/LdkyCM7lHlAol4WNxBYOTmQ0ZgXo862AmYr0bg==" /><!-- /Checkboxs -->
+   - <a class="no-underline mobile-footer-panel-link" href="/locales/1270">Nuestros locales
+   - <meta name="csrf-token" content="LVxTgM+ZMKZsQ1tNew3pDhF72Yem4h+d6gf182TWzdqFmvfZ010v412fXewZplGTNvA02gBTUaLGW7JuQY6qlw==" />
+   - <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GQPFdYq/6zNMOGQwmgxB6BR28iwuHNYvICjeB7UfvMWxxWEslnv0dn3kYpH4p/l1M/0fcYitmBAMdJmakEfbiA==" /><div class='row'>
+   - <a class="no-underline" href="/locales/1270">Nuestros locales
+   - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jhCfF0dcxWvnzf5an2ZyXg1jq9euFuJehh9XjG8WgPVFC4QXTDsGIz4gEOdsKZ33FzZpS8EPlyQoyJ3MSvsfTw==" /><!-- /Checkboxs -->
+   - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bDkByvlaBrKBE7iCdRsc6AmvFEhgZ6h2egoWNNKHVdqnIhrK8j3F+lj+Vj+GVPNBE/rW1A9+3QzU3dx092rKYA==" /><!-- /Checkboxs -->
+   - <a class="no-underline mobile-footer-panel-link" href="/locales/1270">Nuestros locales
