@@ -962,3 +962,47 @@ Cambio detectado - 2026-07-29 11:29:11.375581 UTC
    - <form class="simple_form js-newsletter-modal-form" data-remote="true" data-type="json" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cWdrzUvjXqN1JhJ58hhr7G6DcE/M9OXxl62tL+lpb1JGdjq6C/hrJIAUNZCHYF7L3zz+aGFJWf4jYp2k4xK1sA==" /><div class='row'>
    - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ATI+CO4Him8vTKxYDwmc+8tr5QXh7/oPfUAjsKDN+dIJgqG+VS8s7JOuAykDHu78a9xC7/xSSN3n2K9KwwZjuw==" /><!-- /Checkboxs -->
    - <form class="simple_form col-xs-12 nopadding js-newsletter-form text-center" data-remote="true" novalidate="novalidate" id="new_newsletter_user" action="/newsletter_users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+C1MWGoP2jwlb3LxJKq5rAMFROKEjaXg/8njSQmsYkTwndPu0Sd8v5mN3YAovcuro7LjCJkwFzJlUW+zamf4LQ==" /><!-- /Checkboxs -->
+
+============================================================
+Cambio detectado - 2026-07-30 11:11:59.557623 UTC
+🔴 Líneas eliminadas:
+   - Sitemap: /sitemap.xml
+   - Sitemap: /sitemap_institucional.xml
+   - Sitemap: /sitemap_categorias.xml
+   - Sitemap: /sitemap_productos.xml
+   - # https://www.cheeky.com.ar/sitemap.xml
+   - <!DOCTYPE html>
+   - <html>
+   - <head>
+   - <title>
+   - Cheeky
+   - </title>
+   - <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/lightcase-02e06bd0250425cd7eefe3d0bb2e38d0ac822c125fe6c5d66085fbbdb80931cc.css" />
+   - <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/template/application-3f95b25cac1fa03bf6e8770bda69b56c67c8a535327f38ec5f0d795e8e0fb2d6.css" />
+   - <link rel="stylesheet" media="all" href="https://www.cheeky.com.ar/assets/cheeky/application-579bd367af12a87e3deb491b83b02d0916c93a56946e2e8e9880372409cfba4d.css" />
+   - <meta name="csrf-param" content="authenticity_token" />
+   - <meta name="csrf-token" content="3K4ue9Za6VdiCB9/pinkTrKUmEvDJlEK1bpQZSh6/4+dKLqpE7BZVuBEtRuKXI8Ok08AYXy0rPpWNIq7Ux7/PQ==" />
+   - <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap' rel='stylesheet'>
+   - <link href='https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.1/bootstrap3-editable/css/bootstrap-editable.css' rel='stylesheet'>
+   - <link rel="apple-touch-icon" type="image/x-icon" href="https://www.cheeky.com.ar/assets/cheeky/favicon/apple-touch-icon-4dd41dc9ec2d1f231ec829de87136626263cecfd9130fbe6b03d7c5793aead35.png" sizes="76x76" />
+   - <link rel="icon" type="image/x-icon" href="https://www.cheeky.com.ar/assets/cheeky/favicon/favicon-32x32-81baa72206415115e9811280d773e94bf06894d61eff9ff5c90a812846fd0406.png" sizes="32x32" />
+   - <link rel="icon" type="image/x-icon" href="https://www.cheeky.com.ar/assets/cheeky/favicon/favicon-16x16-923411f19fbfc01812d541d0d4d074f3f2f42023b7357230afb9710fbd83ea89.png" sizes="16x16" />
+   - <!-- %link{:href => ("#{Rails.application.secrets.dir["images"]}/favicon/site.webmanifest"), :rel => "manifest"} -->
+   - <link color='#2a98fb' href='cheeky/favicon/safari-pinned-tab.svg' rel='mask-icon'>
+   - <meta content='#ffffff' name='msapplication-TileColor'>
+   - <meta content='#ffffff' name='theme-color'>
+   - <script async='' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js'></script>
+   - <script>
+   -   var OneSignal = window.OneSignal || [];
+   -   OneSignal.push(function() {
+   -     OneSignal.init({
+   -       appId: "0b6ea4d4-01bb-4da5-93e6-d3506c10c547",
+   -     });
+   -   });
+   - </script>
+   - <script defer='defer' src='https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap&amp;libraries=&amp;v=weekly&amp;sensor=true'></script>
+   - <link crossorigin='' href='https://unpkg.com/leaflet@1.3.3/dist/leaflet.css' integrity='sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==' rel='stylesheet'>
+   - <script crossorigin='' integrity='sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==' src='https://unpkg.com/leaflet@1.3.3/dist/leaflet.js'></script>
+   - 
+   - <meta content='Cheeky Online - Ropa para niños, niñas y bebés.' name='keywords'>
+   - <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
