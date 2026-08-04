@@ -826,9 +826,6 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/case-studies/alchavo-a-simple-ai-powered-invoice-processing-system-built-for-serious-growth</loc>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/case-studies/alchavo-brings-generative-ai-to-its-customer-experience</loc>
-    </url>
-    <url>
         <loc>https://www.switchsoftware.io/case-studies/allied-world</loc>
     </url>
     <url>

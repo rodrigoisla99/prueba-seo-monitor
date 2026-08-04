@@ -379,6 +379,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/ai-in-logistics-transforming-supply-chains</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/ai-readiness-assessments-how-to-start-your-ai-journey-with-confidence</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/artificial-intelligence-in-software-engineering-practical-applications-and-current-limits</loc>
     </url>
     <url>
@@ -553,10 +556,19 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/how-to-overcome-fintech-challenges-the-impact-of-tech-solutions</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/how-to-prioritize-ai-use-cases-when-everything-feels-urgent</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/how-uruguay-is-revolutionizing-the-tech-industry-in-2023</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/is-servicenow-a-crm</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/post/is-your-data-actually-ready-for-ai-signs-you-need-to-check-first</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/post/iso-iec--27001-certified-ai-security-risk</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/it-support-to-drive-business-growth</loc>
@@ -680,6 +692,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/switch-earns-great-place-to-work-certification</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/post/switch-iso-iec-27001-certified-information-security</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/post/tech-driven-value-creation-in-banking</loc>
@@ -844,6 +859,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/case-studies/increasing-operational-agility-in-odoo-with-a-genai-natural-language-interface</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/case-studies/legacy-to-cloud-migration-how-sbi-modernized-its-infrastructure</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/case-studies/miautos-web-transformation-a-user-centric-approach-to-sustained-growth-and-enhanced-user-experience</loc>
     </url>
     <url>
@@ -854,6 +872,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/case-studies/paselibre-digital-presence-lead-generation</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/case-studies/reducing-cloud-costs-by-40-through-smart-infrastructure-optimization</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/case-studies/servicenow-nda</loc>
@@ -877,6 +898,12 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/careers-position/frontend-developer-angular-capacitor--latam</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/careers-position/java-developer-semi-senior-6-month-contract</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/net-developer-latam</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/careers-position/net-senior--latam</loc>
     </url>
     <url>
@@ -887,8 +914,5 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/talent-pool</loc>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/technology-integration-developer-python-azure</loc>
     </url>
 </urlset>

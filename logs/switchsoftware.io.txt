@@ -277,3 +277,38 @@ Cambio detectado - 2026-07-15 10:55:30.064726 UTC
    -         <loc>https://www.switchsoftware.io/case-studies/alchavo-brings-generative-ai-to-its-customer-experience</loc>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-08-04 11:28:46.973749 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/ai-readiness-assessments-how-to-start-your-ai-journey-with-confidence</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/how-to-prioritize-ai-use-cases-when-everything-feels-urgent</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/is-your-data-actually-ready-for-ai-signs-you-need-to-check-first</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/iso-iec--27001-certified-ai-security-risk</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/switch-iso-iec-27001-certified-information-security</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/case-studies/legacy-to-cloud-migration-how-sbi-modernized-its-infrastructure</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/case-studies/reducing-cloud-costs-by-40-through-smart-infrastructure-optimization</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/java-developer-semi-senior-6-month-contract</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/net-developer-latam</loc>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/technology-integration-developer-python-azure</loc>
+   -     </url>
