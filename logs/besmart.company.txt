@@ -1766,3 +1766,10 @@ Cambio detectado - 2026-08-12 10:11:30.150771 UTC
    - }
    - #container {
    -         display: inline-block;
+
+============================================================
+Cambio detectado - 2026-08-14 10:09:44.437805 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-08-13T20:30:42+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
