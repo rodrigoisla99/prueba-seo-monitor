@@ -23,7 +23,7 @@ Sitemap: https://besmart.company/sitemap_index.xml
 	</sitemap>
 	<sitemap>
 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
-		<lastmod>2026-01-30T18:44:10+00:00</lastmod>
+		<lastmod>2026-08-13T20:30:42+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://besmart.company/industries-sitemap.xml</loc>
