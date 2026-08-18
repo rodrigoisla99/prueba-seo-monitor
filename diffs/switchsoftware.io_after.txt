@@ -352,6 +352,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/a-sneak-peek-at-servicenows-xanadu-release</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/agentic-ai-vs-traditional-automation-whats-the-difference-for-your-business</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/agentic-mcp-and-the-next-generation-of-applications</loc>
     </url>
     <url>
@@ -814,6 +817,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <loc>https://www.switchsoftware.io/post/why-ai-native-development-is-reshaping-engineering-teams</loc>
     </url>
     <url>
+        <loc>https://www.switchsoftware.io/post/why-ai-pilots-stall-before-reaching-production-and-how-to-avoid-it</loc>
+    </url>
+    <url>
         <loc>https://www.switchsoftware.io/post/why-an-ideation-workshop-can-transform-your-digital-product</loc>
     </url>
     <url>
@@ -896,6 +902,9 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/frontend-developer-angular-capacitor--latam</loc>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net---latam</loc>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/java-developer-semi-senior-6-month-contract</loc>

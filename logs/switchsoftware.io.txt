@@ -312,3 +312,16 @@ Cambio detectado - 2026-08-04 11:28:46.973749 UTC
    -     <url>
    -         <loc>https://www.switchsoftware.io/careers-position/technology-integration-developer-python-azure</loc>
    -     </url>
+
+============================================================
+Cambio detectado - 2026-08-18 09:38:38.718864 UTC
+🟢 Líneas agregadas:
+   +         <loc>https://www.switchsoftware.io/post/agentic-ai-vs-traditional-automation-whats-the-difference-for-your-business</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/post/why-ai-pilots-stall-before-reaching-production-and-how-to-avoid-it</loc>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net---latam</loc>
+   +     </url>
+   +     <url>

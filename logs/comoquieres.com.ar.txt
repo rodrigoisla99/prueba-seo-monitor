@@ -686,3 +686,14 @@ Cambio detectado - 2026-08-17 09:48:33.778499 UTC
    -     <lastmod>2026-08-16T08:15:03Z</lastmod>
    -     <lastmod>2026-08-16T08:15:03Z</lastmod>
    -     <lastmod>2026-08-16T08:15:03Z</lastmod>
+
+============================================================
+Cambio detectado - 2026-08-18 09:38:44.337517 UTC
+🟢 Líneas agregadas:
+   +     <lastmod>2026-08-18T08:15:16Z</lastmod>
+   +     <lastmod>2026-08-18T08:15:16Z</lastmod>
+   +     <lastmod>2026-08-18T08:15:16Z</lastmod>
+🔴 Líneas eliminadas:
+   -     <lastmod>2026-08-17T08:15:04Z</lastmod>
+   -     <lastmod>2026-08-17T08:15:04Z</lastmod>
+   -     <lastmod>2026-08-17T08:15:04Z</lastmod>
