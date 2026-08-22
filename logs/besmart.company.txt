@@ -1886,3 +1886,10 @@ Cambio detectado - 2026-08-19 09:38:18.897591 UTC
    - 	<sitemap>
    - 		<loc>https://besmart.company/category-sitemap.xml</loc>
    - 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+
+============================================================
+Cambio detectado - 2026-08-22 09:31:34.985597 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-08-21T19:08:29+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-08-18T15:50:49+00:00</lastmod>
