@@ -1802,3 +1802,50 @@ Cambio detectado - 2026-08-26 09:48:47.495772 UTC
    - Disallow: /components/
    - Disallow: /includes/
    - Disallow: /installation/
+
+============================================================
+Cambio detectado - 2026-08-28 20:47:17.295014 UTC
+🟢 Líneas agregadas:
+   + ﻿# --------------------------------------------------------------------
+   + # CONFIGURACIÓN GENERAL
+   + # --------------------------------------------------------------------
+   + User-agent: *
+   + Disallow:
+   + Crawl-delay: 60  # 60 segundos entre cada request
+   + 
+   + # Bloqueo de rutas sensibles y archivos confidenciales
+   + Disallow: /cgi-bin/
+   + Disallow: /admin/
+   + Disallow: /*.sql$
+   + Disallow: /xmlrpc.php
+   + Disallow: /trackback
+   + Disallow: /*trackback*
+   + Disallow: /*/trackback
+   + 
+   + 
+   + # Bloqueo de URLs dinámicas y búsquedas
+   + Disallow: /*?
+   + Disallow: /?s=
+   + Disallow: /search
+   + 
+   + 
+   + # --------------------------------------------------------------------
+   + # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
+   + # --------------------------------------------------------------------
+   + Disallow: /wp-admin/
+   + Disallow: /wp-includes/
+   + Disallow: /wp-content/plugins/
+   + Disallow: /wp-content/cache/
+   + Disallow: /wp-content/themes/
+   + 
+   + 
+   + Disallow: /administrator/
+   + Disallow: /bin/
+   + Disallow: /cache/
+   + Disallow: /cli/
+   + Disallow: /components/
+   + Disallow: /includes/
+   + Disallow: /installation/
+🔴 Líneas eliminadas:
+   - # https://loansoftware.net/sitemap.xml
+   - 
