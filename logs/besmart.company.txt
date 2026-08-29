@@ -1978,3 +1978,88 @@ Cambio detectado - 2026-08-28 20:47:15.191739 UTC
    - 	</sitemap>
    - 	<sitemap>
    - 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+
+============================================================
+Cambio detectado - 2026-08-29 14:17:53.055996 UTC
+🟢 Líneas agregadas:
+   + # START YOAST BLOCK
+   + # ---------------------------
+   + User-agent: *
+   + Disallow:
+   + Sitemap: https://besmart.company/sitemap_index.xml
+   + # ---------------------------
+   + # END YOAST BLOCK
+   + <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   + <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/post-sitemap.xml</loc>
+   + 		<lastmod>2026-05-29T19:17:36+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/page-sitemap.xml</loc>
+   + 		<lastmod>2026-08-11T16:47:10+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/solutions-sitemap.xml</loc>
+   + 		<lastmod>2026-08-21T19:08:29+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/industries-sitemap.xml</loc>
+   + 		<lastmod>2026-02-26T15:39:08+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/software-sitemap.xml</loc>
+   + 		<lastmod>2026-03-03T17:46:31+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/training-sitemap.xml</loc>
+   + 		<lastmod>2026-03-02T16:29:15+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/courses-sitemap.xml</loc>
+   + 		<lastmod>2026-07-03T15:47:03+00:00</lastmod>
+   + 	</sitemap>
+   + 	<sitemap>
+   + 		<loc>https://besmart.company/clients-sitemap.xml</loc>
+   + 		<lastmod>2021-12-21T13:19:10+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - <!DOCTYPE html>
+   - <html lang="en">
+   - <head>
+   -   <meta charset="utf8">
+   -   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   -   <script>
+   -       (function(){
+   -           setTimeout(function(){
+   -               window.location.reload();
+   -           }, 5000);
+   -       }())
+   -   </script>
+   -   <link rel="icon" href="data:,">
+   -   <title>One moment, please...</title>
+   -   <style>
+   - .spinner {
+   -     -webkit-animation: spin 1s ease-out;
+   -     animation: spin 1s ease-out;
+   - }
+   - @keyframes spin {
+   -     0% {
+   -         -webkit-transform: rotate(0deg);
+   -         -moz-transform: rotate(0deg);
+   -         -ms-transform: rotate(0deg);
+   -         -o-transform: rotate(0deg);
+   -         transform: rotate(0deg);
+   -     }
+   -     100% {
+   -         -webkit-transform: rotate(360deg);
+   -         -moz-transform: rotate(360deg);
+   -         -ms-transform: rotate(360deg);
+   -         -o-transform: rotate(360deg);
+   -         transform: rotate(360deg);
+   -     }
+   - }
+   - #outer-container {
+   -     text-align: center;
+   - }
+   - #container {
+   -         display: inline-block;
