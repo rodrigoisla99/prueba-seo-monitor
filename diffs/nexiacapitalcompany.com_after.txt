@@ -1,10 +1,8 @@
 ### ROBOTS.TXT ###
-User-agent: *
-Allow: /
-LLM-Policy: /llms.txt
-Sitemap: /sitemap.xml
+
 
 ### SITEMAPS ###
 
 # https://nexiacapitalcompany.com/sitemap.xml
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://nexiacapitalcompany.com/lander</loc></url></urlset>
+
+# https://nexiacapitalcompany.com/sitemap_index.xml

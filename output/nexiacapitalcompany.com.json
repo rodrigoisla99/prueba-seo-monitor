@@ -1,4 +1,4 @@
 {
-  "robots": "User-agent: *\nAllow: /\nLLM-Policy: /llms.txt\nSitemap: /sitemap.xml",
-  "sitemaps": "\n# https://nexiacapitalcompany.com/sitemap.xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://nexiacapitalcompany.com/lander</loc></url></urlset>"
+  "robots": "",
+  "sitemaps": "\n# https://nexiacapitalcompany.com/sitemap.xml\n\n# https://nexiacapitalcompany.com/sitemap_index.xml\n"
 }
