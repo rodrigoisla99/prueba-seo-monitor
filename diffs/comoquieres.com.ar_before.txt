@@ -38,15 +38,15 @@ Sitemap: https://www.comoquieres.com.ar/sitemap_productos.xml
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.comoquieres.com.ar/sitemap_productos.xml</loc>
-    <lastmod>2026-09-04T12:15:07Z</lastmod>
+    <lastmod>2026-09-05T12:15:07Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.comoquieres.com.ar/sitemap_categorias.xml</loc>
-    <lastmod>2026-09-04T12:15:07Z</lastmod>
+    <lastmod>2026-09-05T12:15:07Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.comoquieres.com.ar/sitemap_informacion.xml</loc>
-    <lastmod>2026-09-04T12:15:07Z</lastmod>
+    <lastmod>2026-09-05T12:15:07Z</lastmod>
   </sitemap>
 </sitemapindex>
 
