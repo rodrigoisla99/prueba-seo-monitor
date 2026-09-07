@@ -1006,3 +1006,26 @@ Cambio detectado - 2026-07-30 11:11:59.557623 UTC
    - 
    - <meta content='Cheeky Online - Ropa para niños, niñas y bebés.' name='keywords'>
    - <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+
+============================================================
+Cambio detectado - 2026-09-07 14:56:41.047166 UTC
+🟢 Líneas agregadas:
+   + User-Agent: *
+   + Disallow: /usuario
+   + Disallow: /buscar
+🔴 Líneas eliminadas:
+   - # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+   - #
+   - # To ban all spiders from the entire site uncomment the next two lines:
+   - # User-agent: *
+   - # Disallow: /
+   - #
+   - # SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
+   - # el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
+   - #   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
+   - #     informacion; institucional era un huÃ©rfano stale).
+   - #   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
+   - #   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
+   - #   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
+   - #   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
+   - User-agent: *

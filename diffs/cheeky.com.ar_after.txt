@@ -1,23 +1,11 @@
 ### ROBOTS.TXT ###
-# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
-#
-# To ban all spiders from the entire site uncomment the next two lines:
-# User-agent: *
-# Disallow: /
-#
-# SEO tÃ©cnico (2026-06): nginx sirve ESTE archivo (public/robots.txt) directo;
-# el RobotsController/config/robots.production.txt no se usa en runtime. Cambios:
-#   - sitemap_institucional.xml -> sitemap_informacion.xml (el worker genera
-#     informacion; institucional era un huÃ©rfano stale).
-#   - Eliminado sitemap.xml legacy (config/sitemap.rb, huÃ©rfano sin scheduler).
-#   - Sitemaps activos = los 3 que generan los workers (informacion/categorias/productos).
-#   - URLs de sitemap absolutas con www (dominio canÃ³nico www.cheeky.com.ar).
-#   - Disallow ampliado: /admin, /checkout, /users (cuenta + login), /search.
-User-agent: *
+User-Agent: *
 Disallow: /admin
 Disallow: /checkout
 Disallow: /users
+Disallow: /usuario
 Disallow: /search
+Disallow: /buscar
 Disallow: /categorias/ss19
 Disallow: /categorias/vestido-ss19
 Disallow: /categorias/hotsale
