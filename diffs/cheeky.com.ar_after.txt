@@ -14,6 +14,7 @@ Disallow: /categorias/ss19
 Disallow: /categorias/vestido-ss19
 Disallow: /categorias/hotsale
 
+Sitemap: https://www.cheeky.com.ar/sitemap.xml
 
 
 ### SITEMAPS ###
@@ -25,5 +26,3 @@ Disallow: /categorias/hotsale
 <sitemap><loc>https://www.cheeky.com.ar/sitemap_productos.xml</loc></sitemap>
 <sitemap><loc>https://www.cheeky.com.ar/sitemap_informacion.xml</loc></sitemap>
 </sitemapindex>
-
-# https://www.cheeky.com.ar/sitemap_index.xml
