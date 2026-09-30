@@ -1207,3 +1207,14 @@ Cambio detectado - 2026-09-29 15:35:06.873872 UTC
    -     <lastmod>2026-09-28T16:15:03Z</lastmod>
    -     <lastmod>2026-09-28T16:15:03Z</lastmod>
    -     <lastmod>2026-09-28T16:15:03Z</lastmod>
+
+============================================================
+Cambio detectado - 2026-09-30 15:46:12.105924 UTC
+🟢 Líneas agregadas:
+   +     <lastmod>2026-09-30T12:15:04Z</lastmod>
+   +     <lastmod>2026-09-30T12:15:04Z</lastmod>
+   +     <lastmod>2026-09-30T12:15:04Z</lastmod>
+🔴 Líneas eliminadas:
+   -     <lastmod>2026-09-29T12:15:11Z</lastmod>
+   -     <lastmod>2026-09-29T12:15:11Z</lastmod>
+   -     <lastmod>2026-09-29T12:15:11Z</lastmod>
