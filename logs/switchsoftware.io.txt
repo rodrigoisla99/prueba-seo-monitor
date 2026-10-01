@@ -325,3 +325,60 @@ Cambio detectado - 2026-08-18 09:38:38.718864 UTC
    +         <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net---latam</loc>
    +     </url>
    +     <url>
+
+============================================================
+Cambio detectado - 2026-10-01 16:12:47.102872 UTC
+🟢 Líneas agregadas:
+   +         <lastmod>2026-09-30T17:35:03.115Z</lastmod>
+   +         <lastmod>2026-02-19T17:29:55.525Z</lastmod>
+   +         <lastmod>2026-08-13T15:02:57.758Z</lastmod>
+   +         <lastmod>2026-08-13T14:48:26.464Z</lastmod>
+   +         <lastmod>2026-06-02T19:39:17.818Z</lastmod>
+   +         <lastmod>2026-04-10T13:05:20.407Z</lastmod>
+   +         <lastmod>2026-09-30T17:36:46.766Z</lastmod>
+   +         <lastmod>2026-08-13T15:03:18.300Z</lastmod>
+   +         <lastmod>2026-08-13T15:07:49.479Z</lastmod>
+   +         <lastmod>2026-04-14T21:05:54.369Z</lastmod>
+   +         <lastmod>2026-02-19T17:32:01.874Z</lastmod>
+   +         <lastmod>2026-02-19T17:34:43.049Z</lastmod>
+   +         <lastmod>2026-02-19T17:33:49.851Z</lastmod>
+   +         <lastmod>2026-08-13T14:36:12.627Z</lastmod>
+   +         <lastmod>2026-02-19T17:33:35.815Z</lastmod>
+   +         <lastmod>2026-02-19T17:34:13.328Z</lastmod>
+   +         <lastmod>2026-08-13T14:48:26.441Z</lastmod>
+   +         <lastmod>2025-05-23T18:08:30.665Z</lastmod>
+   +         <lastmod>2024-10-11T12:09:28.859Z</lastmod>
+   +         <lastmod>2026-08-10T16:30:44.258Z</lastmod>
+   +         <lastmod>2026-08-19T13:12:15.980Z</lastmod>
+   +         <lastmod>2026-08-13T14:34:30.650Z</lastmod>
+   +         <lastmod>2026-08-13T14:48:05.154Z</lastmod>
+   +         <lastmod>2026-02-11T18:26:55.610Z</lastmod>
+   +         <lastmod>2026-02-11T18:22:49.867Z</lastmod>
+   +         <lastmod>2026-02-11T18:22:39.103Z</lastmod>
+   +         <lastmod>2026-02-12T18:11:27.789Z</lastmod>
+   +         <lastmod>2026-02-12T18:09:55.473Z</lastmod>
+   +         <lastmod>2026-02-11T18:21:14.984Z</lastmod>
+   +         <lastmod>2026-08-13T14:47:34.414Z</lastmod>
+   +         <lastmod>2026-08-13T15:00:57.185Z</lastmod>
+   +         <lastmod>2026-08-13T14:47:34.475Z</lastmod>
+   +         <lastmod>2026-02-11T18:24:24.817Z</lastmod>
+   +         <lastmod>2026-02-11T18:24:35.818Z</lastmod>
+   +         <lastmod>2026-02-12T21:27:56.426Z</lastmod>
+   +         <lastmod>2026-02-11T18:25:18.339Z</lastmod>
+   +         <lastmod>2026-02-12T19:31:06.813Z</lastmod>
+   +         <lastmod>2026-02-11T18:26:23.198Z</lastmod>
+   +         <lastmod>2026-02-12T21:29:47.213Z</lastmod>
+   +         <lastmod>2026-02-11T18:27:17.391Z</lastmod>
+🔴 Líneas eliminadas:
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/ai-data-architecture-lead</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/fullstack-developer-vue-net---latam</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/java-developer-semi-senior-6-month-contract</loc>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/net-senior--latam</loc>
