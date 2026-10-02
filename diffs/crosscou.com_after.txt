@@ -1,0 +1,12 @@
+### ROBOTS.TXT ###
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://crosscou.com
+Sitemap: https://crosscou.com/sitemap.xml
+
+
+### SITEMAPS ###
+
+# https://crosscou.com/sitemap.xml
