@@ -2753,3 +2753,10 @@ Cambio detectado - 2026-10-02 15:37:03.104547 UTC
 🔴 Líneas eliminadas:
    - # https://www.posittion.com/sitemap.xml
    - 
+
+============================================================
+Cambio detectado - 2026-10-06 15:47:14.334489 UTC
+🟢 Líneas agregadas:
+   + 		<lastmod>2026-10-05T19:27:34+00:00</lastmod>
+🔴 Líneas eliminadas:
+   - 		<lastmod>2026-09-30T12:36:13+00:00</lastmod>
