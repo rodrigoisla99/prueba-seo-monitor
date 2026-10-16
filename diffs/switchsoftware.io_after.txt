@@ -32,7 +32,7 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://www.switchsoftware.io</loc>
-        <lastmod>2026-10-01T19:57:09.300Z</lastmod>
+        <lastmod>2026-10-16T12:54:07.742Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/blog</loc>
@@ -56,7 +56,7 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers</loc>
-        <lastmod>2026-09-30T17:36:46.766Z</lastmod>
+        <lastmod>2026-10-16T11:47:34.695Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/services/studio-ux</loc>
@@ -1187,20 +1187,20 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
         <lastmod>2026-02-02T14:37:03.406Z</lastmod>
     </url>
     <url>
-        <loc>https://www.switchsoftware.io/careers-position/azure-cloud-engineer---latam</loc>
-        <lastmod>2026-09-30T17:38:25.562Z</lastmod>
-    </url>
-    <url>
         <loc>https://www.switchsoftware.io/careers-position/desarrollador-a-react-native</loc>
-        <lastmod>2026-09-30T17:38:25.562Z</lastmod>
-    </url>
-    <url>
-        <loc>https://www.switchsoftware.io/careers-position/devops-engineer---latam</loc>
         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/especialista-en-amazon-connect</loc>
         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-part-time</loc>
+        <lastmod>2026-10-16T12:54:42.119Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/lider-de-mesa-de-soporte</loc>
+        <lastmod>2026-10-16T12:54:42.119Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/talent-pool</loc>

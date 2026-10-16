@@ -409,3 +409,28 @@ Cambio detectado - 2026-10-02 15:37:08.736548 UTC
    -         <lastmod>2026-07-31T13:41:17.100Z</lastmod>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-10-16 13:51:26.115825 UTC
+🟢 Líneas agregadas:
+   +         <lastmod>2026-10-16T12:54:07.742Z</lastmod>
+   +         <lastmod>2026-10-16T11:47:34.695Z</lastmod>
+   +         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-part-time</loc>
+   +         <lastmod>2026-10-16T12:54:42.119Z</lastmod>
+   +     </url>
+   +     <url>
+   +         <loc>https://www.switchsoftware.io/careers-position/lider-de-mesa-de-soporte</loc>
+   +         <lastmod>2026-10-16T12:54:42.119Z</lastmod>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <lastmod>2026-10-01T19:57:09.300Z</lastmod>
+   -         <lastmod>2026-09-30T17:36:46.766Z</lastmod>
+   -         <loc>https://www.switchsoftware.io/careers-position/azure-cloud-engineer---latam</loc>
+   -         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/devops-engineer---latam</loc>
+   -         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
+   -     </url>
+   -     <url>
