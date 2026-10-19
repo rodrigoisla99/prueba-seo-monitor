@@ -434,3 +434,14 @@ Cambio detectado - 2026-10-16 13:51:26.115825 UTC
    -         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
    -     </url>
    -     <url>
+
+============================================================
+Cambio detectado - 2026-10-19 16:20:42.215065 UTC
+🟢 Líneas agregadas:
+   +         <lastmod>2026-10-19T14:55:14.087Z</lastmod>
+   +         <loc>https://www.switchsoftware.io/careers-position/technical-leader--latam</loc>
+   +         <lastmod>2026-10-19T14:06:41.432Z</lastmod>
+   +     </url>
+   +     <url>
+🔴 Líneas eliminadas:
+   -         <lastmod>2026-10-16T12:54:07.742Z</lastmod>
