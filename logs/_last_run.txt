@@ -1,11 +1,51 @@
-Resumen de cambios - 2026-10-26 16:00:01.774051 UTC
+Resumen de cambios - 2026-10-27 15:14:16.068764 UTC
 ============================================================
 
-[2026-10-26 15:59:49.941423 UTC] Posittion (posittion.com)
+[2026-10-27 15:14:10.568579 UTC] Loan (loansoftware.net)
 🟢 Líneas agregadas:
-   + 		<lastmod>2026-10-25T15:21:02+00:00</lastmod>
+   + # https://loansoftware.net/sitemap.xml
+   + 
 🔴 Líneas eliminadas:
-   - 		<lastmod>2026-10-15T12:23:03+00:00</lastmod>
+   - ﻿# --------------------------------------------------------------------
+   - # CONFIGURACIÓN GENERAL
+   - # --------------------------------------------------------------------
+   - User-agent: *
+   - Disallow:
+   - Crawl-delay: 60  # 60 segundos entre cada request
+   - 
+   - # Bloqueo de rutas sensibles y archivos confidenciales
+   - Disallow: /cgi-bin/
+   - Disallow: /admin/
+   - Disallow: /*.sql$
+   - Disallow: /xmlrpc.php
+   - Disallow: /trackback
+   - Disallow: /*trackback*
+   - Disallow: /*/trackback
+   - 
+   - 
+   - # Bloqueo de URLs dinámicas y búsquedas
+   - Disallow: /*?
+   - Disallow: /?s=
+   - Disallow: /search
+   - 
+   - 
+   - # --------------------------------------------------------------------
+   - # BLOQUEO DE DIRECTORIOS (WordPress y Joomla)
+   - # --------------------------------------------------------------------
+   - Disallow: /wp-admin/
+   - Disallow: /wp-includes/
+   - Disallow: /wp-content/plugins/
+   - Disallow: /wp-content/cache/
+   - Disallow: /wp-content/themes/
+   - 
+   - 
+   - Disallow: /administrator/
+   - Disallow: /bin/
+   - Disallow: /cache/
+   - Disallow: /cli/
+   - Disallow: /components/
+   - Disallow: /includes/
+   - Disallow: /installation/
 
 ----------------------------------------
 
