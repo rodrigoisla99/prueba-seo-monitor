@@ -445,3 +445,20 @@ Cambio detectado - 2026-10-19 16:20:42.215065 UTC
    +     <url>
 🔴 Líneas eliminadas:
    -         <lastmod>2026-10-16T12:54:07.742Z</lastmod>
+
+============================================================
+Cambio detectado - 2026-10-29 15:57:33.376266 UTC
+🟢 Líneas agregadas:
+   +         <lastmod>2026-10-28T18:44:46.003Z</lastmod>
+   +         <lastmod>2026-10-28T18:45:43.473Z</lastmod>
+🔴 Líneas eliminadas:
+   -         <lastmod>2026-10-19T14:55:14.087Z</lastmod>
+   -         <loc>https://www.switchsoftware.io/careers-position/full-stack-developer-part-time</loc>
+   -         <lastmod>2026-10-16T12:54:42.119Z</lastmod>
+   -     </url>
+   -     <url>
+   -         <loc>https://www.switchsoftware.io/careers-position/lider-de-mesa-de-soporte</loc>
+   -         <lastmod>2026-10-16T12:54:42.119Z</lastmod>
+   -     </url>
+   -     <url>
+   -         <lastmod>2026-10-19T14:06:41.432Z</lastmod>

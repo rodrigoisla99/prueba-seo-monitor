@@ -32,7 +32,7 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://www.switchsoftware.io</loc>
-        <lastmod>2026-10-16T12:54:07.742Z</lastmod>
+        <lastmod>2026-10-19T14:55:14.087Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/blog</loc>
@@ -1209,6 +1209,10 @@ Sitemap: https://www.switchsoftware.io/sitemap.xml
     <url>
         <loc>https://www.switchsoftware.io/careers-position/technical-lead-data---latam</loc>
         <lastmod>2026-09-30T17:38:25.562Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.switchsoftware.io/careers-position/technical-leader--latam</loc>
+        <lastmod>2026-10-19T14:06:41.432Z</lastmod>
     </url>
     <url>
         <loc>https://www.switchsoftware.io/careers-position/ux-ui-specialist</loc>
