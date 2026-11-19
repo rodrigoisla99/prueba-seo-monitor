@@ -2773,3 +2773,11 @@ Cambio detectado - 2026-11-18 17:54:22.298671 UTC
    - }
    - #container {
    -         display: inline-block;
+
+============================================================
+Cambio detectado - 2026-11-19 18:05:32.143754 UTC
+🟢 Líneas agregadas:
+   + <?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+🔴 Líneas eliminadas:
+   - <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//besmart.company/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+   - <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
